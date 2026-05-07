@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>News Digest — Architecture</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #0f1117; color: #e2e8f0; min-height: 100vh; }
+  h1 { text-align: center; padding: 28px 0 8px; font-size: 1.4rem; font-weight: 600; color: #94a3b8; letter-spacing: 0.05em; text-transform: uppercase; }
+  .subtitle { text-align: center; color: #475569; font-size: 0.82rem; margin-bottom: 24px; }
+  .diagram-wrap { overflow-x: auto; padding: 0 20px 40px; }
+  .diagram { position: relative; margin: 0 auto; }
+
+  /* Layer labels */
+  .layer-label {
+    position: absolute;
+    left: 0;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #334155;
+    writing-mode: horizontal-tb;
+  }
+
+  /* Nodes */
+  .node {
+    position: absolute;
+    border-radius: 10px;
+    border: 1.5px solid;
+    padding: 10px 14px;
+    cursor: default;
+    transition: transform 0.15s, box-shadow 0.15s;
+    text-align: center;
+  }
+  .node:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.5); }
+  .node .label { font-size: 0.82rem; font-weight: 600; white-space: nowrap; }
+  .node .desc { font-size: 0.68rem; color: #94a3b8; margin-top: 3px; white-space: nowrap; }
+
+  /* Color themes */
+  .n-scheduler { background: #1e293b; border-color: #475569; }
+  .n-scheduler .label { color: #94a3b8; }
+  .n-config    { background: #1e1e2e; border-color: #6366f1; }
+  .n-config .label { color: #a5b4fc; }
+  .n-main      { background: #0f2942; border-color: #3b82f6; }
+  .n-main .label { color: #60a5fa; font-size: 0.95rem; }
+  .n-worker    { background: #0f2a1e; border-color: #10b981; }
+  .n-worker .label { color: #6ee7b7; }
+  .n-external  { background: #1a1a2e; border-color: #8b5cf6; }
+  .n-external .label { color: #c4b5fd; }
+  .n-output    { background: #1e1e0f; border-color: #f59e0b; }
+  .n-output .label { color: #fcd34d; }
+  .n-viewer    { background: #1a0f2e; border-color: #ec4899; }
+  .n-viewer .label { color: #f9a8d4; }
+  .n-html      { background: #1a2e0f; border-color: #84cc16; }
+  .n-html .label { color: #bef264; font-size: 0.95rem; }
+
+  /* Tooltip */
+  .tooltip {
+    position: fixed;
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 0.78rem;
+    color: #cbd5e1;
+    max-width: 260px;
+    line-height: 1.5;
+    pointer-events: none;
+    z-index: 100;
+    display: none;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.6);
+  }
+  .tooltip .t-title { font-weight: 700; color: #e2e8f0; margin-bottom: 4px; font-size: 0.82rem; }
+
+  /* Legend */
+  .legend {
+    display: flex; flex-wrap: wrap; gap: 12px;
+    justify-content: center;
+    padding: 16px 20px 0;
+    border-top: 1px solid #1e293b;
+    margin-top: 10px;
+  }
+  .legend-item { display: flex; align-items: center; gap: 6px; font-size: 0.73rem; color: #64748b; }
+  .legend-dot { width: 10px; height: 10px; border-radius: 3px; border: 1.5px solid; }
+</style>
+</head>
+<body>
+
+<h1>News Digest — Architecture</h1>
+<p class="subtitle">Hover over any node to learn what it does · arrows show data flow</p>
+
+<div class="diagram-wrap">
+  <div class="diagram" id="diagram" style="width:860px;height:640px;">
+
+    <!-- SVG arrows (rendered behind nodes) -->
+    <svg id="arrows" width="860" height="640" style="position:absolute;top:0;left:0;pointer-events:none;">
+      <defs>
+        <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+          <path d="M0,0 L0,6 L8,3 z" fill="#334155"/>
+        </marker>
+        <marker id="arr-blue" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+          <path d="M0,0 L0,6 L8,3 z" fill="#3b82f6"/>
+        </marker>
+        <marker id="arr-green" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+          <path d="M0,0 L0,6 L8,3 z" fill="#10b981"/>
+        </marker>
+        <marker id="arr-amber" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+          <path d="M0,0 L0,6 L8,3 z" fill="#f59e0b"/>
+        </marker>
+        <marker id="arr-pink" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+          <path d="M0,0 L0,6 L8,3 z" fill="#ec4899"/>
+        </marker>
+        <marker id="arr-lime" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+          <path d="M0,0 L0,6 L8,3 z" fill="#84cc16"/>
+        </marker>
+      </defs>
+    </svg>
+
+    <!-- LAYER 1: Scheduler -->
+    <div class="node n-scheduler" id="n-plist"  style="left:120px;top:30px;width:160px;"
+         data-title="com.newsdigest.plist" data-info="macOS launchd job descriptor. Schedules run.sh to execute every weekday morning at a configured time. Lives in ~/Library/LaunchAgents/.">
+      <div class="label">com.newsdigest.plist</div>
+      <div class="desc">launchd scheduler</div>
+    </div>
+    <div class="node n-scheduler" id="n-runsh" style="left:360px;top:30px;width:140px;"
+         data-title="run.sh" data-info="Shell entry-point. Activates the Python venv (venv/bin/activate) and runs main.py. Called by launchd every morning.">
+      <div class="label">run.sh</div>
+      <div class="desc">venv entry-point</div>
+    </div>
+
+    <!-- LAYER 2: Config -->
+    <div class="node n-config" id="n-env"  style="left:60px;top:150px;width:130px;"
+         data-title=".env" data-info="Secret keys. Holds ANTHROPIC_API_KEY and any other credentials. Never committed to git. Loaded by python-dotenv at startup.">
+      <div class="label">.env</div>
+      <div class="desc">API keys / secrets</div>
+    </div>
+    <div class="node n-config" id="n-yaml" style="left:220px;top:150px;width:150px;"
+         data-title="config.yaml" data-info="Runtime configuration: list of RSS feeds &amp; news sources to scrape, Claude model name, output paths, and other tunable settings.">
+      <div class="label">config.yaml</div>
+      <div class="desc">feeds &amp; settings</div>
+    </div>
+    <div class="node n-config" id="n-req"  style="left:400px;top:150px;width:150px;"
+         data-title="requirements.txt" data-info="Python dependencies: yfinance, anthropic, feedparser, requests, python-dotenv, PyYAML, markdown, etc. Install with: pip install -r requirements.txt.">
+      <div class="label">requirements.txt</div>
+      <div class="desc">Python dependencies</div>
+    </div>
+
+    <!-- LAYER 3: Orchestrator -->
+    <div class="node n-main" id="n-main" style="left:290px;top:270px;width:180px;"
+         data-title="main.py" data-info="Central orchestrator. Runs the full pipeline: (1) calls scraper.py for headlines, (2) calls market_data.py for prices, (3) calls summarizer.py twice — once for the briefing, once for market analysis — then writes the .md and .market.json output files.">
+      <div class="label">main.py</div>
+      <div class="desc">pipeline orchestrator</div>
+    </div>
+
+    <!-- LAYER 4: Workers -->
+    <div class="node n-worker" id="n-scraper" style="left:60px;top:390px;width:150px;"
+         data-title="scraper.py" data-info="Fetches and parses news. Reads RSS feed URLs from config.yaml, fetches each feed, extracts article titles &amp; links, de-duplicates, and returns grouped headlines by category.">
+      <div class="label">scraper.py</div>
+      <div class="desc">RSS / news fetcher</div>
+    </div>
+    <div class="node n-worker" id="n-mktdata" style="left:290px;top:390px;width:180px;"
+         data-title="market_data.py" data-info="Fetches financial data via yfinance. Returns last close, day Δ, 52W high/low, YTD/1M/1W %, market open/closed state, and pre-market futures direction (ES=F, YM=F, NQ=F) for DAX, Dow, S&amp;P 500, NASDAQ, Crude Oil, Bitcoin, Gold.">
+      <div class="label">market_data.py</div>
+      <div class="desc">prices &amp; market state</div>
+    </div>
+    <div class="node n-worker" id="n-summ" style="left:550px;top:390px;width:170px;"
+         data-title="summarizer.py" data-info="Calls the Anthropic Claude API. Has two functions: generate_briefing() produces the German morning news summary; generate_market_analysis() produces a 5-sentence market commentary comparing today's moves to yesterday's news.">
+      <div class="label">summarizer.py</div>
+      <div class="desc">Claude API calls</div>
+    </div>
+
+    <!-- LAYER 5: External -->
+    <div class="node n-external" id="n-rss"    style="left:40px;top:505px;width:140px;"
+         data-title="RSS / Web (external)" data-info="News sources: RSS feeds configured in config.yaml. Examples: Spiegel Online, FAZ, Handelsblatt, HN, Stratechery, newsletters, etc.">
+      <div class="label">RSS / Web</div>
+      <div class="desc">news sources</div>
+    </div>
+    <div class="node n-external" id="n-yf"     style="left:270px;top:505px;width:200px;"
+         data-title="Yahoo Finance / CME (external)" data-info="yfinance library calls Yahoo Finance API. Provides daily OHLCV history (1y period) for all instruments plus live fast_info for futures. CME futures (ES=F, YM=F, NQ=F) provide pre-market direction for US indices.">
+      <div class="label">Yahoo Finance / CME</div>
+      <div class="desc">yfinance · futures</div>
+    </div>
+    <div class="node n-external" id="n-claude" style="left:560px;top:505px;width:160px;"
+         data-title="Anthropic Claude API (external)" data-info="Remote LLM API. summarizer.py sends structured prompts and receives German-language briefing text and market analysis. Uses prompt caching to reduce costs on repeated context.">
+      <div class="label">Anthropic Claude API</div>
+      <div class="desc">LLM · claude-sonnet</div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Second diagram: output flow -->
+<div class="diagram-wrap" style="margin-top: -10px;">
+  <div class="diagram" id="diagram2" style="width:860px;height:300px;">
+    <svg id="arrows2" width="860" height="300" style="position:absolute;top:0;left:0;pointer-events:none;"></svg>
+
+    <!-- main.py (reference) -->
+    <div class="node n-main" style="left:290px;top:20px;width:180px;"
+         data-title="main.py" data-info="Writes output files after running the full pipeline.">
+      <div class="label">main.py</div>
+      <div class="desc">writes output →</div>
+    </div>
+
+    <!-- Output files -->
+    <div class="node n-output" id="n-md"   style="left:80px;top:130px;width:180px;"
+         data-title="summaries/YYYY-MM-DD.md" data-info="German-language morning briefing in Markdown. Starts with a single H1 heading generated by Claude, followed by thematic sections (Geopolitik, Wirtschaft, Technologie, Gesellschaft, Ausblick). One file per day.">
+      <div class="label">summaries/YYYY-MM-DD.md</div>
+      <div class="desc">German briefing text</div>
+    </div>
+    <div class="node n-output" id="n-json" style="left:490px;top:130px;width:230px;"
+         data-title="summaries/YYYY-MM-DD.market.json" data-info='JSON dict with three keys: "instruments" (list of price dicts for all 7 markets), "analysis" (Claude market commentary string), "fetched_at" (timestamp string DD.MM.YYYY, HH:MM).'>
+      <div class="label">summaries/YYYY-MM-DD.market.json</div>
+      <div class="desc">prices + market analysis</div>
+    </div>
+
+    <!-- view.py -->
+    <div class="node n-viewer" id="n-view" style="left:290px;top:130px;width:160px;"
+         data-title="view.py" data-info="Static site generator. Reads all .md and .market.json files from summaries/, converts Markdown to HTML, renders the market widget (table + pre-market indicators + 52W bar), and writes a self-contained briefings.html. Run manually or after main.py.">
+      <div class="label">view.py</div>
+      <div class="desc">HTML generator</div>
+    </div>
+
+    <!-- briefings.html -->
+    <div class="node n-html" id="n-briefings" style="left:270px;top:230px;width:210px;"
+         data-title="briefings.html" data-info="Final output. Self-contained single-page app. Embeds all briefings as JSON in a &lt;script&gt; tag. JavaScript renders the selected day client-side: market widget (with status dots, 52W range bars, pre-market futures), market analysis box, and full briefing text. Open in any browser.">
+      <div class="label">briefings.html</div>
+      <div class="desc">open in browser · all days</div>
+    </div>
+  </div>
+</div>
+
+<!-- Legend -->
+<div class="legend">
+  <div class="legend-item"><div class="legend-dot" style="background:#1e293b;border-color:#475569;"></div>Scheduler</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#1e1e2e;border-color:#6366f1;"></div>Config / Setup</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#0f2942;border-color:#3b82f6;"></div>Orchestration</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#0f2a1e;border-color:#10b981;"></div>Worker modules</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#1a1a2e;border-color:#8b5cf6;"></div>External APIs</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#1e1e0f;border-color:#f59e0b;"></div>Output files</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#1a0f2e;border-color:#ec4899;"></div>HTML generator</div>
+  <div class="legend-item"><div class="legend-dot" style="background:#1a2e0f;border-color:#84cc16;"></div>Final output</div>
+</div>
+
+<br>
+
+<!-- Tooltip -->
+<div class="tooltip" id="tooltip">
+  <div class="t-title" id="tt-title"></div>
+  <div id="tt-body"></div>
+</div>
+
+<script>
+// ── Arrow helper ──────────────────────────────────────────────────────────────
+function midBottom(el) {
+  return { x: el.offsetLeft + el.offsetWidth / 2, y: el.offsetTop + el.offsetHeight };
+}
+function midTop(el) {
+  return { x: el.offsetLeft + el.offsetWidth / 2, y: el.offsetTop };
+}
+function midRight(el) {
+  return { x: el.offsetLeft + el.offsetWidth, y: el.offsetTop + el.offsetHeight / 2 };
+}
+function midLeft(el) {
+  return { x: el.offsetLeft, y: el.offsetTop + el.offsetHeight / 2 };
+}
+
+function addArrow(svg, x1, y1, x2, y2, color, marker) {
+  const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+  // Shorten end so arrowhead doesn't overlap the node
+  const dx = x2 - x1, dy = y2 - y1;
+  const len = Math.sqrt(dx*dx + dy*dy);
+  const shorten = 8;
+  const ex = x2 - dx/len*shorten, ey = y2 - dy/len*shorten;
+  line.setAttribute("x1", x1); line.setAttribute("y1", y1);
+  line.setAttribute("x2", ex); line.setAttribute("y2", ey);
+  line.setAttribute("stroke", color);
+  line.setAttribute("stroke-width", "1.5");
+  line.setAttribute("marker-end", `url(#${marker})`);
+  line.setAttribute("stroke-dasharray", "none");
+  svg.appendChild(line);
+}
+
+function addCurve(svg, x1, y1, cx, cy, x2, y2, color, marker) {
+  const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+  const dx = x2 - x1, dy = y2 - y1;
+  const len = Math.sqrt(dx*dx + dy*dy);
+  const shorten = 8;
+  const ex = x2 - dx/len*shorten, ey = y2 - dy/len*shorten;
+  path.setAttribute("d", `M${x1},${y1} Q${cx},${cy} ${ex},${ey}`);
+  path.setAttribute("stroke", color); path.setAttribute("fill", "none");
+  path.setAttribute("stroke-width", "1.5");
+  path.setAttribute("marker-end", `url(#${marker})`);
+  svg.appendChild(path);
+}
+
+function drawArrows() {
+  const d = document.getElementById("diagram");
+  const svg = document.getElementById("arrows");
+
+  function g(id) { return document.getElementById(id); }
+
+  // plist → run.sh
+  addArrow(svg, ...Object.values(midRight(g("n-plist"))), ...Object.values(midLeft(g("n-runsh"))), "#475569", "arr");
+
+  // run.sh → main.py (across diagrams — skip, we show separately in diagram2 context)
+  // run.sh → main.py: down from runsh to main area
+  const rs = midBottom(g("n-runsh")), mn = midTop(g("n-main"));
+  addArrow(svg, rs.x, rs.y, mn.x, mn.y, "#3b82f6", "arr-blue");
+
+  // .env → main.py
+  addCurve(svg, midBottom(g("n-env")).x, midBottom(g("n-env")).y,
+    240, 220,
+    midTop(g("n-main")).x - 30, midTop(g("n-main")).y,
+    "#6366f1", "arr");
+  // config.yaml → main.py
+  addArrow(svg, midBottom(g("n-yaml")).x, midBottom(g("n-yaml")).y,
+    midTop(g("n-main")).x, midTop(g("n-main")).y, "#6366f1", "arr");
+  // requirements (just label, skip arrow — it's pip install not runtime)
+
+  // main.py → scraper.py
+  addCurve(svg, midBottom(g("n-main")).x, midBottom(g("n-main")).y,
+    200, 350,
+    midTop(g("n-scraper")).x, midTop(g("n-scraper")).y,
+    "#10b981", "arr-green");
+  // main.py → market_data.py
+  addArrow(svg, midBottom(g("n-main")).x, midBottom(g("n-main")).y,
+    midTop(g("n-mktdata")).x, midTop(g("n-mktdata")).y, "#10b981", "arr-green");
+  // main.py → summarizer.py
+  addCurve(svg, midBottom(g("n-main")).x, midBottom(g("n-main")).y,
+    560, 350,
+    midTop(g("n-summ")).x, midTop(g("n-summ")).y,
+    "#10b981", "arr-green");
+
+  // scraper.py → RSS
+  addArrow(svg, midBottom(g("n-scraper")).x, midBottom(g("n-scraper")).y,
+    midTop(g("n-rss")).x, midTop(g("n-rss")).y, "#8b5cf6", "arr");
+  // market_data.py → Yahoo Finance
+  addArrow(svg, midBottom(g("n-mktdata")).x, midBottom(g("n-mktdata")).y,
+    midTop(g("n-yf")).x, midTop(g("n-yf")).y, "#8b5cf6", "arr");
+  // summarizer.py → Claude API
+  addArrow(svg, midBottom(g("n-summ")).x, midBottom(g("n-summ")).y,
+    midTop(g("n-claude")).x, midTop(g("n-claude")).y, "#8b5cf6", "arr");
+}
+
+function drawArrows2() {
+  const svg = document.getElementById("arrows2");
+  function g(id) { return document.getElementById(id); }
+
+  // main.py → md
+  addCurve(svg, midBottom(g("n-md")).x + 100, 60,
+    280, 90,
+    midTop(g("n-md")).x, midTop(g("n-md")).y, "#f59e0b", "arr-amber");
+  // main.py → json
+  addCurve(svg, midBottom(g("n-json")).x - 100, 60,
+    540, 90,
+    midTop(g("n-json")).x, midTop(g("n-json")).y, "#f59e0b", "arr-amber");
+
+  // md → view.py
+  addCurve(svg, midRight(g("n-md")).x, midRight(g("n-md")).y,
+    350, 150,
+    midLeft(g("n-view")).x, midLeft(g("n-view")).y, "#ec4899", "arr-pink");
+  // json → view.py
+  addCurve(svg, midLeft(g("n-json")).x, midLeft(g("n-json")).y,
+    430, 150,
+    midRight(g("n-view")).x, midRight(g("n-view")).y, "#ec4899", "arr-pink");
+
+  // view.py → briefings.html
+  addArrow(svg, midBottom(g("n-view")).x, midBottom(g("n-view")).y,
+    midTop(g("n-briefings")).x, midTop(g("n-briefings")).y, "#84cc16", "arr-lime");
+}
+
+window.addEventListener("load", () => {
+  drawArrows();
+  drawArrows2();
+});
+
+// ── Tooltips ──────────────────────────────────────────────────────────────────
+const tooltip = document.getElementById("tooltip");
+const ttTitle = document.getElementById("tt-title");
+const ttBody  = document.getElementById("tt-body");
+
+document.querySelectorAll(".node[data-title]").forEach(node => {
+  node.addEventListener("mouseenter", e => {
+    ttTitle.textContent = node.dataset.title;
+    ttBody.innerHTML = node.dataset.info;
+    tooltip.style.display = "block";
+  });
+  node.addEventListener("mousemove", e => {
+    tooltip.style.left = (e.clientX + 16) + "px";
+    tooltip.style.top  = (e.clientY + 16) + "px";
+    // Flip if off-screen right
+    if (e.clientX + 16 + 280 > window.innerWidth) {
+      tooltip.style.left = (e.clientX - 280) + "px";
+    }
+  });
+  node.addEventListener("mouseleave", () => {
+    tooltip.style.display = "none";
+  });
+});
+</script>
+</body>
+</html>

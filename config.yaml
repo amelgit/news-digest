@@ -1,0 +1,50 @@
+model: claude-sonnet-4-6
+
+max_headlines_per_source: 10
+output_dir: summaries
+
+sources:
+  product_strategy:
+    name: "Produktstrategie & Tech"
+    sites:
+      - name: Stratechery
+        url: https://stratechery.com/feed/
+        type: rss
+
+      - name: a16z
+        url: https://a16z.com/feed/
+        type: rss
+
+      - name: Lenny's Newsletter
+        url: https://www.lennysnewsletter.com/feed
+        type: rss
+
+  finance:
+    name: "Finanznachrichten"
+    sites:
+      - name: Reuters Business
+        url: https://feeds.reuters.com/reuters/businessNews
+        type: rss
+
+      - name: Financial Times
+        url: https://www.ft.com/rss/home
+        type: rss
+
+      - name: Handelsblatt
+        url: https://www.handelsblatt.com/contentexport/feed/top-themen
+        type: rss
+
+  general:
+    name: "Allgemeine Nachrichten"
+    sites:
+      - name: Spiegel Online
+        url: https://www.spiegel.de/schlagzeilen/index.rss
+        type: rss
+
+      - name: NZZ
+        url: https://www.nzz.ch/recent.rss
+        type: rss
+
+      - name: Reuters Top News
+        url: https://feeds.reuters.com/reuters/topNews
+        type: rss

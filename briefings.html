@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morgen-Briefings</title>
+<style>
+  :root {
+    --sidebar-bg: #111827;
+    --sidebar-text: #d1d5db;
+    --sidebar-active: #f3f4f6;
+    --sidebar-hover: #1f2937;
+    --sidebar-accent: #3b82f6;
+    --main-bg: #f9fafb;
+    --card-bg: #ffffff;
+    --text: #111827;
+    --text-muted: #6b7280;
+    --heading: #0f172a;
+    --border: #e5e7eb;
+    --hr: #e5e7eb;
+    --link: #2563eb;
+    --code-bg: #f1f5f9;
+    --today-badge: #3b82f6;
+    --sidebar-w: 260px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: var(--main-bg);
+    color: var(--text);
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  /* ── Sidebar ── */
+  #sidebar {
+    width: var(--sidebar-w);
+    min-width: var(--sidebar-w);
+    background: var(--sidebar-bg);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+  }
+  #sidebar-header {
+    padding: 24px 20px 16px;
+    border-bottom: 1px solid #1f2937;
+  }
+  #sidebar-header h1 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #f9fafb;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  #sidebar-header p {
+    font-size: 12px;
+    color: var(--sidebar-text);
+    margin-top: 4px;
+  }
+  #nav {
+    flex: 1;
+    overflow-y: auto;
+    padding: 12px 0;
+  }
+  #nav::-webkit-scrollbar { width: 4px; }
+  #nav::-webkit-scrollbar-track { background: transparent; }
+  #nav::-webkit-scrollbar-thumb { background: #374151; border-radius: 2px; }
+  .nav-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-left: 3px solid transparent;
+    transition: background 0.15s, border-color 0.15s;
+  }
+  .nav-item:hover { background: var(--sidebar-hover); }
+  .nav-item.active {
+    background: #1e3a5f;
+    border-left-color: var(--sidebar-accent);
+  }
+  .nav-date {
+    flex: 1;
+  }
+  .nav-weekday {
+    font-size: 11px;
+    color: #9ca3af;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+  .nav-datestr {
+    font-size: 13px;
+    color: var(--sidebar-active);
+    font-weight: 500;
+    margin-top: 1px;
+  }
+  .nav-item.active .nav-datestr { color: #93c5fd; }
+  .today-badge {
+    font-size: 10px;
+    font-weight: 600;
+    background: var(--today-badge);
+    color: white;
+    padding: 2px 7px;
+    border-radius: 10px;
+    letter-spacing: 0.03em;
+  }
+
+  /* ── Main content ── */
+  #main {
+    flex: 1;
+    overflow-y: auto;
+    padding: 40px;
+  }
+  #main::-webkit-scrollbar { width: 6px; }
+  #main::-webkit-scrollbar-track { background: var(--main-bg); }
+  #main::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 3px; }
+  .briefing { display: none; }
+  .briefing.visible { display: block; }
+  .briefing-card {
+    max-width: 780px;
+    margin: 0 auto;
+    background: var(--card-bg);
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.06), 0 4px 16px rgba(0,0,0,.04);
+    padding: 40px 48px;
+  }
+  .briefing-card h1 {
+    font-size: 26px;
+    font-weight: 800;
+    color: var(--heading);
+    line-height: 1.25;
+    margin-bottom: 6px;
+  }
+  .briefing-card h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--heading);
+    margin: 32px 0 12px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid var(--border);
+  }
+  .briefing-card h3 {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--heading);
+    margin: 20px 0 8px;
+  }
+  .briefing-card p {
+    font-size: 15px;
+    line-height: 1.75;
+    color: #374151;
+    margin-bottom: 12px;
+  }
+  .briefing-card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 8px;
+  }
+  .briefing-card ul li {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #374151;
+    padding: 5px 0 5px 20px;
+    position: relative;
+  }
+  .briefing-card ul li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: var(--sidebar-accent);
+    font-size: 13px;
+    top: 7px;
+  }
+  .briefing-card hr {
+    border: none;
+    border-top: 1px solid var(--hr);
+    margin: 24px 0;
+  }
+  .briefing-card strong { color: var(--heading); }
+  .briefing-card em { color: #4b5563; }
+  .briefing-card code {
+    background: var(--code-bg);
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-family: "SF Mono", "Fira Code", monospace;
+    font-size: 13px;
+  }
+  .briefing-card a {
+    color: var(--link);
+    text-decoration: none;
+  }
+  .briefing-card a:hover { text-decoration: underline; }
+
+  /* ── Market Widget ── */
+  .mkt-widget {
+    background: #f8fafc;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 18px 22px;
+    margin-bottom: 28px;
+  }
+  .mkt-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 14px;
+  }
+  .mkt-title {
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--heading);
+  }
+  .mkt-date-label {
+    font-size: 11px;
+    color: var(--text-muted);
+    white-space: nowrap;
+  }
+  .mkt-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .mkt-table th {
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 0 6px 6px;
+    border-bottom: 1px solid var(--border);
+    text-align: right;
+    white-space: nowrap;
+  }
+  .mkt-table th:first-child { text-align: left; }
+  .mkt-table th:nth-child(3) { text-align: left; }
+  .mkt-table td {
+    padding: 5px 6px;
+    border-bottom: 1px solid #f1f5f9;
+    vertical-align: middle;
+    font-size: 12px;
+  }
+  .mkt-table tr:last-child td { border-bottom: none; }
+  .mkt-name { font-weight: 600; color: var(--heading); white-space: nowrap; }
+  .mkt-close {
+    text-align: right;
+    font-family: "SF Mono", "Fira Code", monospace;
+    color: var(--text);
+    white-space: nowrap;
+  }
+  .mkt-range { min-width: 150px; padding-top: 7px !important; padding-bottom: 7px !important; }
+  .mkt-range-labels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 9px;
+    color: var(--text-muted);
+    font-family: "SF Mono", "Fira Code", monospace;
+    margin-bottom: 3px;
+  }
+  .mkt-track {
+    height: 3px;
+    background: #e5e7eb;
+    border-radius: 2px;
+    position: relative;
+  }
+  .mkt-dot {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: var(--sidebar-accent);
+    border-radius: 50%;
+    top: -2.5px;
+    transform: translateX(-50%);
+    box-shadow: 0 0 0 2px #f8fafc;
+  }
+  .mkt-pct {
+    text-align: right;
+    font-family: "SF Mono", "Fira Code", monospace;
+    font-size: 11px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .mkt-pos { color: #16a34a; }
+  .mkt-neg { color: #dc2626; }
+  .mkt-neutral { color: var(--text-muted); }
+  .mkt-day { border-left: 2px solid var(--border); }
+  .mkt-link { color: inherit; text-decoration: none; border-bottom: 1px dotted #9ca3af; }
+  .mkt-link:hover { color: var(--link); border-bottom-color: var(--link); }
+  .mkt-status { font-size: 9px; margin-right: 5px; }
+  .mkt-status-open   { color: #22c55e; }
+  .mkt-status-pre    { color: #f59e0b; }
+  .mkt-status-post   { color: #f59e0b; }
+  .mkt-status-closed { color: #d1d5db; }
+  .mkt-pre {
+    display: block;
+    font-size: 10px;
+    font-family: "SF Mono", "Fira Code", monospace;
+    margin-top: 2px;
+  }
+  .mkt-pre-label { color: var(--text-muted); }
+  .mkt-pre-pos { color: #16a34a; }
+  .mkt-pre-neg { color: #dc2626; }
+  .mkt-analysis {
+    margin-top: 14px;
+    padding: 12px 16px;
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    border-radius: 8px;
+    font-size: 13px;
+    line-height: 1.65;
+    color: #1e3a5f;
+  }
+  .mkt-analysis-title {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #3b82f6;
+    margin-bottom: 6px;
+  }
+  .mkt-analysis p { margin: 0 0 6px; font-size: 13px; color: #1e3a5f; line-height: 1.65; }
+  .mkt-analysis p:last-child { margin-bottom: 0; }
+
+  /* ── Responsive ── */
+  @media (max-width: 700px) {
+    body { flex-direction: column; overflow: auto; height: auto; }
+    #sidebar { width: 100%; min-width: unset; height: auto; }
+    #nav { display: flex; overflow-x: auto; padding: 8px; gap: 6px; }
+    .nav-item { min-width: 130px; border-left: none; border-bottom: 3px solid transparent; border-radius: 8px; }
+    .nav-item.active { border-bottom-color: var(--sidebar-accent); }
+    #main { padding: 20px 16px; }
+    .briefing-card { padding: 24px 20px; }
+  }
+</style>
+</head>
+<body>
+
+<nav id="sidebar">
+  <div id="sidebar-header">
+    <h1>Morgen-Briefings</h1>
+    <p id="count-label"></p>
+  </div>
+  <div id="nav"></div>
+</nav>
+
+<main id="main">
+  <div id="content"></div>
+</main>
+
+<script>
+const briefings = [
+  {
+    "id": "2026-05-07",
+    "date": "2026-05-07",
+    "date_display": "7. Mai 2026",
+    "weekday": "Donnerstag",
+    "html": "<div class=\"mkt-widget\"><div class=\"mkt-header\"><div class=\"mkt-title\">📊 Marktübersicht</div><div class=\"mkt-date-label\">Stand: 07.05.2026, 12:17 Uhr</div></div><table class=\"mkt-table\"><thead><tr><th>Instrument</th><th>Letzter Kurs</th><th>Δ 1T</th><th>1T %</th><th>52W-Bereich</th><th>YTD</th><th>1M</th><th>1W</th></tr></thead><tbody><tr><td class=\"mkt-name\"><span class=\"mkt-status mkt-status-open\" title=\"Markt geöffnet\">●</span><a href=\"https://finance.yahoo.com/quote/%5EGDAXI/\" target=\"_blank\" class=\"mkt-link\">DAX</a></td><td class=\"mkt-close\">24,884</td><td class=\"mkt-pct mkt-neg\">-34</td><td class=\"mkt-pct mkt-neg mkt-day\">-0.14%</td><td class=\"mkt-range\"><div class=\"mkt-range-labels\"><span>21,864</span><span>25,508</span></div><div class=\"mkt-track\"><div class=\"mkt-dot\" style=\"left:82.9%\"></div></div></td><td class=\"mkt-pct mkt-pos \">+1.41%</td><td class=\"mkt-pct mkt-pos \">+8.56%</td><td class=\"mkt-pct mkt-pos \">+3.88%</td></tr><tr><td class=\"mkt-name\"><span class=\"mkt-status mkt-status-pre\" title=\"Pre-Market\">●</span><a href=\"https://finance.yahoo.com/quote/%5EDJI/\" target=\"_blank\" class=\"mkt-link\">Dow Jones</a></td><td class=\"mkt-close\">49,911<span class=\"mkt-pre mkt-pre-pos\"><span class=\"mkt-pre-label\">futs▸</span> +0.02%</span></td><td class=\"mkt-pct mkt-pos\">+612</td><td class=\"mkt-pct mkt-pos mkt-day\">+1.24%</td><td class=\"mkt-range\"><div class=\"mkt-range-labels\"><span>40,829</span><span>50,513</span></div><div class=\"mkt-track\"><div class=\"mkt-dot\" style=\"left:93.8%\"></div></div></td><td class=\"mkt-pct mkt-pos \">+3.16%</td><td class=\"mkt-pct mkt-pos \">+7.14%</td><td class=\"mkt-pct mkt-pos \">+2.15%</td></tr><tr><td class=\"mkt-name\"><span class=\"mkt-status mkt-status-pre\" title=\"Pre-Market\">●</span><a href=\"https://finance.yahoo.com/quote/%5EGSPC/\" target=\"_blank\" class=\"mkt-link\">S&P 500</a></td><td class=\"mkt-close\">7,365<span class=\"mkt-pre mkt-pre-pos\"><span class=\"mkt-pre-label\">futs▸</span> +0.07%</span></td><td class=\"mkt-pct mkt-pos\">+106</td><td class=\"mkt-pct mkt-pos mkt-day\">+1.46%</td><td class=\"mkt-range\"><div class=\"mkt-range-labels\"><span>5,579</span><span>7,369</span></div><div class=\"mkt-track\"><div class=\"mkt-dot\" style=\"left:99.8%\"></div></div></td><td class=\"mkt-pct mkt-pos \">+7.39%</td><td class=\"mkt-pct mkt-pos \">+11.31%</td><td class=\"mkt-pct mkt-pos \">+3.21%</td></tr><tr><td class=\"mkt-name\"><span class=\"mkt-status mkt-status-pre\" title=\"Pre-Market\">●</span><a href=\"https://finance.yahoo.com/quote/%5EIXIC/\" target=\"_blank\" class=\"mkt-link\">NASDAQ</a></td><td class=\"mkt-close\">25,839<span class=\"mkt-pre mkt-pre-pos\"><span class=\"mkt-pre-label\">futs▸</span> +0.01%</span></td><td class=\"mkt-pct mkt-pos\">+513</td><td class=\"mkt-pct mkt-pos mkt-day\">+2.02%</td><td class=\"mkt-range\"><div class=\"mkt-range-labels\"><span>17,503</span><span>25,850</span></div><div class=\"mkt-track\"><div class=\"mkt-dot\" style=\"left:99.9%\"></div></div></td><td class=\"mkt-pct mkt-pos \">+11.20%</td><td class=\"mkt-pct mkt-pos \">+17.35%</td><td class=\"mkt-pct mkt-pos \">+4.72%</td></tr><tr><td class=\"mkt-name\"><span class=\"mkt-status mkt-status-open\" title=\"Markt geöffnet\">●</span><a href=\"https://finance.yahoo.com/quote/CL%3DF/\" target=\"_blank\" class=\"mkt-link\">Crude Oil</a></td><td class=\"mkt-close\">$92.71</td><td class=\"mkt-pct mkt-neg\">$-2.37</td><td class=\"mkt-pct mkt-neg mkt-day\">-2.49%</td><td class=\"mkt-range\"><div class=\"mkt-range-labels\"><span>$54.98</span><span>$119.48</span></div><div class=\"mkt-track\"><div class=\"mkt-dot\" style=\"left:58.5%\"></div></div></td><td class=\"mkt-pct mkt-pos \">+61.74%</td><td class=\"mkt-pct mkt-neg \">-1.80%</td><td class=\"mkt-pct mkt-neg \">-11.76%</td></tr><tr><td class=\"mkt-name\"><span class=\"mkt-status mkt-status-open\" title=\"Markt geöffnet\">●</span><a href=\"https://finance.yahoo.com/quote/BTC-USD/\" target=\"_blank\" class=\"mkt-link\">Bitcoin</a></td><td class=\"mkt-close\">$80,798</td><td class=\"mkt-pct mkt-neg\">$-630</td><td class=\"mkt-pct mkt-neg mkt-day\">-0.77%</td><td class=\"mkt-range\"><div class=\"mkt-range-labels\"><span>$60,074</span><span>$126,198</span></div><div class=\"mkt-track\"><div class=\"mkt-dot\" style=\"left:31.3%\"></div></div></td><td class=\"mkt-pct mkt-neg \">-8.94%</td><td class=\"mkt-pct mkt-pos \">+7.51%</td><td class=\"mkt-pct mkt-pos \">+2.72%</td></tr><tr><td class=\"mkt-name\"><span class=\"mkt-status mkt-status-open\" title=\"Markt geöffnet\">●</span><a href=\"https://finance.yahoo.com/quote/GC%3DF/\" target=\"_blank\" class=\"mkt-link\">Gold</a></td><td class=\"mkt-close\">$4,741.40</td><td class=\"mkt-pct mkt-pos\">+$59.50</td><td class=\"mkt-pct mkt-pos mkt-day\">+1.27%</td><td class=\"mkt-range\"><div class=\"mkt-range-labels\"><span>$3,125.00</span><span>$5,586.20</span></div><div class=\"mkt-track\"><div class=\"mkt-dot\" style=\"left:65.7%\"></div></div></td><td class=\"mkt-pct mkt-pos \">+9.90%</td><td class=\"mkt-pct mkt-neg \">-0.17%</td><td class=\"mkt-pct mkt-pos \">+2.75%</td></tr></tbody></table><div class=\"mkt-analysis\"><div class=\"mkt-analysis-title\">🔍 Marktbewegung &amp; Nachrichten</div><p>Die starken Zugewinne an den US-Märkten (Dow +1,24%, S&amp;P +1,46%, NASDAQ +2,02%) sind gut erklärbar durch die positiven Big-Tech-Quartalsergebnisse und die anhaltende KI-Euphorie rund um Agentic AI, die im gestrigen Briefing als zentrales Thema hervorgehoben wurde. Der Rückgang des Ölpreises um 2,38% ist direkt plausibel mit den Friedenshoffnungen im Iran-USA-Konflikt verknüpft, der bereits gestern den Ölpreis unter Druck gesetzt hatte – hier setzt sich ein etablierter Trend fort. Der Goldanstieg von +1,32% wirkt auf den ersten Blick kontraintuitiv, da steigende Risikobereitschaft an den Aktienmärkten typischerweise Gold-Nachfrage dämpft – er könnte jedoch auf verbleibende geopolitische Unsicherheiten (Ukraine, Iran-Unsicherheit trotz Annäherung) hindeuten, die Anleger zur parallelen Absicherung bewegen. Der schwache DAX (-0,26%) überrascht moderat angesichts des positiven US-Sentiments, lässt sich aber mit den strukturellen deutschen Problemen – Automobilkrise, Bildungsmisere, GKV-Reformdebatte – erklären, die das Vertrauen in den Standort belasten. Der leichte Bitcoin-Rückgang (-0,78%) passt zum Signal von Michael Saylor, dem prominentesten Krypto-Bullen, der erstmals einen Verkauf erwägt – ein psychologisch belastendes Signal für den Markt, das trotz des risikofreudigen Gesamtumfelds auf die Kryptowährung drückt.</p></div></div>\n\n<h1>🗞️ Morgen-Briefing – Donnerstag, 7. Mai 2026</h1>\n\n<hr>\n\n<p><strong>Der heutige Nachrichtentag steht im Zeichen geopolitischer Spannungen und ihrer wirtschaftlichen Konsequenzen.</strong> Der anhaltende Iran-Konflikt bewegt gleichzeitig Ölmärkte, Unternehmensgewinne und Diplomatie. Im Inland sorgen die starken AfD-Umfragewerte in Sachsen-Anhalt und ein schwelender Koalitionsstreit über Steuerpolitik für innenpolitischen Gesprächsstoff.</p>\n\n<hr>\n\n<h2>💻 Produktstrategie & Technologie</h2>\n\n<ul>\n  <li><strong>KI-Tools dominieren den Arbeitsalltag:</strong> Unternehmen wie Stripe setzen auf interne KI-Produkte zur Produktentwicklung; gleichzeitig wächst die Community rund um Coding-Assistenten wie Claude Code rasant.</li>\n  <li><strong>AI-Erlösmodelle im Wandel:</strong> Laut Lenny's Newsletter funktionieren klassische SaaS-Freemium-Strategien im KI-Zeitalter nicht mehr – neue Monetarisierungsansätze sind gefragt.</li>\n  <li><strong>Big-Tech-Quartalssaison läuft:</strong> Microsoft, Apple, Amazon, Google, Meta und Intel haben Ergebnisse vorgelegt; Stratechery analysiert Intels Differenzierungsstrategie und Amazons Dauerhaftigkeit als Plattform.</li>\n  <li><strong>Agentic AI im Fokus:</strong> Interviews mit OpenAI-CEO Sam Altman und Google-Cloud-Chef Thomas Kurian unterstreichen den Trend hin zu autonomen KI-Agenten als nächste Ausbaustufe.</li>\n  <li><strong>Agency schlägt Skills:</strong> Produktstrategen wie Max Schoening (Notion) plädieren dafür, im KI-Zeitalter Eigenverantwortung wichtiger zu nehmen als das bloße Erlernen von Tools.</li>\n</ul>\n\n<hr>\n\n<h2>📈 Finanznachrichten</h2>\n\n<ul>\n  <li><strong>Iran-Krieg als Gewinnfaktor:</strong> Shell verzeichnet einen deutlichen Gewinnanstieg – die geopolitischen Turbulenzen bescheren dem Energiekonzern einen unerwarteten Erlösschub.</li>\n  <li><strong>Ölpreis unter Druck:</strong> Nach Hoffnungen auf einen US-Iran-Deal fiel der Ölpreis wieder unter 100 Dollar – die Märkte reagieren sensibel auf diplomatische Signale aus Washington.</li>\n  <li><strong>Tech-Rally beflügelt Hedgefonds:</strong> Der Aufschwung bei Technologiewerten beschert Hedgefonds die größten Gewinne seit 2026 – SoftBank-Aktien legen kräftig zu.</li>\n  <li><strong>Rüstung und Verteidigung im Fokus:</strong> Die Diskussion über einen 500-Milliarden-Euro-Plan für europäische Verteidigungsautonomie gewinnt an Fahrt; gleichzeitig droht Berlin beim Panzerbauer KNDS einen Staatseinstieg zu verspielen.</li>\n  <li><strong>Immobilienmarkt kühlt ab:</strong> Vonovia spürt steigende Finanzierungskosten; der Preisanstieg bei Eigentumswohnungen kommt laut Handelsblatt nahezu zum Stillstand.</li>\n</ul>\n\n<hr>\n\n<h2>🌍 Allgemeine Nachrichten</h2>\n\n<ul>\n  <li><strong>AfD auf Rekordhoch in Sachsen-Anhalt:</strong> Laut aktuellen Umfragen kommt die AfD auf 41 Prozent – ein historischer Höchstwert in einem Bundesland vor der bevorstehenden Landtagswahl.</li>\n  <li><strong>Koalitionsstreit um Steuerpolitik:</strong> In der Bundesregierung brodelt es: Rufe nach einer „Steuerwende\" stoßen auf Widerstand, die Debatte über eine Reform der Einkommensteuer nimmt Fahrt auf.</li>\n  <li><strong>Hantavirus auf Kreuzfahrtschiff:</strong> Auf der MV <em>Hondius</em> wurden Hantavirus-Fälle registriert – eine deutsche Patientin wird nun in Düsseldorf untersucht, Argentinien sucht den Infektionsursprung.</li>\n  <li><strong>IW senkt Konjunkturprognose:</strong> Das Institut der deutschen Wirtschaft hat seine Wachstumserwartungen für 2026 deutlich nach unten korrigiert – ein weiteres Warnsignal für die deutsche Wirtschaft.</li>\n  <li><strong>EU gegen KI-Deepfakes:</strong> Brüssel plant ein Verbot des Einsatzes von KI zur Erstellung von Missbrauchs-Deepfakes – ein wichtiger Schritt im Kampf gegen digitale Gewalt.</li>\n</ul>\n\n<hr>\n\n<h2>👀 Ausblick</h2>\n\n<p>Die kommenden Tage werden zeigen, ob die diplomatischen Signale rund um einen möglichen US-Iran-Deal Substanz haben – die Ölmärkte und Verteidigungsbudgets weltweit hängen daran. Innenpolitisch dürfte der Sachsen-Anhalt-Wahlkampf sowie die Debatte um Steuer- und Konjunkturpolitik weiter an Intensität gewinnen.</p>\n\n<hr>\n\n<p><em>Guten Morgen – und einen erfolgreichen Tag!</em> 🌅</p>"
+  },
+  {
+    "id": "2026-05-06",
+    "date": "2026-05-06",
+    "date_display": "6. Mai 2026",
+    "weekday": "Mittwoch",
+    "html": "<h1>🗞️ Morgen-Briefing – Mittwoch, 6. Mai 2026</h1>\n\n<hr>\n\n<h2>Einleitung</h2>\n\n<p>Die internationale Nachrichtenlage wird heute von Friedenshoffnungen im Nahen Osten dominiert – Berichten zufolge stehen die USA und Iran kurz vor einer Einigung. Gleichzeitig setzt die Tech-Branche ihre intensive Auseinandersetzung mit KI-Strategie und Unternehmenspositionierung fort, während an den deutschen Märkten verhaltener Optimismus herrscht.</p>\n\n<hr>\n\n<h2>🌍 Geopolitik & Sicherheit</h2>\n\n<ul>\n  <li><strong>Iran-USA-Annäherung:</strong> Washington und Teheran sollen kurz vor einer Vereinbarung zur Beendigung der Kampfhandlungen stehen – Teheran prüft einen US-Friedensvorschlag aktiv. China unterstützt die Bemühungen und drängt Iran zu einem dauerhaften Waffenstillstand.</li>\n  <li><strong>Ölpreis unter Druck:</strong> Friedenshoffnungen im Nahen Osten haben den Ölpreis zeitweise unter die Marke von 100 Dollar gedrückt – ein Signal, wie eng Geopolitik und Energiemärkte verzahnt bleiben.</li>\n  <li><strong>Ukraine-Konflikt:</strong> Kiew wirft Russland trotz vereinbarter Waffenruhe weitere Verletzungen vor; die Lage bleibt laut Live-Ticker angespannt.</li>\n  <li><strong>Europa & Verteidigung:</strong> Die Frage, ob Europa eigene Alternativen zu US-Marschflugkörpern wie dem Tomahawk entwickeln kann, gewinnt sicherheitspolitisch an Dringlichkeit.</li>\n  <li><strong>EU-Reform:</strong> Außenminister Wadephul plädiert für ein „Kern-Europa\" – ein Signal für eine mögliche Neuausrichtung der europäischen Integrationsdebatte.</li>\n</ul>\n\n<hr>\n\n<h2>💹 Finanzmärkte & Wirtschaft</h2>\n\n<ul>\n  <li><strong>DAX im Plus:</strong> Der deutsche Leitindex legte mehr als zwei Prozent zu – getragen von den Hoffnungen auf eine Friedenslösung im Nahen Osten und sinkenden Energiepreisen.</li>\n  <li><strong>Bayer wagt Milliarden-Zukauf:</strong> Erstmals seit Jahren plant Bayer wieder eine große Übernahme im Pharmasektor – ein Zeichen für wiedergewonnenes Investitionsvertrauen.</li>\n  <li><strong>Infineon hebt Prognose an:</strong> Der Halbleiterkonzern verspricht starkes Wachstum und sendet damit ein positives Signal für den deutschen Technologiesektor.</li>\n  <li><strong>Bitcoin unter Beobachtung:</strong> Starinvestor Michael Saylor erwägt erstmals einen Bitcoin-Verkauf – ein ungewöhnliches Signal vom prominentesten Krypto-Bullen der Branche.</li>\n  <li><strong>Deutsche Autoindustrie in der Krise:</strong> Teure Fahrzeuge bei schrumpfenden Margen – das Handelsblatt analysiert die strukturellen Ursachen der anhaltenden Automobil-Malaise in Deutschland.</li>\n</ul>\n\n<hr>\n\n<h2>🤖 Technologie & KI</h2>\n\n<ul>\n  <li><strong>Big-Tech-Earnings im Fokus:</strong> Microsoft, Apple, Amazon, Google, Meta und Intel haben ihre Quartalszahlen vorgelegt – Stratechery analysiert intensiv Geschäftsmodell-Resilienz und KI-Positionierung der Konzerne.</li>\n  <li><strong>DeepSeek nähert sich 45-Milliarden-Dollar-Bewertung:</strong> Das chinesische KI-Start-up wächst rasant und festigt Chinas Ambitionen als globaler KI-Akteur.</li>\n  <li><strong>SpaceX plant Chipfabrik-Investition:</strong> Elon Musks Raumfahrtunternehmen erwägt laut Spiegel eine gigantische Investition in Halbleiterfertigung – ein weiterer Schritt zur vertikalen Integration.</li>\n  <li><strong>KI verändert Produktstrategie:</strong> Lenny's Newsletter beleuchtet, warum klassische SaaS-Freemium-Modelle im KI-Zeitalter versagen und welche neuen Adoptionsstrategien Unternehmen wie Sendbird und Stripe erproben.</li>\n  <li><strong>Agentic AI im Aufwind:</strong> Interviews mit OpenAI-CEO Sam Altman, AWS-Chef Matt Garman und Google-Cloud-CEO Thomas Kurian unterstreichen: Autonome KI-Agenten stehen im Zentrum der nächsten Entwicklungswelle.</li>\n</ul>\n\n<hr>\n\n<h2>🏥 Gesellschaft & Gesundheit</h2>\n\n<ul>\n  <li><strong>Bildungskrise in Deutschland:</strong> Fast 2,8 Millionen junge Erwachsene bleiben ohne Berufsabschluss – der neue Berufsbildungsbericht zeichnet ein alarmierendes Bild.</li>\n  <li><strong>GKV-Reform trifft Gutverdiener hart:</strong> Die geplante Reform der gesetzlichen Krankenversicherung wird von Kritikern als „Sondersteuer für Fachkräfte\" bezeichnet – mit potenziellen Auswirkungen auf die Arbeitskräftegewinnung.</li>\n  <li><strong>Hantavirus auf Kreuzfahrtschiff:</strong> Ein Patient wird laut NZZ im Universitätsspital Zürich behandelt – Behörden beobachten den Fall aufmerksam.</li>\n  <li><strong>Thomas-Mann-Preis:</strong> Der israelische Autor David Grossman erhält die renommierte Auszeichnung – eine kulturelle Geste mit symbolischer Strahlkraft in angespannten Zeiten.</li>\n</ul>\n\n<hr>\n\n<h2>📅 Ausblick</h2>\n\n<p>Die weiteren Entwicklungen in den Iran-USA-Verhandlungen dürften den Ölpreis und die globalen Märkte in den kommenden Tagen maßgeblich bewegen. Gleichzeitig werden die laufenden Big-Tech-Quartalsberichte und die weitere KI-Strategiedebatte die Agenda in Wirtschaft und Technologie dominieren.</p>"
+  }
+];
+
+const today = new Date().toISOString().slice(0, 10);
+const nav = document.getElementById("nav");
+const content = document.getElementById("content");
+
+document.getElementById("count-label").textContent =
+  briefings.length + " Ausgabe" + (briefings.length !== 1 ? "n" : "");
+
+briefings.forEach((b, i) => {
+  // Nav item
+  const item = document.createElement("div");
+  item.className = "nav-item";
+  item.dataset.id = b.id;
+  const isToday = b.date === today;
+  item.innerHTML = `
+    <div class="nav-date">
+      <div class="nav-weekday">${b.weekday}</div>
+      <div class="nav-datestr">${b.date_display}</div>
+    </div>
+    ${isToday ? '<span class="today-badge">Heute</span>' : ""}
+  `;
+  item.addEventListener("click", () => show(b.id));
+  nav.appendChild(item);
+
+  // Content panel
+  const panel = document.createElement("div");
+  panel.className = "briefing";
+  panel.id = "briefing-" + b.id;
+  panel.innerHTML = `<div class="briefing-card">${b.html}</div>`;
+  content.appendChild(panel);
+});
+
+function show(id) {
+  document.querySelectorAll(".briefing").forEach(el => el.classList.remove("visible"));
+  document.querySelectorAll(".nav-item").forEach(el => el.classList.remove("active"));
+  document.getElementById("briefing-" + id)?.classList.add("visible");
+  document.querySelector(`.nav-item[data-id="${id}"]`)?.classList.add("active");
+  document.getElementById("main").scrollTo(0, 0);
+}
+
+// Show newest (first) briefing on load
+if (briefings.length > 0) show(briefings[0].id);
+</script>
+</body>
+</html>
