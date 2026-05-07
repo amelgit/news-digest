@@ -200,6 +200,8 @@
     border-radius: 10px;
     padding: 18px 22px;
     margin-bottom: 28px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
   .mkt-header {
     display: flex;
@@ -331,6 +333,14 @@
     .nav-item.active { border-bottom-color: var(--sidebar-accent); }
     #main { padding: 20px 16px; }
     .briefing-card { padding: 24px 20px; }
+
+    /* Market widget: hide Δ1T abs (col 3), 52W bar (col 5), 1M (col 7), 1W (col 8)
+       Keeps: Name, Price, 1T%, YTD */
+    .mkt-widget { padding: 14px 12px; }
+    .mkt-table th:nth-child(3), .mkt-table td:nth-child(3),
+    .mkt-table th:nth-child(5), .mkt-table td:nth-child(5),
+    .mkt-table th:nth-child(7), .mkt-table td:nth-child(7),
+    .mkt-table th:nth-child(8), .mkt-table td:nth-child(8) { display: none; }
   }
 </style>
 </head>
