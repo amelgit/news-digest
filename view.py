@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generates briefings.html from all markdown files in summaries/ and opens it."""
+"""Generates index.html from all markdown files in summaries/ and opens it."""
 
 import os
 import re
@@ -9,7 +9,7 @@ from pathlib import Path
 from datetime import datetime
 
 SUMMARIES_DIR = Path(__file__).parent / "summaries"
-OUTPUT_FILE = Path(__file__).parent / "briefings.html"
+OUTPUT_FILE = Path(__file__).parent / "index.html"
 
 
 def md_to_html(text: str) -> str:
@@ -133,7 +133,7 @@ def render_market_widget(instruments: list, fetched_at: str = "") -> str:
         # Pre-market direction via futures (US indices only)
         pre_html = ""
         ppct = item.get("pre_pct")
-        if ppct is not None:
+        if ppct is not None and state != "open":
             pc  = "mkt-pre-pos" if ppct >= 0 else "mkt-pre-neg"
             sgn = "+" if ppct >= 0 else ""
             pre_html = (
@@ -202,6 +202,54 @@ def render_market_analysis(analysis: str) -> str:
     )
 
 
+def render_sources(sources: list) -> str:
+    if not sources:
+        return ""
+
+    by_category = {}
+    for s in sources:
+        by_category.setdefault(s["category"], []).append(s)
+
+    categories_html = []
+    for cat_name, cat_sources in by_category.items():
+        sources_html = []
+        for src in cat_sources:
+            items_html = []
+            for item in src["items"]:
+                title = (item["title"]
+                         .replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
+                url = item.get("url", "")
+                date = item.get("published", "")
+                date_html = f'<span class="src-date">{date}</span>' if date else ""
+                link_html = (f'<a href="{url}" target="_blank" class="src-link">{title}</a>'
+                             if url else f'<span class="src-no-link">{title}</span>')
+                items_html.append(f'<div class="src-item">{link_html}{date_html}</div>')
+            sources_html.append(
+                f'<div class="src-source">'
+                f'<div class="src-source-name">{src["source"]}</div>'
+                + "".join(items_html)
+                + '</div>'
+            )
+        categories_html.append(
+            f'<div class="src-category">'
+            f'<div class="src-category-name">{cat_name}</div>'
+            + "".join(sources_html)
+            + '</div>'
+        )
+
+    total = sum(len(s["items"]) for s in sources)
+    return (
+        f'<details class="src-details">'
+        f'<summary class="src-summary">'
+        f'<span class="src-arrow">▶</span>'
+        f'📰 Quellen &amp; Schlagzeilen ({total} Artikel)'
+        f'</summary>'
+        f'<div class="src-body">'
+        + "".join(categories_html)
+        + '</div></details>'
+    )
+
+
 def load_briefings() -> list[dict]:
     briefings = []
     for path in sorted(SUMMARIES_DIR.glob("*.md"), reverse=True):
@@ -226,6 +274,11 @@ def load_briefings() -> list[dict]:
             market_html = render_market_widget(instruments, fetched_at) + render_market_analysis(analysis)
             if market_html:
                 html = market_html + html
+        sources_path = path.with_suffix(".sources.json")
+        if sources_path.exists():
+            sources = json.loads(sources_path.read_text(encoding="utf-8"))
+            html += render_sources(sources)
+
         briefings.append({
             "id": path.stem,
             "date": path.stem,
@@ -580,6 +633,76 @@ HTML_TEMPLATE = """<!DOCTYPE html>
   }
   .mkt-analysis p { margin: 0 0 6px; font-size: 13px; color: #1e3a5f; line-height: 1.65; }
   .mkt-analysis p:last-child { margin-bottom: 0; }
+
+  /* ── Sources ── */
+  .src-details {
+    margin-top: 32px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .src-summary {
+    cursor: pointer;
+    padding: 11px 16px;
+    background: #f8fafc;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--text-muted);
+    list-style: none;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .src-summary::-webkit-details-marker { display: none; }
+  .src-arrow { font-size: 9px; transition: transform 0.15s; display: inline-block; }
+  details[open] .src-arrow { transform: rotate(90deg); }
+  .src-body { padding: 16px 20px; }
+  .src-category { margin-bottom: 20px; }
+  .src-category:last-child { margin-bottom: 0; }
+  .src-category-name {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--sidebar-accent);
+    margin-bottom: 10px;
+  }
+  .src-source { margin-bottom: 14px; }
+  .src-source:last-child { margin-bottom: 0; }
+  .src-source-name {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-muted);
+    margin-bottom: 5px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid var(--border);
+  }
+  .src-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    padding: 4px 0;
+    border-bottom: 1px solid #f8fafc;
+  }
+  .src-item:last-child { border-bottom: none; }
+  .src-link {
+    font-size: 13px;
+    color: var(--text);
+    text-decoration: none;
+    flex: 1;
+    line-height: 1.4;
+  }
+  .src-link:hover { color: var(--link); text-decoration: underline; }
+  .src-no-link { font-size: 13px; color: var(--text); flex: 1; line-height: 1.4; }
+  .src-date {
+    font-size: 10px;
+    color: var(--text-muted);
+    white-space: nowrap;
+    font-family: "SF Mono", "Fira Code", monospace;
+    flex-shrink: 0;
+  }
 
   /* ── Responsive ── */
   @media (max-width: 700px) {

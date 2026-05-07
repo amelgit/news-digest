@@ -1,6 +1,7 @@
 import feedparser
 import requests
 from bs4 import BeautifulSoup
+from datetime import datetime
 import logging
 
 logger = logging.getLogger(__name__)
@@ -13,37 +14,52 @@ HEADERS = {
 }
 
 
-def scrape_rss(url: str, max_items: int = 10) -> list[str]:
+def _parse_date(entry) -> str:
+    parsed = entry.get("published_parsed") or entry.get("updated_parsed")
+    if parsed:
+        try:
+            return datetime(*parsed[:6]).strftime("%d.%m.%Y, %H:%M")
+        except Exception:
+            pass
+    return ""
+
+
+def scrape_rss(url: str, max_items: int = 10) -> list[dict]:
     try:
         feed = feedparser.parse(url, request_headers=HEADERS)
-        headlines = []
+        items = []
         for entry in feed.entries[:max_items]:
             title = entry.get("title", "").strip()
             if title:
-                headlines.append(f"- {title}")
-        return headlines
+                items.append({
+                    "title": title,
+                    "url": entry.get("link", ""),
+                    "published": _parse_date(entry),
+                })
+        return items
     except Exception as e:
         logger.warning(f"RSS scrape failed for {url}: {e}")
         return []
 
 
-def scrape_html(url: str, selector: str, max_items: int = 10) -> list[str]:
+def scrape_html(url: str, selector: str, max_items: int = 10) -> list[dict]:
     try:
         resp = requests.get(url, headers=HEADERS, timeout=15)
         resp.raise_for_status()
         soup = BeautifulSoup(resp.text, "lxml")
-        headlines = []
+        items = []
         for el in soup.select(selector)[:max_items]:
             text = el.get_text(strip=True)
             if text and len(text) > 5:
-                headlines.append(f"- {text}")
-        return headlines
+                href = el.get("href", "") if el.name == "a" else ""
+                items.append({"title": text, "url": href, "published": ""})
+        return items
     except Exception as e:
         logger.warning(f"HTML scrape failed for {url}: {e}")
         return []
 
 
-def scrape_source(site: dict, max_items: int = 10) -> list[str]:
+def scrape_source(site: dict, max_items: int = 10) -> list[dict]:
     source_type = site.get("type", "rss")
     if source_type == "rss":
         return scrape_rss(site["url"], max_items)
