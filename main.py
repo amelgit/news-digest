@@ -1,4 +1,5 @@
 import os
+import sys
 import json
 import subprocess
 import yaml
@@ -120,11 +121,12 @@ def main() -> None:
         market_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
         logger.info(f"Marktdaten gespeichert: {market_path}")
 
-    subprocess.run([
-        "osascript", "-e",
-        f'display notification "Briefing vom {date.today().strftime("%d.%m.%Y")} wurde gespeichert." '
-        f'with title "News Digest" subtitle "{total} Schlagzeilen verarbeitet" sound name "Glass"'
-    ], check=False)
+    if sys.platform == "darwin":
+        subprocess.run([
+            "osascript", "-e",
+            f'display notification "Briefing vom {date.today().strftime("%d.%m.%Y")} wurde gespeichert." '
+            f'with title "News Digest" subtitle "{total} Schlagzeilen verarbeitet" sound name "Glass"'
+        ], check=False)
 
     git_publish(filepath, market_path if market else None, sources_path)
 
