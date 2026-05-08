@@ -5,13 +5,15 @@ import yaml
 import logging
 from datetime import date, datetime
 from pathlib import Path
-from dotenv import load_dotenv
-
 from scraper import scrape_source
 from summarizer import generate_briefing, generate_market_analysis
 from market_data import fetch_market_data
 
-load_dotenv()
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
 
 logging.basicConfig(
     level=logging.INFO,
@@ -71,7 +73,7 @@ def save_summary(summary: str, output_dir: str) -> Path:
 
 def main() -> None:
     if not os.getenv("ANTHROPIC_API_KEY"):
-        raise RuntimeError("ANTHROPIC_API_KEY ist nicht gesetzt. Bitte .env prüfen.")
+        raise RuntimeError("ANTHROPIC_API_KEY ist nicht gesetzt (Umgebungsvariable oder .env).")
 
     config = load_config()
 
