@@ -315,7 +315,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Morgen-Briefings</title>
+<title>Briefings</title>
 <style>
   :root {
     --sidebar-bg: #111827;
@@ -720,7 +720,7 @@ HTML_TEMPLATE = """<!DOCTYPE html>
 
 <nav id="sidebar">
   <div id="sidebar-header">
-    <h1>Morgen-Briefings</h1>
+    <h1>Briefings</h1>
     <p id="count-label"></p>
   </div>
   <div id="nav"></div>

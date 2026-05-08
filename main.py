@@ -120,7 +120,7 @@ def main() -> None:
 
     subprocess.run([
         "osascript", "-e",
-        f'display notification "Morgen-Briefing vom {date.today().strftime("%d.%m.%Y")} wurde gespeichert." '
+        f'display notification "Briefing vom {date.today().strftime("%d.%m.%Y")} wurde gespeichert." '
         f'with title "News Digest" subtitle "{total} Schlagzeilen verarbeitet" sound name "Glass"'
     ], check=False)
 

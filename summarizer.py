@@ -2,7 +2,7 @@ import anthropic
 from datetime import date
 
 SYSTEM_PROMPT = """Du bist ein erfahrener Nachrichtenredakteur. Deine Aufgabe ist es, \
-aus täglich gesammelten Schlagzeilen ein strukturiertes Morgen-Briefing auf Deutsch zu erstellen.
+aus täglich gesammelten Schlagzeilen ein strukturiertes Briefing auf Deutsch zu erstellen.
 
 Dein Briefing soll:
 - Professionell und prägnant geschrieben sein
@@ -31,7 +31,7 @@ def generate_briefing(headlines_by_category: dict, model: str) -> str:
         content += "\n\n"
 
     content += (
-        "Erstelle bitte ein strukturiertes Morgen-Briefing mit einer Einleitung, "
+        "Erstelle bitte ein strukturiertes Briefing mit einer Einleitung, "
         "3–5 Kernpunkten pro Kategorie und einem kurzen Ausblick. Verwende Markdown."
     )
 
