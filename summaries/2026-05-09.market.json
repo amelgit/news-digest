@@ -87,15 +87,15 @@
     },
     {
       "name": "Bitcoin",
-      "last_close": 80424.1875,
+      "last_close": 80234.6484375,
       "last_date": "09.05.2026",
-      "day_abs": 414.1953125,
-      "day_pct": 0.5176794812444813,
+      "day_abs": 47.8828125,
+      "day_pct": 0.05971410883926645,
       "week52_low": 60074.203125,
       "week52_high": 126198.0703125,
-      "ytd_pct": -9.362798469478047,
-      "month_pct": 4.275179695793457,
-      "week_pct": 2.401328652359077,
+      "ytd_pct": -9.576406971344712,
+      "month_pct": 5.953602384412184,
+      "week_pct": 0.5095238076596804,
       "decimals": 0,
       "prefix": "$",
       "url": "https://finance.yahoo.com/quote/BTC-USD/",
@@ -120,6 +120,6 @@
       "pre_pct": null
     }
   ],
-  "analysis": "Der starke DAX-Rückgang von -1,32% ist plausibel erklärbar durch die anhaltenden geopolitischen Spannungen – die Eskalation im Iran-Konflikt mit den VAE sowie die Ukraine-Angriffe auf russische Infrastruktur treffen die exportabhängige deutsche Wirtschaft überproportional hart. Die gegenläufige Stärke von NASDAQ (+1,71%) und S&P 500 (+0,84%) spiegelt dagegen den anhaltenden KI-Optimismus wider, befeuert durch Meldungen über Rekordinvestitionen von 725 Milliarden Dollar und Anthropics Annäherung an eine Billion-Dollar-Bewertung. Bemerkenswert kontraintuitiv ist dabei der nahezu stagnierende Dow Jones (+0,02%), der trotz des US-amerikanischen Technologiebooms kaum profitiert – dies deutet darauf hin, dass die Rally selektiv auf Tech-Werte konzentriert bleibt und klassische Industriewerte von der Geopolitik gebremst werden. Der moderate Goldanstieg (+0,44%) und der Ölpreisanstieg (+0,64%) sind klassische Reaktionen auf geopolitische Risikoerhöhung, bleiben aber überraschend gedämpft angesichts der gleichzeitigen Konflikte in der Ukraine und im Nahen Osten. Insgesamt zeichnen die heutigen Kursbewegungen ein kohärentes Bild einer gespaltenen Marktlandschaft: europäische Risikoaversion trifft auf amerikanischen KI-Optimismus, wobei die verhaltene Reaktion der traditionellen Sicherheitsanker wie Gold auf eine gewisse Marktsorglosigkeit gegenüber den geopolitischen Risiken hindeutet.",
-  "fetched_at": "09.05.2026, 07:30"
+  "analysis": "Die starken Gewinne bei NASDAQ (+1,71%) und S&P 500 (+0,84%) sind plausibel erklärbar durch die anhaltende KI-Euphorie rund um Rekordinvestitionen und die nahende Billion-Dollar-Bewertung von Anthropic, die den Tech-Sektor beflügeln. Der deutliche DAX-Rückgang von -1,32% ist hingegen auffällig und spiegelt vermutlich die stärkere europäische Exposition gegenüber den geopolitischen Risiken aus dem Ukraine-Krieg und der Iran-Eskalation wider, während US-Märkte diese Risiken offenbar stärker ausblenden. Überraschend ist, dass der Ölpreis trotz eskalierender Konflikte im Nahen Osten und dem ukrainischen Angriff auf eine russische Ölanlage nur moderat um +0,64% gestiegen ist, was auf begrenzte Angebotssorgen der Marktteilnehmer hindeutet. Gold legte mit +0,44% leicht zu, was den klassischen Safe-Haven-Reflex bei geopolitischer Unsicherheit widerspiegelt, der Anstieg fällt jedoch angesichts der Konfliktlage eher bescheiden aus. Der nahezu stagnierende Dow Jones (+0,02%) im Kontrast zum starken NASDAQ verdeutlicht die klare Sektorrotation hin zu Tech- und KI-Werten, während traditionelle Industrie- und Finanzwerte kaum profitieren konnten.",
+  "fetched_at": "09.05.2026, 10:17"
 }
