@@ -11,19 +11,15 @@ sources:
         url: https://stratechery.com/feed/
         type: rss
 
-      - name: a16z
-        url: https://a16z.com/feed/
-        type: rss
-
-      - name: Lenny's Newsletter
-        url: https://www.lennysnewsletter.com/feed
-        type: rss
-
   finance:
     name: "Finanznachrichten"
     sites:
       - name: Reuters Business
         url: https://feeds.reuters.com/reuters/businessNews
+        type: rss
+
+      - name: Bloomberg Markets
+        url: https://feeds.bloomberg.com/markets/news.rss
         type: rss
 
       - name: Financial Times
@@ -35,16 +31,12 @@ sources:
         type: rss
 
   general:
-    name: "Allgemeine Nachrichten"
+    name: "Politik & Allgemeine Nachrichten"
     sites:
+      - name: Tagesschau
+        url: https://www.tagesschau.de/xml/rss2/
+        type: rss
+
       - name: Spiegel Online
         url: https://www.spiegel.de/schlagzeilen/index.rss
-        type: rss
-
-      - name: NZZ
-        url: https://www.nzz.ch/recent.rss
-        type: rss
-
-      - name: Reuters Top News
-        url: https://feeds.reuters.com/reuters/topNews
         type: rss
