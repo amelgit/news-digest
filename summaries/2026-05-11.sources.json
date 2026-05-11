@@ -4,6 +4,11 @@
     "source": "Stratechery",
     "items": [
       {
+        "title": "The Inference Shift",
+        "url": "https://stratechery.com/2026/the-inference-shift/",
+        "published": "11.05.2026, 10:00"
+      },
+      {
         "title": "2026.19: Earning & Spending",
         "url": "https://stratechery.com/2026/earning-spending/",
         "published": "08.05.2026, 17:00"
@@ -47,11 +52,6 @@
         "title": "An Interview with OpenAI CEO Sam Altman and AWS CEO Matt Garman About Bedrock Managed Agents",
         "url": "https://stratechery.com/2026/an-interview-with-openai-ceo-sam-altman-and-aws-ceo-matt-garman-about-bedrock-managed-agents/",
         "published": "28.04.2026, 17:00"
-      },
-      {
-        "title": "AI Hardware, Meta Display, Redefining VR and AR",
-        "url": "https://stratechery.com/2026/ai-hardware-meta-display-redefining-vr-and-ar/",
-        "published": "27.04.2026, 10:00"
       }
     ]
   },
@@ -60,54 +60,54 @@
     "source": "Bloomberg Markets",
     "items": [
       {
-        "title": "The BoE's Megan Greene on Monetary Policy in a World of Supply Shocks",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-11/boe-s-megan-greene-on-monetary-policy-uk-economy-and-supply-shocks",
-        "published": "11.05.2026, 08:00"
-      },
-      {
-        "title": "Odd Lots: BoE’s Greene on a World of Supply Shocks (Podcast)",
-        "url": "https://www.bloomberg.com/news/audio/2026-05-11/odd-lots-boe-s-greene-on-a-world-of-supply-shocks-podcast",
-        "published": "11.05.2026, 08:00"
-      },
-      {
-        "title": "Stocks Steady as Iran Impasse Lifts Oil and Yields: Markets Wrap",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-10/us-stock-futures-slip-as-us-iran-deal-hope-fades-markets-wrap",
-        "published": "10.05.2026, 22:09"
-      },
-      {
-        "title": "Thai Oil Taps Africa, Americas for Crude to Cut Mideast Reliance",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-11/thai-oil-taps-africa-americas-for-crude-to-cut-mideast-reliance",
-        "published": "11.05.2026, 07:30"
-      },
-      {
-        "title": "We're Alright as Long as AI Is Okay: 3-Minutes MLIV",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-11/we-re-alright-as-long-as-ai-is-okay-3-minutes-mliv-video",
-        "published": "11.05.2026, 07:24"
-      },
-      {
-        "title": "Asian Currencies Slide as Crude Jumps on Middle East Standoff",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-11/asian-currencies-slide-as-crude-jumps-on-middle-east-standoff",
-        "published": "11.05.2026, 06:52"
-      },
-      {
-        "title": "Horizons Middle East & Africa 5/11/2026",
-        "url": "https://www.bloomberg.com/news/videos/2026-05-11/horizons-middle-east-africa-5-11-2026-video",
-        "published": "11.05.2026, 06:49"
-      },
-      {
-        "title": "Blackstone Agrees to Buy Stake in Greek Online Market Skroutz",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-11/blackstone-agrees-to-buy-stake-in-greek-online-market-skroutz",
-        "published": "11.05.2026, 06:48"
-      },
-      {
-        "title": "Hedge Funds Make Their Move as Litigation Finance Assets Slump",
+        "title": "Hedge Funds Move In as Litigation Finance Assets Slump",
         "url": "https://www.bloomberg.com/news/articles/2026-05-11/hedge-funds-make-their-move-as-litigation-finance-assets-slump",
         "published": "11.05.2026, 06:39"
       },
       {
-        "title": "Copper Shrugs Off Middle East Uncertainty to Eye Record High",
-        "url": "https://www.bloomberg.com/news/articles/2026-05-11/copper-shrugs-off-middle-east-uncertainty-to-aim-for-record-high",
-        "published": "11.05.2026, 04:54"
+        "title": "US to Temporarily Lower Beef Import Tariffs, WSJ Says",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-11/us-to-temporarily-lower-beef-import-tariffs-wsj-says",
+        "published": "11.05.2026, 16:08"
+      },
+      {
+        "title": "Megan Greene on How the BOE Is Dealing With Supply Side Shock",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-11/megan-greene-how-boe-is-dealing-with-supply-side-shock-video",
+        "published": "11.05.2026, 16:03"
+      },
+      {
+        "title": "Treasuries Fall and Oil Rises on US-Iran Deadlock: Markets Wrap",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-10/us-stock-futures-slip-as-us-iran-deal-hope-fades-markets-wrap",
+        "published": "10.05.2026, 22:09"
+      },
+      {
+        "title": "SEC Moves to End ‘Gag Rule’ on Firms Settling Agency Accusations",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-11/sec-moves-to-end-gag-rule-on-firms-settling-agency-accusations",
+        "published": "11.05.2026, 15:57"
+      },
+      {
+        "title": "Chile Signals Codelco Governance Overhaul Amid Debt Concerns",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-11/chile-signals-codelco-governance-overhaul-amid-debt-concerns",
+        "published": "11.05.2026, 15:53"
+      },
+      {
+        "title": "Brazil’s Mastercard Rival Elo Taps Bank of America, Other Banks for US IPO",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-11/brazil-s-mastercard-rival-elo-taps-bofa-other-banks-for-us-ipo",
+        "published": "11.05.2026, 15:48"
+      },
+      {
+        "title": "Goldman, BofA Delay Fed Cut Calls After ‘Last Straw’ Jobs Data",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-11/bond-watchers-delay-fed-cut-calls-after-last-straw-jobs-data",
+        "published": "11.05.2026, 15:39"
+      },
+      {
+        "title": "Oil Tanker That Exited Hormuz Comes to a Halt in Gulf of Oman",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-11/oil-tanker-that-exited-hormuz-comes-to-a-halt-in-gulf-of-oman",
+        "published": "11.05.2026, 15:37"
+      },
+      {
+        "title": "Bond CEO: Private Jet Demand Set to Surge",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-11/bond-ceo-private-jet-demand-set-to-surge",
+        "published": "11.05.2026, 15:36"
       }
     ]
   },
@@ -116,9 +116,9 @@
     "source": "Financial Times",
     "items": [
       {
-        "title": "Trump says Iran’s response to peace proposal is ‘unacceptable’",
-        "url": "https://www.ft.com/content/f66186e7-8e14-466d-b4de-114ee70c3e62",
-        "published": "11.05.2026, 03:53"
+        "title": "Fuel, munitions and food: Trump’s Iran war rips across US economy",
+        "url": "https://www.ft.com/content/145eccf2-14d8-4819-bd75-5674a5818f7c",
+        "published": "11.05.2026, 10:00"
       },
       {
         "title": "Life without US tech",
@@ -126,14 +126,19 @@
         "published": "11.05.2026, 04:00"
       },
       {
+        "title": "A weakened Trump arrives at Xi’s court",
+        "url": "https://www.ft.com/content/b2db7ec0-9293-4f22-855f-c6c059378736",
+        "published": "11.05.2026, 12:05"
+      },
+      {
         "title": "American agriculture is broken",
         "url": "https://www.ft.com/content/a4e41434-b047-485f-a5e1-0e88277f8aae",
         "published": "11.05.2026, 04:00"
       },
       {
-        "title": "How AI mania is disguising big companies’ hit from Iran war — in charts",
-        "url": "https://www.ft.com/content/5e9008e6-75dc-438d-8eb0-1b507c426847",
-        "published": "11.05.2026, 04:00"
+        "title": "Trump says Iran’s response to peace proposal ‘unacceptable’",
+        "url": "https://www.ft.com/content/f66186e7-8e14-466d-b4de-114ee70c3e62",
+        "published": "11.05.2026, 14:49"
       },
       {
         "title": "Trump to press China’s Xi about Iran war at summit",
@@ -141,24 +146,24 @@
         "published": "10.05.2026, 23:00"
       },
       {
-        "title": "China fixes currency at 3-year high ahead of Trump-Xi meeting",
-        "url": "https://www.ft.com/content/37fa551b-c4b3-44fb-ad71-3ba4aa448e50",
-        "published": "11.05.2026, 03:16"
+        "title": "UK government bonds weaken as Starmer fights for premiership",
+        "url": "https://www.ft.com/content/9a6675ac-7d78-4d59-b6b8-51d3f5c80ee6",
+        "published": "11.05.2026, 14:22"
       },
       {
-        "title": "Top ECB official attacks German opposition to UniCredit’s bid for Commerzbank",
-        "url": "https://www.ft.com/content/983af07c-1f52-4bdf-bbbd-090c46f97e18",
+        "title": "What would a Reform government do?",
+        "url": "https://www.ft.com/content/93df6d14-5dc4-4fc3-8d1d-e1950cd00ae1",
         "published": "11.05.2026, 04:00"
       },
       {
-        "title": "China expanding its industrial dominance, warns US business group",
-        "url": "https://www.ft.com/content/25f8bef0-6f46-4b80-aa8b-7384fb2de44d",
-        "published": "11.05.2026, 04:01"
+        "title": "Saudi Aramco warns fuel stocks heading for ‘critically low levels’",
+        "url": "https://www.ft.com/content/92e2b3bd-40e5-4a9e-a6c4-c8fa9de83386",
+        "published": "11.05.2026, 15:42"
       },
       {
-        "title": "Modi calls on Indians to tighten their belts amid Gulf crisis",
-        "url": "https://www.ft.com/content/39a9e8c8-432d-46c9-9875-cc0bfa5c380f",
-        "published": "11.05.2026, 05:34"
+        "title": "Two cruise ship evacuees test positive for hantavirus",
+        "url": "https://www.ft.com/content/6793c1a0-9b84-43ba-a639-1e4706900d8a",
+        "published": "11.05.2026, 13:10"
       }
     ]
   },
@@ -167,54 +172,54 @@
     "source": "Handelsblatt",
     "items": [
       {
-        "title": "Energie: 100 Prozent Strom aus erneuerbaren Energien: Kann Deutschland das auch schaffen?",
-        "url": "https://www.handelsblatt.com/unternehmen/energie/energie-100-prozent-strom-aus-erneuerbaren-kann-deutschland-das-auch/100222267.html",
-        "published": "11.05.2026, 02:04"
+        "title": "Irankrieg: Mehr Homeoffice, Reise- und Goldverzicht: Modi stimmt Inder auf harte Einschnitte ein",
+        "url": "https://www.handelsblatt.com/politik/international/irankrieg-modi-fordert-von-indern-mehr-homeoffice-reise-und-goldverzicht/100223994.html",
+        "published": "11.05.2026, 14:03"
       },
       {
-        "title": "Autoindustrie: Chinas Automarkt bricht ein – Nachfrage nach Benzinern kollabiert",
-        "url": "https://www.handelsblatt.com/unternehmen/industrie/autoindustrie-chinas-automarkt-bricht-ein-nachfrage-nach-benzinern-kollabiert/100223976.html",
-        "published": "11.05.2026, 05:03"
+        "title": "Bundesregierung: Entlastungsprämie gescheitert – was macht die Koalition jetzt?",
+        "url": "https://www.handelsblatt.com/politik/deutschland/bundesregierung-welche-entlastungspraemie-alternativen-hat-die-koalition/100224020.html",
+        "published": "11.05.2026, 14:49"
       },
       {
-        "title": "Energiepreise: Söder und Schwesig raten von Entlastungsprämie ab",
-        "url": "https://www.handelsblatt.com/politik/deutschland/energiepreise-soeder-und-schwesig-raten-von-entlastungspraemie-ab/100224029.html",
-        "published": "11.05.2026, 07:21"
+        "title": "Staatsverschuldung: Ökonomen warnen: Klingbeils Haushaltspläne verstoßen gegen EU-Schuldenregeln",
+        "url": "https://www.handelsblatt.com/politik/deutschland/haushalt-oekonomen-warnen-klingbeil-vor-verstoss-gegen-eu-schuldenregeln/100224031.html",
+        "published": "11.05.2026, 13:00"
       },
       {
-        "title": "Iran-Krieg: Trump weist Irans Friedensplan als „völlig inakzeptabel“ zurück",
-        "url": "https://www.handelsblatt.com/politik/international/iran-krieg-trump-weist-irans-friedensplan-als-voellig-inakzeptabel-zurueck/100223973.html",
-        "published": "11.05.2026, 04:34"
+        "title": "Luftfahrt: Großaktionär Kühne stockt seinen Anteil bei Lufthansa auf",
+        "url": "https://www.handelsblatt.com/unternehmen/dienstleister/luftfahrt-grossaktionaer-kuehne-stockt-seinen-anteil-bei-lufthansa-auf/100224169.html",
+        "published": "11.05.2026, 13:18"
       },
       {
-        "title": "Immobilien: Flaute am Kaufmarkt? Wo die Preise jetzt kaum noch steigen",
-        "url": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-flaute-am-kaufmarkt-wo-die-preise-jetzt-kaum-noch-steigen/100222396.html",
-        "published": "11.05.2026, 06:30"
+        "title": "+++ Ukraine-Krieg +++: Finnlands Präsident sieht Zeit für direkte Gespräche mit Russland",
+        "url": "https://www.handelsblatt.com/politik/international/ukraine-finnlands-praesident-sieht-zeit-fuer-direkte-gespraeche-mit-russland/27982126.html",
+        "published": "11.05.2026, 15:23"
       },
       {
-        "title": "Geldanlage: Aus diesen zwei Branchen ziehen viele Deutsche ihr Geld ab",
-        "url": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/geldanlage-diese-aktien-haben-450.000-deutsche-im-april-gekauft/100221086.html",
-        "published": "11.05.2026, 02:11"
+        "title": "US-Börsen: Anleger an der Wall Street halten sich zum Wochenbeginn zurück – Chip-Aktie legt weiter zu",
+        "url": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-anleger-an-der-wall-street-halten-sich-zum-wochenbeginn-zurueck/100224160.html",
+        "published": "11.05.2026, 15:47"
       },
       {
-        "title": "Dax aktuell: Dax eröffnet unverändert – Ölpreise legen wieder zu",
-        "url": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-eroeffnet-unveraendert-oelpreise-legen-wieder-zu/100223992.html",
-        "published": "11.05.2026, 07:24"
+        "title": "Dax aktuell: Dax schließt kaum verändert – Zwei Rüstungs-Aktien  verlieren deutlich",
+        "url": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-schliesst-kaum-veraendert-oelpreise-ziehen-wieder-an/100223992.html",
+        "published": "11.05.2026, 15:56"
       },
       {
-        "title": "Märkte-Insight: Warum die Börse rationaler ist, als es auf den ersten Blick aussieht",
-        "url": "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/geldanlage-die-boerse-ist-rationaler-als-es-aussieht/100221968.html",
-        "published": "10.05.2026, 13:15"
+        "title": "Dax-Sentiment: Privatanleger und Profis sind uneinig – das könnte eine Dax-Rally auslösen",
+        "url": "https://www.handelsblatt.com/finanzen/anlagestrategie/trends/dax-privatanleger-und-profis-uneinig-das-koennte-eine-rally-ausloesen/100223225.html",
+        "published": "11.05.2026, 12:23"
       },
       {
-        "title": "Inflation: „Wachstum durch Preiserhöhungen ist ausgereizt“ – Konsumgüterkonzerne kämpfen gegen Absatzverluste",
-        "url": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/inflation-konsumgueterkonzerne-kaempfen-gegen-absatzverluste/100218704.html",
-        "published": "11.05.2026, 02:01"
+        "title": "KNDS: Zehn Millimeter spalten Europas Panzerindustrie",
+        "url": "https://www.handelsblatt.com/unternehmen/industrie/knds-zehn-millimeter-spalten-europas-panzerindustrie/100222443.html",
+        "published": "11.05.2026, 15:30"
       },
       {
-        "title": "Energiepreise: Warum der deutsche Staat den Bürgern kein Geld überweisen kann – und welchen Schaden das anrichtet",
-        "url": "https://www.handelsblatt.com/politik/deutschland/energiepreise-kommt-die-entlastung-per-direktzahlung-jetzt-doch-noch-01/100221073.html",
-        "published": "11.05.2026, 07:34"
+        "title": "Kommentar: Stoppt das Kampfflugzeug FCAS und baut endlich Drohnen",
+        "url": "https://www.handelsblatt.com/meinung/kommentare/kommentar-stoppt-das-kampfflugzeug-fcas-und-baut-endlich-drohnen/100220403.html",
+        "published": "11.05.2026, 10:28"
       }
     ]
   },
@@ -223,54 +228,54 @@
     "source": "Tagesschau",
     "items": [
       {
-        "title": "++ Iran-Liveblog: London und Paris planen Treffen zur Straße von Hormus ++",
-        "url": "https://www.tagesschau.de/newsticker/liveblog-iran-montag-122.html",
-        "published": "11.05.2026, 08:00"
+        "title": "EU einigt sich auf Sanktionen gegen radikale israelische Siedler",
+        "url": "https://www.tagesschau.de/ausland/europa/treffen-eu-aussenminister-israel-ukraine-100.html",
+        "published": "11.05.2026, 16:12"
       },
       {
-        "title": "Kreuzfahrtschiff: Zwei weitere Passagiere positiv auf Hantavirus getestet",
-        "url": "https://www.tagesschau.de/ausland/europa/hantavirus-schiff-102.html",
-        "published": "11.05.2026, 07:28"
+        "title": "Amtswechsel: Krause neuer Oberbürgermeister in München",
+        "url": "https://www.tagesschau.de/inland/regional/bayern/br-amtskette-hat-neuen-besitzer-ob-wechsel-in-muenchen-vollzogen-102.html",
+        "published": "11.05.2026, 15:46"
       },
       {
-        "title": "Afrika-Gipfel in Kenia: Macron sucht neue Partner",
-        "url": "https://www.tagesschau.de/ausland/afrika/macron-kenia-100.html",
-        "published": "11.05.2026, 06:52"
+        "title": "Eurovision Song Contest 2026: Soziale Medien als zweite Bühne",
+        "url": "https://www.tagesschau.de/kultur/esc-social-media-100.html",
+        "published": "11.05.2026, 15:36"
       },
       {
-        "title": "Pistorius will neue Waffensysteme mit der Ukraine bauen",
-        "url": "https://www.tagesschau.de/ausland/europa/pistorius-ukraine-114.html",
-        "published": "11.05.2026, 06:48"
+        "title": "Cybersicherheitsmonitor: Jeder Neunte von Internetkriminalität betroffen",
+        "url": "https://www.tagesschau.de/inland/gesellschaft/cybersicherheitsmonitor-2026-100.html",
+        "published": "11.05.2026, 14:49"
       },
       {
-        "title": "Söder und Schwesig raten von Entlastungsprämie ab",
-        "url": "https://www.tagesschau.de/inland/innenpolitik/entlastungspraemie-soeder-schwesig-100.html",
-        "published": "11.05.2026, 08:03"
+        "title": "Streetart verwandelt Völklinger Hütte bei der Urban Art Biennale",
+        "url": "https://www.tagesschau.de/kultur/urban-art-biennale-voelklinger-huette-100.html",
+        "published": "11.05.2026, 14:11"
       },
       {
-        "title": "Marktbericht: Nahost-Krise setzt DAX unter Druck",
-        "url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-geldanlage-130.html",
-        "published": "11.05.2026, 05:35"
+        "title": "EU gegen Altkanzler Schröder als Ukraine-Vermittler",
+        "url": "https://www.tagesschau.de/ausland/europa/schroeder-europaeische-union-100.html",
+        "published": "11.05.2026, 13:24"
       },
       {
-        "title": "Sicherheitspolitik in Asien: Japans Abkehr vom Pazifismus",
-        "url": "https://www.tagesschau.de/ausland/asien/japan-militarisierung-100.html",
-        "published": "11.05.2026, 05:12"
+        "title": "Vermittlung im Ukraine-Krieg: Wer könnte mit Putin reden?",
+        "url": "https://www.tagesschau.de/inland/innenpolitik/gespraechspartner-putin-russland-schroeder-100.html",
+        "published": "11.05.2026, 13:23"
       },
       {
-        "title": "Cum-Ex-Skandal: \"Man ist wie im Rausch\"",
-        "url": "https://www.tagesschau.de/investigativ/wdr/cum-ex-hanno-berger-102.html",
-        "published": "11.05.2026, 04:16"
+        "title": "Telekom und Rheinmetall arbeiten an einer Drohnenabwehr",
+        "url": "https://www.tagesschau.de/wirtschaft/technologie/telekom-rheinmetall-drohnenabwehr-100.html",
+        "published": "11.05.2026, 13:08"
       },
       {
-        "title": "So funktionieren Cum-Ex-Geschäfte",
-        "url": "https://www.tagesschau.de/cum-ex-erklaerung-100.html",
-        "published": "11.05.2026, 04:15"
+        "title": "Marktbericht: Jede zwölfte Firma bangt um ihre Existenz",
+        "url": "https://www.tagesschau.de/wirtschaft/finanzen/insolvenz-182.html",
+        "published": "11.05.2026, 12:30"
       },
       {
-        "title": "Einen Monat vor der WM: Wie ist die Stimmung in Mexiko?",
-        "url": "https://www.tagesschau.de/ausland/amerika/fussball-weltmeisterschaft-aztekenstadion-mexiko-100.html",
-        "published": "11.05.2026, 03:14"
+        "title": "Starmer will Großbritannien wieder näher an Europa rücken",
+        "url": "https://www.tagesschau.de/ausland/europa/grossbritannien-starmer-eu-100.html",
+        "published": "11.05.2026, 12:02"
       }
     ]
   },
@@ -279,54 +284,54 @@
     "source": "Spiegel Online",
     "items": [
       {
-        "title": "Altersvorsorgedepot-Rechner: So viel Geld schenkt Ihnen der Staat für Ihren ETF-Sparplan",
-        "url": "https://www.spiegel.de/wirtschaft/service/altersvorsorgedepot-rechner-so-viel-geld-schenkt-ihnen-der-staat-fuer-ihren-etf-sparplan-a-782bcc1f-cf9d-4468-ab04-421810785453#ref=rss",
-        "published": "11.05.2026, 07:52"
+        "title": "Indien im Iran-Krieg: Regierung wirbt für Homeoffice und weniger Ölverbrauch",
+        "url": "https://www.spiegel.de/wirtschaft/indien-im-iran-krieg-regierung-wirbt-fuer-homeoffice-und-weniger-oelverbrauch-a-dd8a3222-0995-42a0-b36d-04de1f5f0095#ref=rss",
+        "published": "11.05.2026, 16:06"
       },
       {
-        "title": "Drohender Kerosinmangel: »Die meisten Kunden können sich einen Privatjet trotzdem leisten«",
-        "url": "https://www.spiegel.de/panorama/drohender-kerosinmangel-die-meisten-kunden-koennen-sich-einen-privatjet-trotzdem-leisten-a-3e6f49bd-651c-45ee-8219-abc351afcb85#ref=rss",
-        "published": "11.05.2026, 07:18"
+        "title": "News des Tages: Ukraine-Krieg, Hantavirus auf Kreuzfahrtschiff »MV Hondius«, Bürgerprotest in Maintal",
+        "url": "https://www.spiegel.de/politik/deutschland/news-des-tages-ukraine-krieg-hantavirus-auf-kreuzfahrtschiff-mv-hondius-buergerprotest-in-maintal-a-6ba74e56-6a72-49c0-94cb-8e22bd02f5ed#ref=rss",
+        "published": "11.05.2026, 15:55"
       },
       {
-        "title": "AfD-Werte steigen weiter: Ist die Migrationspolitik der Union gescheitert?",
-        "url": "https://www.spiegel.de/politik/deutschland/afd-werte-steigen-weiter-ist-die-migrationspolitik-der-union-gescheitert-a-9410d3db-6f02-4ae6-bd0e-1ce4dcf6eb7d#ref=rss",
-        "published": "11.05.2026, 07:11"
+        "title": "Stuttgart: Prozess um Angriff auf israelisches Rüstungsunternehmen eskaliert weiter",
+        "url": "https://www.spiegel.de/panorama/justiz/stuttgart-prozess-um-angriff-auf-israelisches-ruestungsunternehmen-eskaliert-weiter-a-0e6913f3-1901-42bd-974a-6b51619f0422#ref=rss",
+        "published": "11.05.2026, 15:32"
       },
       {
-        "title": "Hantavirus: Vier deutsche Kreuzfahrt-Passagiere in Frankfurt am Main angekommen",
-        "url": "https://www.spiegel.de/panorama/hantavirus-vier-deutsche-kreuzfahrt-passagiere-in-frankfurt-am-main-angekommen-a-02498cfd-9b28-43da-a355-426cdf17589d#ref=rss",
-        "published": "11.05.2026, 06:44"
+        "title": "Donald Trump: Verdächtiger von Washington plädiert auf nicht schuldig",
+        "url": "https://www.spiegel.de/ausland/donald-trump-verdaechtiger-von-washington-plaediert-auf-nicht-schuldig-a-2dc66c96-f418-45c3-a1d8-9141f6a2001f#ref=rss",
+        "published": "11.05.2026, 15:29"
       },
       {
-        "title": "WM 2026: Human Rights Watch sieht in Turnier in den USA »potenzielle Menschenrechtskatastrophe«",
-        "url": "https://www.spiegel.de/sport/fussball/wm-2026-human-rights-watch-sieht-in-turnier-in-den-usa-potenzielle-menschenrechtskatastrophe-a-a55ff180-73cd-4b18-8490-dff32fb28a5d#ref=rss",
-        "published": "11.05.2026, 06:36"
+        "title": "Oviedo: Haftstrafe für deutsche Eltern im »Horrorhaus«-Prozess in Spanien",
+        "url": "https://www.spiegel.de/panorama/justiz/oviedo-haftstrafe-fuer-deutsche-eltern-im-horrorhaus-prozess-in-spanien-a-f8588332-ab29-491e-a6bf-9c7c6989f9b4#ref=rss",
+        "published": "11.05.2026, 15:11"
       },
       {
-        "title": "Mensch und Haustier: Warum der Tod eines Tieres existenzielle Ängste auslöst – Kolumne",
-        "url": "https://www.spiegel.de/psychologie/mensch-und-haustier-warum-der-tod-eines-tieres-existenzielle-aengste-ausloest-kolumne-a-9adc7c1e-f901-42b7-b0be-556c47446cec#ref=rss",
-        "published": "11.05.2026, 06:31"
+        "title": "Joachim Löw: Comeback als Trainer? Ex-DFB-Coach hat bislang »das innere Feuer bei den Anfragen gefehlt«",
+        "url": "https://www.spiegel.de/sport/joachim-loew-comeback-als-trainer-ex-dfb-coach-hat-bislang-das-innere-feuer-bei-den-anfragen-gefehlt-a-7d10a9ad-5c13-4420-ae8a-16840e1240a3#ref=rss",
+        "published": "11.05.2026, 15:05"
       },
       {
-        "title": "Bundesregierung: Russland beauftragt Organisierte Kriminalität für gezielte Tötungen",
-        "url": "https://www.spiegel.de/politik/deutschland/bundesregierung-russland-beauftragt-organisierte-kriminalitaet-fuer-gezielte-toetungen-a-b4dc8ed5-d1ce-46db-81d5-ee8df8300a2a#ref=rss",
-        "published": "11.05.2026, 06:22"
+        "title": "Gewalt in der Partnerschaft: Stefanie Hubig plant Reform des Kindschaftsrechts",
+        "url": "https://www.spiegel.de/politik/deutschland/gewalt-in-der-partnerschaft-stefanie-hubig-plant-reform-des-kindschaftsrechts-a-7aa5d200-ae81-452e-86dc-c2ff3972a0df#ref=rss",
+        "published": "11.05.2026, 14:54"
       },
       {
-        "title": "Christian Schmidt tritt als Hoher Repräsentant für Bosnien und Herzegowina zurück",
-        "url": "https://www.spiegel.de/ausland/christian-schmidt-tritt-als-hoher-repraesentant-fuer-bosnien-und-herzegowina-zurueck-a-a6a500c6-9051-402b-ac68-9b202c10f79f#ref=rss",
-        "published": "11.05.2026, 05:57"
+        "title": "Hantavirus-Verdachtsfall: Britische Armee liefert Hilfsgüter auf Atlantikinsel",
+        "url": "https://www.spiegel.de/wissenschaft/medizin/hantavirus-verdachtsfall-britische-armee-liefert-hilfsgueter-auf-atlantikinsel-a-39aa1c8a-3d81-4c12-9579-c78869d50a12#ref=rss",
+        "published": "11.05.2026, 14:48"
       },
       {
-        "title": "IW-Regional-Ranking: Die wirtschaftliche Zukunft von 400 Städten und Kreisen in Deutschland",
-        "url": "https://www.spiegel.de/wirtschaft/unternehmen/iw-regional-ranking-die-wirtschaftliche-zukunft-von-400-staedten-und-kreisen-in-deutschland-a-fa882c08-761e-49d3-b2d0-0beaab0cefad#ref=rss",
-        "published": "11.05.2026, 05:14"
+        "title": "Niederlande: Nazi-Raubkunst taucht im Haus von Waffen-SS-General auf",
+        "url": "https://www.spiegel.de/kultur/niederlande-nazi-raubkunst-taucht-im-haus-von-waffen-ss-general-auf-a-55325d21-0754-4820-9d29-da82aae84a95#ref=rss",
+        "published": "11.05.2026, 14:33"
       },
       {
-        "title": "Unter Druck der AfD-Umfragewerte: Sachsen-Anhalts Ministerpräsident will Bürgergeldempfänger noch stärker unter Druck setzen",
-        "url": "https://www.spiegel.de/politik/deutschland/unter-druck-der-afd-umfragewerte-sachsen-anhalts-ministerpraesident-will-buergergeldempfaenger-noch-staerker-unter-druck-setzen-a-3cfc3083-57d7-44ba-8e46-84ee99ac1d1f#ref=rss",
-        "published": "11.05.2026, 05:12"
+        "title": "Namibia: Vier Deutsche bei Flugzeugabsturz gestorben",
+        "url": "https://www.spiegel.de/panorama/namibia-vier-deutsche-bei-flugzeugabsturz-gestorben-a-8d193835-8cdd-4bf9-91c0-f8ddcb613373#ref=rss",
+        "published": "11.05.2026, 14:25"
       }
     ]
   }
