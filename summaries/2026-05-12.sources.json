@@ -1,0 +1,338 @@
+[
+  {
+    "category": "Produktstrategie & Tech",
+    "source": "Stratechery",
+    "items": [
+      {
+        "title": "SpaceX and Anthropic, xAI’s Two Companies, Elon Musk and SpaceXAI’s Future",
+        "url": "https://stratechery.com/2026/spacex-and-anthropic-xais-two-companies-elon-musk-and-spacexais-future/",
+        "published": "12.05.2026, 10:00"
+      },
+      {
+        "title": "The Inference Shift",
+        "url": "https://stratechery.com/2026/the-inference-shift/",
+        "published": "11.05.2026, 10:00"
+      },
+      {
+        "title": "2026.19: Earning & Spending",
+        "url": "https://stratechery.com/2026/earning-spending/",
+        "published": "08.05.2026, 17:00"
+      },
+      {
+        "title": "An Interview with Joanna Stern About Living With AI",
+        "url": "https://stratechery.com/2026/an-interview-with-joanna-stern-about-living-with-ai/",
+        "published": "07.05.2026, 10:00"
+      },
+      {
+        "title": "Microsoft Earnings, Apple Earnings",
+        "url": "https://stratechery.com/2026/microsoft-earnings-apple-earnings/",
+        "published": "06.05.2026, 10:00"
+      },
+      {
+        "title": "Amazon’s Durability",
+        "url": "https://stratechery.com/2026/amazons-durability/",
+        "published": "05.05.2026, 10:01"
+      },
+      {
+        "title": "Google Earnings, Meta Earnings",
+        "url": "https://stratechery.com/2026/google-earnings-meta-earnings/",
+        "published": "04.05.2026, 10:00"
+      },
+      {
+        "title": "2026.18: Long-term, Peripheral & Myopic Visions",
+        "url": "https://stratechery.com/2026/long-term-peripheral-myopic-visions/",
+        "published": "01.05.2026, 17:00"
+      },
+      {
+        "title": "Amazon Earnings, Trainium and Commodity Markets, Additional Amazon Notes",
+        "url": "https://stratechery.com/2026/amazon-earnings-trainium-and-commodity-markets-additional-amazon-notes/",
+        "published": "30.04.2026, 10:00"
+      },
+      {
+        "title": "Intel Earnings, Intel’s Differentiation?, Whither Terafab",
+        "url": "https://stratechery.com/2026/intel-earnings-intels-differentiation-whither-terafab/",
+        "published": "29.04.2026, 10:00"
+      }
+    ]
+  },
+  {
+    "category": "Finanznachrichten",
+    "source": "Bloomberg Markets",
+    "items": [
+      {
+        "title": "Treasuries Hold Losses as Rising Gas Costs Fuel Inflation",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-12/us-treasuries-hold-losses-as-rising-gas-costs-fuel-inflation",
+        "published": "12.05.2026, 12:48"
+      },
+      {
+        "title": "Swatch Quashes Activist Attempt to Shake Up Hayek Stronghold",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-12/swatch-quashes-us-activist-attempt-to-shake-up-hayek-stronghold",
+        "published": "12.05.2026, 10:51"
+      },
+      {
+        "title": "Wall Street Poised for Bonus Increases in ‘Year of the Bank’",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-07/wall-street-set-for-bonus-increase-in-year-of-the-bank-video",
+        "published": "07.05.2026, 17:07"
+      },
+      {
+        "title": "Stocks and Bonds Hold Losses After Inflation Data: Markets Wrap",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-11/asia-stocks-to-gain-oil-rises-on-us-iran-deadlock-markets-wrap",
+        "published": "11.05.2026, 22:04"
+      },
+      {
+        "title": "Bond Market’s Warsh Trade Falls Apart as Oil Fans Inflation Risk",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-12/bond-market-s-warsh-trade-falls-apart-as-oil-fans-inflation-risk",
+        "published": "12.05.2026, 09:15"
+      },
+      {
+        "title": "US Inflation Driven Higher in April by Gasoline, Food",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-12/us-inflation-driven-higher-in-april-by-gasoline-food-video",
+        "published": "12.05.2026, 12:56"
+      },
+      {
+        "title": "Oil Extends Gain as Trump Casts Doubt Over Ceasefire With Iran",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-11/latest-oil-market-news-and-analysis-for-may-12",
+        "published": "11.05.2026, 22:05"
+      },
+      {
+        "title": "Rexel CEO Sees More Deals in Wake of Revere Acquistion in US",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-12/rexel-ceo-sees-more-deals-in-wake-of-revere-acquistion-in-us",
+        "published": "12.05.2026, 12:45"
+      },
+      {
+        "title": "Macron Seeks to Recast France-Africa Ties With $27 Billion Push",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-12/macron-announces-23-billion-investment-deals-at-africa-summit",
+        "published": "12.05.2026, 07:47"
+      },
+      {
+        "title": "Russia’s Oil Flows Slide as Drone, Storm Alerts Disrupt Key Port",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-12/russia-s-oil-exports-pushed-lower-by-novorossiysk-slowdown",
+        "published": "12.05.2026, 12:34"
+      }
+    ]
+  },
+  {
+    "category": "Finanznachrichten",
+    "source": "Financial Times",
+    "items": [
+      {
+        "title": "US inflation jumps to 3.8% as Middle East war stokes price rises",
+        "url": "https://www.ft.com/content/ce609605-8f82-42d7-8364-5ca5fbfb02cb",
+        "published": "12.05.2026, 12:46"
+      },
+      {
+        "title": "Kevin Warsh to face resurgent inflation and an impatient Trump as Fed chair",
+        "url": "https://www.ft.com/content/af3bc83f-8a3c-4280-aa80-9d16bbd0cb6d",
+        "published": "12.05.2026, 04:00"
+      },
+      {
+        "title": "Don’t mess with central bank independence",
+        "url": "https://www.ft.com/content/46d8fac2-a90d-45d8-9a64-bc2483cf5963",
+        "published": "12.05.2026, 11:30"
+      },
+      {
+        "title": "Trump loses his trade superpower",
+        "url": "https://www.ft.com/content/66a5c6c7-1b2b-47cc-9e07-77a87625fdfa",
+        "published": "12.05.2026, 04:00"
+      },
+      {
+        "title": "Why Americans dread AI",
+        "url": "https://www.ft.com/content/637f5664-44eb-4527-8369-9eec320cfdf0",
+        "published": "12.05.2026, 11:04"
+      },
+      {
+        "title": "We are living in the age of asymmetry",
+        "url": "https://www.ft.com/content/5fefc72b-aded-46d6-b509-1904204ca8b0",
+        "published": "12.05.2026, 04:00"
+      },
+      {
+        "title": "Three ministers resign as Starmer vows to fight on",
+        "url": "https://www.ft.com/content/c2455a7b-8cb5-42f9-9515-6ae664341e26",
+        "published": "12.05.2026, 12:53"
+      },
+      {
+        "title": "UK borrowing costs surge as Starmer leadership crisis rattles bond markets",
+        "url": "https://www.ft.com/content/4bd1dadd-3a1c-4adf-b255-0b03f7e8c36d",
+        "published": "12.05.2026, 12:36"
+      },
+      {
+        "title": "Ebay rejects $56bn GameStop bid as ‘neither credible nor attractive’",
+        "url": "https://www.ft.com/content/554f76a6-218d-4f88-bcad-9c52623ef533",
+        "published": "12.05.2026, 10:44"
+      },
+      {
+        "title": "Germany’s far-right AfD sees support surge after it criticises Trump’s Iran war",
+        "url": "https://www.ft.com/content/de3adb63-a00c-4255-a0d1-28c72f3cfc88",
+        "published": "12.05.2026, 04:00"
+      }
+    ]
+  },
+  {
+    "category": "Finanznachrichten",
+    "source": "Handelsblatt",
+    "items": [
+      {
+        "title": "Nicola Leibinger-Kammüller: „Es gibt keine amerikanischen Konkurrenten von Rang mehr“",
+        "url": "https://www.handelsblatt.com/unternehmen/mittelstand/familienunternehmer/interview-wie-schlimm-steht-es-um-deutschland-corona-war-nichts-dagegen/100224152.html",
+        "published": "12.05.2026, 10:47"
+      },
+      {
+        "title": "DGB-Kongress: „Mathematik“ als Reizwort: Gewerkschafter stören Kanzlerrede mit Zwischenrufen",
+        "url": "https://www.handelsblatt.com/politik/deutschland/dgb-bundeskongress-gewerkschafter-stoeren-kanzlerrede-mit-zwischenrufen/100224402.html",
+        "published": "12.05.2026, 08:07"
+      },
+      {
+        "title": "Iran-Krieg: Emirate griffen offenbar Iran an – zu Beginn der Waffenruhe",
+        "url": "https://www.handelsblatt.com/politik/international/iran-emirate-griffen-offenbar-iran-an-zu-beginn-der-waffenruhe/100224340.html",
+        "published": "12.05.2026, 05:13"
+      },
+      {
+        "title": "+++ Iran-Krieg +++: Iran weitet Gebiet der Straße von Hormus aus – und nennt sie „riesiges Einsatzgebiet“",
+        "url": "https://www.handelsblatt.com/politik/international/iran-iran-weitet-gebiet-der-strasse-von-hormus-aus-und-nennt-sie-riesiges-einsatzgebiet/100136895.html",
+        "published": "12.05.2026, 11:11"
+      },
+      {
+        "title": "Teuerung: US-Inflation springt auf 3,8 Prozent – Ölpreis-Schock treibt Preise",
+        "url": "https://www.handelsblatt.com/finanzen/geldpolitik/teuerung-us-inflation-springt-auf-38-prozent-oelpreis-schock-treibt-preise/100223956.html",
+        "published": "12.05.2026, 12:42"
+      },
+      {
+        "title": "Dax aktuell: ﻿Dax kämpft um 24.000-Punkte-Marke – und unterschreitet zeitweise wichtige Linie",
+        "url": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-liegt-im-minus-us-inflation-im-fokus/100224350.html",
+        "published": "12.05.2026, 12:53"
+      },
+      {
+        "title": "Versicherer: Munich Re fährt Neugeschäft zurück – Gewinn steigt deutlich",
+        "url": "https://www.handelsblatt.com/finanzen/banken-versicherungen/versicherer/versicherer-munich-re-faehrt-neugeschaeft-zurueck-gewinn-steigt-deutlich/100222105.html",
+        "published": "12.05.2026, 05:50"
+      },
+      {
+        "title": "Private Credit: „Höchste Vorsicht geboten“: Bafin sieht Private-Credit-Fonds für Privatanleger kritisch",
+        "url": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/private-credit-bafin-kritisiert-gebuehren-und-verdeckte-risiken-bei-eltifs/100223600.html",
+        "published": "12.05.2026, 13:19"
+      },
+      {
+        "title": "Künstliche Intelligenz: „Eine neue SAP“ – Softwarehersteller stellt Vision für autonome Unternehmen vor",
+        "url": "https://www.handelsblatt.com/technik/it-internet/kuenstliche-intelligenz-sap-stellt-vision-fuer-autonome-unternehmen-vor/100223581.html",
+        "published": "12.05.2026, 12:30"
+      },
+      {
+        "title": "Künstliche Intelligenz: N8N steigt dank SAP zur wertvollsten deutschen KI-Firma auf",
+        "url": "https://www.handelsblatt.com/technik/ki/ki-n8n-steigt-dank-sap-zur-wertvollsten-deutschen-ki-firma-auf/100223115.html",
+        "published": "12.05.2026, 12:40"
+      }
+    ]
+  },
+  {
+    "category": "Politik & Allgemeine Nachrichten",
+    "source": "Tagesschau",
+    "items": [
+      {
+        "title": "Warum die Ukraine ein Kraftwerk aus Lubmin bekommt",
+        "url": "https://www.tagesschau.de/faktenfinder/lubmin-kraftwerk-100.html",
+        "published": "12.05.2026, 13:09"
+      },
+      {
+        "title": "ADAC warnt vor Staus auf Autobahnen ab Mittwoch",
+        "url": "https://www.tagesschau.de/inland/gesellschaft/adac-autobahnen-stau-100.html",
+        "published": "12.05.2026, 12:44"
+      },
+      {
+        "title": "Cum-Ex-Schlüsselfigur Berger muss zehn Jahre ins Gefängnis",
+        "url": "https://www.tagesschau.de/wirtschaft/unternehmen/hanno-berger-118.html",
+        "published": "12.05.2026, 12:38"
+      },
+      {
+        "title": "WHO gibt noch keine Entwarnung - nun insgesamt elf Hantavirus-Fälle",
+        "url": "https://www.tagesschau.de/ausland/weiterer-infizierter-hantavirus-hondius-100.html",
+        "published": "12.05.2026, 12:35"
+      },
+      {
+        "title": "Marktbericht: Lufthansa-Hauptversammlung in turbulenten Zeiten",
+        "url": "https://www.tagesschau.de/wirtschaft/finanzen/lufthansa-1078.html",
+        "published": "12.05.2026, 12:18"
+      },
+      {
+        "title": "Tankrabatt kommt laut Monopolkommission an",
+        "url": "https://www.tagesschau.de/wirtschaft/verbraucher/monopolkommission-tankrabatt-102.html",
+        "published": "12.05.2026, 12:02"
+      },
+      {
+        "title": "Britischer Premierminister Starmer will im Amt bleiben",
+        "url": "https://www.tagesschau.de/ausland/europa/starmer-grossbritannien-102.html",
+        "published": "12.05.2026, 11:40"
+      },
+      {
+        "title": "Israel beschließt Sondertribunal für Hamas-Überfall vom 7. Oktober 2023",
+        "url": "https://www.tagesschau.de/ausland/israel-knesset-militaertribunal-hamas-100.html",
+        "published": "12.05.2026, 11:16"
+      },
+      {
+        "title": "Streit um Israel: Was den ESC mit einem EU-Dilemma verbindet",
+        "url": "https://www.tagesschau.de/ausland/europa/esc-niederlande-boykott-100.html",
+        "published": "12.05.2026, 11:09"
+      },
+      {
+        "title": "Solarparks sollen in der Wüste Regen erzeugen",
+        "url": "https://www.tagesschau.de/wissen/forschung/solarparks-regen-wueste-100.html",
+        "published": "12.05.2026, 10:55"
+      }
+    ]
+  },
+  {
+    "category": "Politik & Allgemeine Nachrichten",
+    "source": "Spiegel Online",
+    "items": [
+      {
+        "title": "WTA in Rom: Laura Siegemund legt sich mit Zuschauern an – Sportwetten-Verdacht",
+        "url": "https://www.spiegel.de/sport/tennis/wta-in-rom-laura-siegemund-legt-sich-mit-zuschauern-an-sportwetten-verdacht-a-6e76b10b-660c-46e1-ad1d-7d5d49adc041#ref=rss",
+        "published": "12.05.2026, 12:36"
+      },
+      {
+        "title": "NSDAP-Kartei: »Wer nicht in der Partei war, ist nicht automatisch schuldlos.«",
+        "url": "https://www.spiegel.de/geschichte/nsdap-kartei-wer-nicht-in-der-partei-war-ist-nicht-automatisch-schuldlos-a-b53000a1-9b58-4360-bb61-799d91b49b4a#ref=rss",
+        "published": "12.05.2026, 12:20"
+      },
+      {
+        "title": "Ebay lehnt Übernahmeangebot von GameStop ab",
+        "url": "https://www.spiegel.de/wirtschaft/unternehmen/ebay-lehnt-uebernahmeangebot-von-gamestop-ab-a-3f9312cd-d990-448e-9297-f7e5ece5224b#ref=rss",
+        "published": "12.05.2026, 11:59"
+      },
+      {
+        "title": "Iran-Krieg: So zerstört sind die US-Stützpunkte am Golf",
+        "url": "https://www.spiegel.de/ausland/iran-krieg-so-zerstoert-sind-die-us-stuetzpunkte-am-golf-a-16ed1bc5-af7c-4731-a386-f41e8a270df6#ref=rss",
+        "published": "12.05.2026, 11:53"
+      },
+      {
+        "title": "Extremsport: Arda Saatçi und Rachel Entrekin – zwei außergewöhnliche Leistungen",
+        "url": "https://www.spiegel.de/sport/leichtathletik/extremsport-arda-saatci-und-rachel-entrekin-zwei-aussergewoehnliche-leistungen-a-cd610686-8fc6-4fde-a56b-1744432e99b9#ref=rss",
+        "published": "12.05.2026, 11:49"
+      },
+      {
+        "title": "Karl-May-Verleger Bernhard Schmid: »Kulturell wurden die Indianer ein zweites Mal ausgerottet«",
+        "url": "https://www.spiegel.de/kultur/karl-may-verleger-bernhard-schmid-kulturell-wurden-die-indianer-ein-zweites-mal-ausgerottet-a-e0a683da-5be3-4bcb-ac6c-a1ec8dd23544#ref=rss",
+        "published": "12.05.2026, 11:42"
+      },
+      {
+        "title": "Umfrage: Jeder Dritte ist mit dem Gesundheitssystem unzufrieden",
+        "url": "https://www.spiegel.de/politik/deutschland/umfrage-jeder-dritte-ist-mit-dem-gesundheitssystem-unzufrieden-a-a822aea1-e4a1-4fb0-be22-c6fe6468bd79#ref=rss",
+        "published": "12.05.2026, 11:21"
+      },
+      {
+        "title": "Iran-Krieg: US-Botschafter Mike Huckabee bestätigt Schutz der Emirate durch Iron Dome",
+        "url": "https://www.spiegel.de/ausland/iran-krieg-us-botschafter-mike-huckabee-bestaetigt-schutz-der-emirate-durch-iron-dome-a-8197266c-c4ed-43db-9bad-fb3d071c9922#ref=rss",
+        "published": "12.05.2026, 11:20"
+      },
+      {
+        "title": "Tankrabatt wird inzwischen »weitgehend« weitergegeben",
+        "url": "https://www.spiegel.de/mobilitaet/auto/tankrabatt-wird-inzwischen-weitgehend-weitergegeben-a-efaf962b-897f-46fc-9654-d74e8508847e#ref=rss",
+        "published": "12.05.2026, 11:19"
+      },
+      {
+        "title": "Pausen beim Sport: Warum Nichtstun oft die schlechtere Erholung ist",
+        "url": "https://www.spiegel.de/fitness/pausen-beim-sport-warum-nichtstun-oft-die-schlechtere-erholung-ist-a-7b030efa-d5ab-4294-9b96-67157876e470#ref=rss",
+        "published": "12.05.2026, 11:15"
+      }
+    ]
+  }
+]
