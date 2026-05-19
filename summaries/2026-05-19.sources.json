@@ -1,0 +1,338 @@
+[
+  {
+    "category": "Produktstrategie & Tech",
+    "source": "Stratechery",
+    "items": [
+      {
+        "title": "Personal Day",
+        "url": "https://stratechery.com/2026/personal-day-3/",
+        "published": "19.05.2026, 10:00"
+      },
+      {
+        "title": "Data Center Discontent, Understanding the Opposition, Fixing the Problem",
+        "url": "https://stratechery.com/2026/data-center-discontent-understanding-the-opposition-fixing-the-problem/",
+        "published": "18.05.2026, 10:00"
+      },
+      {
+        "title": "2026.20: Shifting Alliances in a Changing World",
+        "url": "https://stratechery.com/2026/shifting-alliances-in-a-changing-world/",
+        "published": "15.05.2026, 17:00"
+      },
+      {
+        "title": "An Interview with Ben Thompson at the MoffettNathanson Media, Internet & Communications Conference",
+        "url": "https://stratechery.com/2026/an-interview-with-ben-thompson-at-the-moffettnathanson-media-internet-communications-conference/",
+        "published": "14.05.2026, 10:00"
+      },
+      {
+        "title": "The Deployment Company, Back to the 70s, Apple and Intel",
+        "url": "https://stratechery.com/2026/the-deployment-company-back-to-the-70s-apple-and-intel/",
+        "published": "13.05.2026, 10:00"
+      },
+      {
+        "title": "SpaceX and Anthropic, xAI’s Two Companies, Elon Musk and SpaceXAI’s Future",
+        "url": "https://stratechery.com/2026/spacex-and-anthropic-xais-two-companies-elon-musk-and-spacexais-future/",
+        "published": "12.05.2026, 10:00"
+      },
+      {
+        "title": "The Inference Shift",
+        "url": "https://stratechery.com/2026/the-inference-shift/",
+        "published": "11.05.2026, 10:00"
+      },
+      {
+        "title": "2026.19: Earning & Spending",
+        "url": "https://stratechery.com/2026/earning-spending/",
+        "published": "08.05.2026, 17:00"
+      },
+      {
+        "title": "An Interview with Joanna Stern About Living With AI",
+        "url": "https://stratechery.com/2026/an-interview-with-joanna-stern-about-living-with-ai/",
+        "published": "07.05.2026, 10:00"
+      },
+      {
+        "title": "Microsoft Earnings, Apple Earnings",
+        "url": "https://stratechery.com/2026/microsoft-earnings-apple-earnings/",
+        "published": "06.05.2026, 10:00"
+      }
+    ]
+  },
+  {
+    "category": "Finanznachrichten",
+    "source": "Bloomberg Markets",
+    "items": [
+      {
+        "title": "Oil Creeps Lower as Traders Weigh Trump’s Threats to Strike Iran",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-18/latest-oil-market-news-and-analysis-for-may-19",
+        "published": "18.05.2026, 22:01"
+      },
+      {
+        "title": "Stocks Fall as Fed-Hike Anxiety Lifts Bond Yields: Markets Wrap",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-18/oil-slips-as-trump-spurs-optimism-over-iran-deal-markets-wrap",
+        "published": "18.05.2026, 22:10"
+      },
+      {
+        "title": "Slow Data Center Hookups Offer Summer Relief for US Power Grids",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-19/slow-data-center-hookups-offer-summer-relief-for-us-power-grids",
+        "published": "19.05.2026, 17:00"
+      },
+      {
+        "title": "US 30-Year Yield Hits Highest Since 2007 on Inflation Angst",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-19/us-long-bond-yield-hits-highest-since-2007-on-inflation-concern",
+        "published": "19.05.2026, 13:26"
+      },
+      {
+        "title": "Defense Group KNDS Plans to Cut its Stake in Gearbox Maker Renk",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-19/defense-group-knds-plans-to-cut-its-stake-in-gearbox-maker-renk",
+        "published": "19.05.2026, 16:54"
+      },
+      {
+        "title": "Trump Team Seeks Longer Gas Tax Holiday With Phased-In Return",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-19/trump-team-seeks-longer-gas-tax-holiday-with-phased-in-return",
+        "published": "19.05.2026, 16:52"
+      },
+      {
+        "title": "Chile Lowers Copper Production Outlook, Raises Price Forecasts",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-19/chile-lowers-copper-production-outlook-raises-price-forecasts",
+        "published": "19.05.2026, 16:52"
+      },
+      {
+        "title": "US Open Stadium Seeks $400 Million Private Debt for Revamp Plans",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-19/us-open-stadium-seeks-400-million-private-debt-for-revamp-plans",
+        "published": "19.05.2026, 16:38"
+      },
+      {
+        "title": "Zak Brown On Racing’s Triple Crown",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-19/zak-brown-on-racing-s-triple-crown-video",
+        "published": "19.05.2026, 15:20"
+      },
+      {
+        "title": "Bloomberg Surveillance 5/19/2026",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-19/bloomberg-surveillance-5-19-2026-video",
+        "published": "19.05.2026, 16:19"
+      }
+    ]
+  },
+  {
+    "category": "Finanznachrichten",
+    "source": "Financial Times",
+    "items": [
+      {
+        "title": "Trump claims Xi will not arm Iran as strike threat looms",
+        "url": "https://www.ft.com/content/95b98e06-3a04-4cfa-9722-f8bd27a5109b",
+        "published": "19.05.2026, 17:08"
+      },
+      {
+        "title": "Putin and Xi to discuss huge gas project at China summit",
+        "url": "https://www.ft.com/content/7612a618-fbaf-4e3e-8e55-0cf5cc88d132",
+        "published": "19.05.2026, 15:56"
+      },
+      {
+        "title": "Xi told Trump that Putin might ‘regret’ invasion of Ukraine",
+        "url": "https://www.ft.com/content/567c57b0-6346-43e6-9d14-840a793b4d1d",
+        "published": "19.05.2026, 15:30"
+      },
+      {
+        "title": "JD Vance stakes his claim",
+        "url": "https://www.ft.com/content/652a8512-504e-4005-84bd-dae5917e5d04",
+        "published": "19.05.2026, 04:00"
+      },
+      {
+        "title": "America’s ailing one-trick pony",
+        "url": "https://www.ft.com/content/4aa79231-1e4b-4591-9f04-20eb03c10ee1",
+        "published": "19.05.2026, 10:48"
+      },
+      {
+        "title": "The US and China crave hegemony without responsibility",
+        "url": "https://www.ft.com/content/5d79f7a3-8b54-4c15-a3a4-40881147f66f",
+        "published": "19.05.2026, 04:00"
+      },
+      {
+        "title": "Son of billionaire Mango founder detained over father’s fatal mountain fall",
+        "url": "https://www.ft.com/content/17b2b6a3-a7f2-40b4-8c16-9161045fedb4",
+        "published": "19.05.2026, 15:15"
+      },
+      {
+        "title": "Investors warn of ‘correction’ risk as high-flying stocks defy bond gloom",
+        "url": "https://www.ft.com/content/ce55bdaa-2c80-410b-91b9-4bec5459e570",
+        "published": "19.05.2026, 16:08"
+      },
+      {
+        "title": "Google DeepMind’s Demis Hassabis emerges as early Anthropic investor",
+        "url": "https://www.ft.com/content/8f2a529e-7a1b-4d8e-95be-338d0c4c98f5",
+        "published": "19.05.2026, 04:00"
+      },
+      {
+        "title": "Israeli ultranationalist minister claims ICC is seeking his arrest",
+        "url": "https://www.ft.com/content/57e7facc-1f4f-4364-ae2b-a5944faf01c2",
+        "published": "19.05.2026, 16:52"
+      }
+    ]
+  },
+  {
+    "category": "Finanznachrichten",
+    "source": "Handelsblatt",
+    "items": [
+      {
+        "title": "Interview: „Zweistelliges Wachstum möglich“ – Siemens-Chef verrät erstmals Details seiner neuen Strategie",
+        "url": "https://www.handelsblatt.com/unternehmen/industrie/interview-siemens-chef-busch-verraet-erste-details-seiner-neuen-strategie/100224475.html",
+        "published": "19.05.2026, 15:50"
+      },
+      {
+        "title": "Koalition: „Keine roten Linien“ – Union und SPD schmieden Reformpaket",
+        "url": "https://www.handelsblatt.com/politik/deutschland/koalition-keine-roten-linien-union-und-spd-schmieden-reformpaket/100226138.html",
+        "published": "19.05.2026, 17:24"
+      },
+      {
+        "title": "+++ Iran-Krieg +++: Trump kündigt mögliche Militärschläge gegen den Iran in den kommenden Tagen an",
+        "url": "https://www.handelsblatt.com/politik/international/iran-krieg-trump-kuendigt-moegliche-militaerschlaege-in-den-kommenden-tagen-an/100136895.html",
+        "published": "19.05.2026, 15:28"
+      },
+      {
+        "title": "Militärpakt: China schult angeblich russische Soldaten für den Ukrainekrieg",
+        "url": "https://www.handelsblatt.com/politik/international/militaerpakt-china-schult-angeblich-russische-soldaten-fuer-den-ukrainekrieg/100226316.html",
+        "published": "19.05.2026, 15:13"
+      },
+      {
+        "title": "Geldanlage: Fondsmanager schichten in Rekordtempo in Aktien um",
+        "url": "https://www.handelsblatt.com/finanzen/anlagestrategie/fonds-etf/geldanlage-fondsmanager-schichten-in-rekordtempo-in-aktien-um/100224238.html",
+        "published": "19.05.2026, 15:27"
+      },
+      {
+        "title": "Dax aktuell: Dax gibt Gewinne größtenteils ab – Ottobock verliert zweistellig",
+        "url": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-gibt-gewinne-groesstenteils-ab-schliesst-aber-im-plus/100226098.html",
+        "published": "19.05.2026, 16:03"
+      },
+      {
+        "title": "Wall Street: US-Indizes starten im Minus – KI-Aktien unter Druck",
+        "url": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-anleiherenditen-weiter-hoch-us-boersen-schliessen-uneinheitlich/100226233.html",
+        "published": "19.05.2026, 16:32"
+      },
+      {
+        "title": "Märkte Insight: Die Kupfer-Rally dürfte erst am Anfang stehen",
+        "url": "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/maerkte-insight-die-kupfer-rally-duerfte-erst-am-anfang-stehen/100225461.html",
+        "published": "19.05.2026, 16:59"
+      },
+      {
+        "title": "Interview: Anthropic-Managerin: „Unsere Modelle sind wahrscheinlich gut genug, um Portfolios zu verwalten“",
+        "url": "https://www.handelsblatt.com/technik/it-internet/anthropic-unsere-modelle-sind-wahrscheinlich-gut-genug-um-portfolios-zu-verwalten/100224294.html",
+        "published": "19.05.2026, 11:02"
+      },
+      {
+        "title": "KfW-Untersuchung: Für Mittelständler verliert die persönliche Bankberatung an Bedeutung",
+        "url": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/kfw-der-mittelstand-spart-sich-den-weg-zur-bankfiliale/100224921.html",
+        "published": "19.05.2026, 12:53"
+      }
+    ]
+  },
+  {
+    "category": "Politik & Allgemeine Nachrichten",
+    "source": "Tagesschau",
+    "items": [
+      {
+        "title": "Spahn will Verzicht auf Diätenerhöhung an Krankenkassen-Reform koppeln",
+        "url": "https://www.tagesschau.de/inland/innenpolitik/spahn-diaeten-gvk-100.html",
+        "published": "19.05.2026, 16:43"
+      },
+      {
+        "title": "Ebola-Patient soll in Berliner Charité behandelt werden",
+        "url": "https://www.tagesschau.de/inland/ebola-patient-berlin-100.html",
+        "published": "19.05.2026, 16:40"
+      },
+      {
+        "title": "Marktbericht: DAX-Plus schmilzt zusammen",
+        "url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-104.html",
+        "published": "19.05.2026, 16:24"
+      },
+      {
+        "title": "Düngemittel-Knappheit wegen Iran-Krieg: EU will Bauern helfen",
+        "url": "https://www.tagesschau.de/ausland/europa/eu-hilfen-duenger-100.html",
+        "published": "19.05.2026, 16:14"
+      },
+      {
+        "title": "Polen suchen nach Angriff richtigen Umgang mit \"Problembären\"",
+        "url": "https://www.tagesschau.de/ausland/europa/angriff-baer-polen-100.html",
+        "published": "19.05.2026, 15:01"
+      },
+      {
+        "title": "Pflege: Mehr Bedürftige, höhere Ausgaben, großer Reformbedarf",
+        "url": "https://www.tagesschau.de/inland/gesellschaft/pflege-beduerftige-krankenkassen-100.html",
+        "published": "19.05.2026, 14:54"
+      },
+      {
+        "title": "Mehr als 15.000 Verstöße gegen Jugendschutz im Netz gemeldet",
+        "url": "https://www.tagesschau.de/inland/gesellschaft/jugendschutz-internet-verstoesse-100.html",
+        "published": "19.05.2026, 13:50"
+      },
+      {
+        "title": "Wieder Drohnen-Vorfall im Baltikum - NATO-Jet schießt Drohne ab",
+        "url": "https://www.tagesschau.de/ausland/drohnenabschuss-estland-102.html",
+        "published": "19.05.2026, 13:42"
+      },
+      {
+        "title": "EU-Parlament blockiert Ermittlungen gegen CSU-Abgeordnete Niebler",
+        "url": "https://www.tagesschau.de/ausland/europa/eu-parlament-ermittlungen-niebler-csu-100.html",
+        "published": "19.05.2026, 13:14"
+      },
+      {
+        "title": "Das Kreuz mit den Kreuzfahrtschiffen in Barcelona",
+        "url": "https://www.tagesschau.de/ausland/europa/spanien-barcelona-kreuzfahrtschiffe-100.html",
+        "published": "19.05.2026, 13:07"
+      }
+    ]
+  },
+  {
+    "category": "Politik & Allgemeine Nachrichten",
+    "source": "Spiegel Online",
+    "items": [
+      {
+        "title": "Fördermittel-Affäre: Joe Chialo kommt nicht zum Untersuchungsausschuss – offenbar wegen verspäteter Einladung",
+        "url": "https://www.spiegel.de/politik/deutschland/foerdermittel-affaere-joe-chialo-kommt-nicht-zum-untersuchungsausschuss-offenbar-wegen-verspaeteter-einladung-a-a574b992-cf1d-4a0d-bf95-3f07201e4a9b#ref=rss",
+        "published": "19.05.2026, 16:55"
+      },
+      {
+        "title": "EU-Betrugsverdacht: Streit über blockierte Ermittlungen gegen Angelika Niebler",
+        "url": "https://www.spiegel.de/politik/deutschland/eu-betrugsverdacht-streit-ueber-blockierte-ermittlungen-gegen-angelika-niebler-a-1838f699-d680-461f-967c-fa6e6b4498e4#ref=rss",
+        "published": "19.05.2026, 16:16"
+      },
+      {
+        "title": "Frankreich: »Maskenmann« weist in Prozess Mord-Vorwurf zurück",
+        "url": "https://www.spiegel.de/panorama/justiz/frankreich-maskenmann-weist-in-prozess-mord-vorwurf-zurueck-a-bade77ee-44fc-4b80-b37f-cd85600e12fd#ref=rss",
+        "published": "19.05.2026, 15:41"
+      },
+      {
+        "title": "News des Tages: EU-Parlament blockiert Ermittlungen gegen CSU-Abgeordnete, Anklage gegen Tengelmann-Chef Haub, Minderheitsregierung",
+        "url": "https://www.spiegel.de/politik/deutschland/news-des-tages-eu-parlament-blockiert-ermittlungen-gegen-csu-abgeordnete-anklage-gegen-tengelmann-chef-haub-minderheitsregierung-a-8e20921d-5857-48ab-aa70-ca5bf61b737e#ref=rss",
+        "published": "19.05.2026, 15:30"
+      },
+      {
+        "title": "Moderatorin Pinar Atalay: »Am liebsten höre ich mit meiner Tochter das Mausradio«",
+        "url": "https://www.spiegel.de/kultur/moderatorin-pinar-atalay-am-liebsten-hoere-ich-mit-meiner-tochter-das-mausradio-a-eb80d217-d572-48da-9a94-3af20189f69b#ref=rss",
+        "published": "19.05.2026, 15:30"
+      },
+      {
+        "title": "Berlin: Ebola-Patient soll in der Charité behandelt werden",
+        "url": "https://www.spiegel.de/wissenschaft/berlin-ebola-patient-soll-in-der-charite-behandelt-werden-a-da86faa5-43c4-4963-8dab-a711d3c9956b#ref=rss",
+        "published": "19.05.2026, 15:22"
+      },
+      {
+        "title": "Starbucks in Südkorea ruft »Panzertag« aus – an Gedenktag von Militärverbrechen",
+        "url": "https://www.spiegel.de/wirtschaft/unternehmen/starbucks-in-suedkorea-ruft-panzertag-aus-an-gedenktag-von-militaerverbrechen-a-781f3025-1682-4d3e-85e7-3fd40875dc8f#ref=rss",
+        "published": "19.05.2026, 15:06"
+      },
+      {
+        "title": "Ebola: USA warnen Bürger vor Reisen in die DR Kongo",
+        "url": "https://www.spiegel.de/wissenschaft/medizin/ebola-usa-warnen-buerger-vor-reisen-in-die-dr-kongo-a-be4ab014-196d-4990-808e-549e6b8abfb0#ref=rss",
+        "published": "19.05.2026, 15:01"
+      },
+      {
+        "title": "Energiewende: Wie sich die schmutzige Seite der Erneuerbaren vermeiden lässt",
+        "url": "https://www.spiegel.de/wirtschaft/soziales/energiewende-wie-sich-die-schmutzige-seite-der-erneuerbaren-vermeiden-laesst-a-4babf301-f9ad-469c-9bd3-e79b62f423a0#ref=rss",
+        "published": "19.05.2026, 14:51"
+      },
+      {
+        "title": "»Married At First Sight« : Britischer Sender Channel 4 nimmt Reality-Show nach Missbrauchsvorwürfen aus dem Programm",
+        "url": "https://www.spiegel.de/kultur/married-at-first-sight-britischer-sender-channel-4-nimmt-reality-show-nach-missbrauchsvorwuerfen-aus-dem-programm-a-625f8d00-dde4-4c25-9872-21310290ccbd#ref=rss",
+        "published": "19.05.2026, 14:48"
+      }
+    ]
+  }
+]
