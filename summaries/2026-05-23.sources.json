@@ -1,0 +1,338 @@
+[
+  {
+    "category": "Produktstrategie & Tech",
+    "source": "Stratechery",
+    "items": [
+      {
+        "title": "2026.21: The Data Center Veto",
+        "url": "https://stratechery.com/2026/the-data-center-veto/",
+        "published": "22.05.2026, 17:12"
+      },
+      {
+        "title": "An Interview with Parallel Founder Parag Agarwal About Valuing Content on the Agentic Web",
+        "url": "https://stratechery.com/2026/an-interview-with-parallel-founder-parag-agarwal-about-valuing-content-on-the-agentic-web/",
+        "published": "21.05.2026, 10:00"
+      },
+      {
+        "title": "Google I/O, World Models, I/O Spaghetti",
+        "url": "https://stratechery.com/2026/google-i-o-world-models-i-o-spaghetti/",
+        "published": "20.05.2026, 10:00"
+      },
+      {
+        "title": "Data Center Discontent, Understanding the Opposition, Fixing the Problem",
+        "url": "https://stratechery.com/2026/data-center-discontent-understanding-the-opposition-fixing-the-problem/",
+        "published": "18.05.2026, 10:00"
+      },
+      {
+        "title": "2026.20: Shifting Alliances in a Changing World",
+        "url": "https://stratechery.com/2026/shifting-alliances-in-a-changing-world/",
+        "published": "15.05.2026, 17:00"
+      },
+      {
+        "title": "An Interview with Ben Thompson at the MoffettNathanson Media, Internet & Communications Conference",
+        "url": "https://stratechery.com/2026/an-interview-with-ben-thompson-at-the-moffettnathanson-media-internet-communications-conference/",
+        "published": "14.05.2026, 10:00"
+      },
+      {
+        "title": "The Deployment Company, Back to the 70s, Apple and Intel",
+        "url": "https://stratechery.com/2026/the-deployment-company-back-to-the-70s-apple-and-intel/",
+        "published": "13.05.2026, 10:00"
+      },
+      {
+        "title": "SpaceX and Anthropic, xAI’s Two Companies, Elon Musk and SpaceXAI’s Future",
+        "url": "https://stratechery.com/2026/spacex-and-anthropic-xais-two-companies-elon-musk-and-spacexais-future/",
+        "published": "12.05.2026, 10:00"
+      },
+      {
+        "title": "The Inference Shift",
+        "url": "https://stratechery.com/2026/the-inference-shift/",
+        "published": "11.05.2026, 10:00"
+      },
+      {
+        "title": "2026.19: Earning & Spending",
+        "url": "https://stratechery.com/2026/earning-spending/",
+        "published": "08.05.2026, 17:00"
+      }
+    ]
+  },
+  {
+    "category": "Finanznachrichten",
+    "source": "Bloomberg Markets",
+    "items": [
+      {
+        "title": "Ebola Outruns Containment in Eastern Congo as Contact Tracing Falters",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-23/ebola-outbreak-in-congo-outrunning-containment-as-contact-tracing-falters",
+        "published": "23.05.2026, 02:47"
+      },
+      {
+        "title": "Rubio to Meet India’s Modi With Energy, Trade Ties in Focus",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-23/rubio-to-meet-india-s-modi-with-energy-trade-ties-in-focus",
+        "published": "23.05.2026, 06:49"
+      },
+      {
+        "title": "Charting the Global Economy: Factory Activity Sags on Inflation",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-23/world-economy-latest-factory-activity-sags-on-war-driven-inflation",
+        "published": "23.05.2026, 09:00"
+      },
+      {
+        "title": "ECB Hike May Be Inevitable to Keep Credibility, Stournaras Says",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-23/ecb-hike-may-be-inevitable-to-keep-credibility-stournaras-says",
+        "published": "23.05.2026, 08:24"
+      },
+      {
+        "title": "Architect Norman Foster on Why the West Struggles to Build Big",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-23/architect-norman-foster-on-why-the-west-struggles-to-build-big",
+        "published": "23.05.2026, 08:00"
+      },
+      {
+        "title": "Odd Lots: Norman Foster on the Struggle to Build Big (Podcast)",
+        "url": "https://www.bloomberg.com/news/audio/2026-05-23/odd-lots-norman-foster-on-the-struggle-to-build-big-podcast",
+        "published": "23.05.2026, 08:00"
+      },
+      {
+        "title": "Deadliest China Coal Mine Blast Since 2009 Kills at Least 90",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-23/xi-urges-chinese-authorities-to-curb-accidents-after-mine-blast",
+        "published": "23.05.2026, 03:19"
+      },
+      {
+        "title": "India Raises Diesel, Gasoline Prices for Third Time in Eight Days",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-23/india-raises-diesel-gasoline-prices-for-third-time-in-eight-days",
+        "published": "23.05.2026, 01:30"
+      },
+      {
+        "title": "Indonesia Plans to Beat Global Trading Giants at Their Own Game",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-23/indonesia-plans-to-beat-global-trading-giants-at-their-own-game",
+        "published": "23.05.2026, 01:00"
+      },
+      {
+        "title": "New Zealand to Invest in Drones, Fleet to Shield Maritime Routes",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-23/new-zealand-to-invest-in-drones-fleet-to-shield-maritime-routes",
+        "published": "23.05.2026, 00:35"
+      }
+    ]
+  },
+  {
+    "category": "Finanznachrichten",
+    "source": "Financial Times",
+    "items": [
+      {
+        "title": "Trump administration to make foreigners leave US to apply for green cards",
+        "url": "https://www.ft.com/content/5d4c3de6-07d9-436e-8822-2dbafd10774a",
+        "published": "22.05.2026, 22:48"
+      },
+      {
+        "title": "Trump lashes out at Republicans who oppose his ‘anti-weaponisation’ fund",
+        "url": "https://www.ft.com/content/bf9cf8d8-ace7-48f5-a0ce-35b4c89553cd",
+        "published": "22.05.2026, 18:41"
+      },
+      {
+        "title": "The new arms race in computing power",
+        "url": "https://www.ft.com/content/5aecd7b6-652f-4edb-b666-71f3f50fc43e",
+        "published": "23.05.2026, 04:00"
+      },
+      {
+        "title": "The new Luddite movement",
+        "url": "https://www.ft.com/content/f5c96fa6-5b9b-4951-b71d-e32b3b57d8df",
+        "published": "23.05.2026, 04:00"
+      },
+      {
+        "title": "Arsenal’s hold on the streets and the elites",
+        "url": "https://www.ft.com/content/2491cee3-8644-4cad-829d-8749f639515b",
+        "published": "23.05.2026, 04:00"
+      },
+      {
+        "title": "Indian youth ‘cockroach’ protest goes viral",
+        "url": "https://www.ft.com/content/2bfed8a4-8ea0-4627-b7a8-e9ca46945239",
+        "published": "22.05.2026, 20:00"
+      },
+      {
+        "title": "Tulsi Gabbard resigns as Donald Trump’s US intelligence chief",
+        "url": "https://www.ft.com/content/a347267d-c4f8-4ff6-9704-68cc153db4cd",
+        "published": "22.05.2026, 19:26"
+      },
+      {
+        "title": "America’s ‘simultaneity’ nightmare",
+        "url": "https://www.ft.com/content/3292bc37-91e8-4b23-83f7-d131fd7ee198",
+        "published": "22.05.2026, 16:00"
+      },
+      {
+        "title": "China Inc goes shopping for western consumer brands",
+        "url": "https://www.ft.com/content/d5137b83-446d-4562-b0e5-44dc27d02640",
+        "published": "23.05.2026, 04:00"
+      },
+      {
+        "title": "SpaceX, OpenAI and Anthropic IPOs set to test limits of AI boom",
+        "url": "https://www.ft.com/content/ae9bb47d-bd1d-473c-b4c5-abae0420cc12",
+        "published": "23.05.2026, 08:00"
+      }
+    ]
+  },
+  {
+    "category": "Finanznachrichten",
+    "source": "Handelsblatt",
+    "items": [
+      {
+        "title": "Künstliche Intelligenz: „Wir stürzen in eine Welt, in der nur die Elite arbeitet“",
+        "url": "https://www.handelsblatt.com/technik/ki/ki-arbeit-wird-zum-luxus-der-nur-einer-elite-vorbehalten-ist/100223312.html",
+        "published": "22.05.2026, 11:50"
+      },
+      {
+        "title": "+++ Iran-Krieg +++: USA erwägen offenbar weitere Angriffe gegen Iran",
+        "url": "https://www.handelsblatt.com/politik/international/iran-krieg-usa-erwaegen-offenbar-weitere-angriffe-gegen-iran/100136895.html",
+        "published": "23.05.2026, 06:12"
+      },
+      {
+        "title": "Tulsi Gabbard: Koordinatorin des US-Geheimdienstes tritt zurück",
+        "url": "https://www.handelsblatt.com/politik/international/usa-us-geheimdienstkoordinatorin-tulsi-gabbard-tritt-zurueck-mitten-im-iran-krieg/100227437.html",
+        "published": "23.05.2026, 02:55"
+      },
+      {
+        "title": "+++ USA +++: US-Außenminister Rubio in Indien eingetroffen – angeschlagene Beziehungen im Fokus",
+        "url": "https://www.handelsblatt.com/politik/international/us-aussenminister-rubio-in-indien-eingetroffen/29669594.html",
+        "published": "23.05.2026, 08:20"
+      },
+      {
+        "title": "Raumfahrt: SpaceX gelingt Start neuer Starship-Version vor Rekord-Börsengang",
+        "url": "https://www.handelsblatt.com/technik/it-internet/raumfahrt-spacex-gelingt-start-neuer-starship-version-vor-rekord-boersengang/100227424.html",
+        "published": "22.05.2026, 23:28"
+      },
+      {
+        "title": "Starlink: Der Börsengang von SpaceX wird zur Gefahr für Telekom, Vodafone und die gesamte Mobilfunk-Branche",
+        "url": "https://www.handelsblatt.com/technik/it-internet/spacex-wie-elon-musk-den-globalen-mobilfunk-uebernehmen-will-01/100223147.html",
+        "published": "22.05.2026, 05:24"
+      },
+      {
+        "title": "SpaceX: „Mr. IPO“ zum Börsengang des Jahres: „Bei hohen Bewertungen kann viel schiefgehen“",
+        "url": "https://www.handelsblatt.com/finanzen/maerkte/aktien/spacex-bei-hohen-bewertungen-kann-viel-schiefgehen/100226314.html",
+        "published": "22.05.2026, 17:28"
+      },
+      {
+        "title": "Fed: Neuer Fed-Chef Kevin Warsh in Washington vereidigt",
+        "url": "https://www.handelsblatt.com/finanzen/geldpolitik/fed-neuer-fed-chef-kevin-warsh-in-washington-vereidigt/100227359.html",
+        "published": "22.05.2026, 16:33"
+      },
+      {
+        "title": "Bayer: Erster Widerstand gegen Bayers Milliarden-Vergleich im Glyphosat-Streit",
+        "url": "https://www.handelsblatt.com/unternehmen/industrie/bayer-erster-widerstand-gegen-bayers-milliarden-vergleich-im-glyphosat-streit/100227403.html",
+        "published": "22.05.2026, 19:30"
+      },
+      {
+        "title": "Prüfers Kolumne: Warum wir im Internet alle herumlaufen wie Touristen mit offenem Rucksack",
+        "url": "https://www.handelsblatt.com/meinung/kolumnen/pruefers-kolumne-warum-wir-im-internet-alle-herumlaufen-wie-touristen-mit-offenem-rucksack/100226308.html",
+        "published": "23.05.2026, 06:53"
+      }
+    ]
+  },
+  {
+    "category": "Politik & Allgemeine Nachrichten",
+    "source": "Tagesschau",
+    "items": [
+      {
+        "title": "13 Personen aus CHP-Umfeld in der Türkei festgenommen",
+        "url": "https://www.tagesschau.de/ausland/asien/tuerkei-festnahmen-chp-100.html",
+        "published": "23.05.2026, 10:58"
+      },
+      {
+        "title": "Erneut ukrainischer Angriff auf Öllager in Russland",
+        "url": "https://www.tagesschau.de/ausland/europa/russland-ukraine-angriffe-112.html",
+        "published": "23.05.2026, 10:31"
+      },
+      {
+        "title": "Was steht im Grundgesetz - und wie ist es entstanden?",
+        "url": "https://www.tagesschau.de/inland/grundgesetz-fragen-antworten-100.html",
+        "published": "23.05.2026, 09:48"
+      },
+      {
+        "title": "Demokratie braucht laut Steinmeier \"aktive Bürger\"",
+        "url": "https://www.tagesschau.de/inland/innenpolitik/steinmeier-ehrentag-grundgesetz-100.html",
+        "published": "23.05.2026, 09:47"
+      },
+      {
+        "title": "Komplikationen bei der Geburt gibt es auch bei Tieren",
+        "url": "https://www.tagesschau.de/wissen/tiere-geburten-mensch-100.html",
+        "published": "23.05.2026, 09:13"
+      },
+      {
+        "title": "Frankreichs Schulbetreuer unter Verdacht",
+        "url": "https://www.tagesschau.de/ausland/europa/missbrauch-frankreich-kinder-100.html",
+        "published": "23.05.2026, 08:55"
+      },
+      {
+        "title": "70 Jahre Bravo: Von Starschnitten und Schattenseiten",
+        "url": "https://www.tagesschau.de/kultur/siebzig-jahre-bravo-100.html",
+        "published": "23.05.2026, 07:39"
+      },
+      {
+        "title": "Warum immer mehr Frauen sich gegen Kinder entscheiden",
+        "url": "https://www.tagesschau.de/inland/gesellschaft/sinkende-geburten-100.html",
+        "published": "23.05.2026, 07:35"
+      },
+      {
+        "title": "Trump erwägt Medienberichten zufolge neue Angriffe auf Iran",
+        "url": "https://www.tagesschau.de/ausland/asien/iran-usa-angriffe-106.html",
+        "published": "23.05.2026, 07:17"
+      },
+      {
+        "title": "Spahn will staatliche Leistungen vorerst nicht erhöhen",
+        "url": "https://www.tagesschau.de/inland/innenpolitik/spahn-staatliche-leistungen-100.html",
+        "published": "23.05.2026, 07:05"
+      }
+    ]
+  },
+  {
+    "category": "Politik & Allgemeine Nachrichten",
+    "source": "Spiegel Online",
+    "items": [
+      {
+        "title": "Lukas Podolski beendet Fußball-Profikarriere: Vom Spaßvogel zum Weltmann",
+        "url": "https://www.spiegel.de/sport/fussball/lukas-podolski-beendet-fussball-profikarriere-vom-spassvogel-zum-weltmann-a-7ec39517-3cca-4ffa-bfe2-4e248c6a8a12#ref=rss",
+        "published": "23.05.2026, 10:57"
+      },
+      {
+        "title": "Jens Spahn spricht sich gegen Erhöhung des Bafög aus",
+        "url": "https://www.spiegel.de/politik/deutschland/jens-spahn-spricht-sich-gegen-erhoehung-des-bafoegs-aus-a-bcce3e46-0969-4933-aae8-33605b5ea8ed#ref=rss",
+        "published": "23.05.2026, 10:54"
+      },
+      {
+        "title": "Zugspitze: 19-Jähriger stirbt bei nächtlichem Aufstieg",
+        "url": "https://www.spiegel.de/panorama/zugspitze-19-jaehriger-stirbt-bei-naechtlichem-aufstieg-a-044b82bf-2b40-43ae-a3f3-9bee31ebf6dc#ref=rss",
+        "published": "23.05.2026, 10:25"
+      },
+      {
+        "title": "Formel-1-Legende Alain Prost überfallen und ausgeraubt",
+        "url": "https://www.spiegel.de/panorama/leute/formel-1-legende-alain-prost-ueberfallen-und-ausgeraubt-a-f3c31b60-b7e0-4580-a9b8-f0722c4d3957#ref=rss",
+        "published": "23.05.2026, 10:18"
+      },
+      {
+        "title": "Ebola im Kongo: WHO erhöht Ebola-Risikostufe auf »sehr hoch«",
+        "url": "https://www.spiegel.de/wissenschaft/medizin/ebola-im-kongo-who-erhoeht-ebola-risikostufe-auf-sehr-hoch-a-02a41284-4a8f-47d6-851c-18d007fd90a3#ref=rss",
+        "published": "23.05.2026, 10:09"
+      },
+      {
+        "title": "Quiz des Tages beim SPIEGEL: 7 Fragen zum Allgemeinwissen pro Tag",
+        "url": "https://www.spiegel.de/games/taegliches-quiz-beim-spiegel-7-fragen-zum-allgemeinwissen-pro-tag-a-8a9692b2-4462-4192-942c-fd7809c7519c#ref=rss",
+        "published": "23.05.2026, 09:48"
+      },
+      {
+        "title": "Großbritannien will offenbar gemeinsamen Binnenmarkt mit der EU",
+        "url": "https://www.spiegel.de/ausland/grossbritannien-will-offenbar-gemeinsamen-binnenmarkt-mit-der-eu-a-ea39c64a-5353-400d-9afc-2ba491401a32#ref=rss",
+        "published": "23.05.2026, 09:46"
+      },
+      {
+        "title": "Grand-Slam-Turniere: Tennis-Stars verdienen Millionen. Warum sie mehr Geld wollen",
+        "url": "https://www.spiegel.de/sport/grand-slam-turniere-tennis-stars-verdienen-millionen-warum-sie-mehr-geld-wollen-a-60e380ac-9759-4fc6-b9ee-d47acc8a5480#ref=rss",
+        "published": "23.05.2026, 09:43"
+      },
+      {
+        "title": "IStGH: Ungarn stoppt Austrittspläne aus Weltstrafgericht",
+        "url": "https://www.spiegel.de/ausland/istgh-ungarn-stoppt-austrittsplaene-aus-weltstrafgericht-a-440b02e9-4875-4060-afc1-3f9006501dca#ref=rss",
+        "published": "23.05.2026, 09:15"
+      },
+      {
+        "title": "Michael Kretschmer (CDU) offen für höhere Steuern für Vermögende",
+        "url": "https://www.spiegel.de/politik/deutschland/michael-kretschmer-cdu-offen-fuer-hoehere-steuern-fuer-vermoegende-a-ed40cab8-d9b0-40ad-9803-d2df096d3751#ref=rss",
+        "published": "23.05.2026, 08:37"
+      }
+    ]
+  }
+]
