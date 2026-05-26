@@ -1,0 +1,338 @@
+[
+  {
+    "category": "Produktstrategie & Tech",
+    "source": "Stratechery",
+    "items": [
+      {
+        "title": "Nvidia Earnings, The AI Stack, Nvidia’s New Reporting",
+        "url": "https://stratechery.com/2026/nvidia-earnings-the-ai-stack-nvidias-new-reporting/",
+        "published": "26.05.2026, 10:00"
+      },
+      {
+        "title": "2026.21: The Data Center Veto",
+        "url": "https://stratechery.com/2026/the-data-center-veto/",
+        "published": "22.05.2026, 17:12"
+      },
+      {
+        "title": "An Interview with Parallel Founder Parag Agarwal About Valuing Content on the Agentic Web",
+        "url": "https://stratechery.com/2026/an-interview-with-parallel-founder-parag-agarwal-about-valuing-content-on-the-agentic-web/",
+        "published": "21.05.2026, 10:00"
+      },
+      {
+        "title": "Google I/O, World Models, I/O Spaghetti",
+        "url": "https://stratechery.com/2026/google-i-o-world-models-i-o-spaghetti/",
+        "published": "20.05.2026, 10:00"
+      },
+      {
+        "title": "Data Center Discontent, Understanding the Opposition, Fixing the Problem",
+        "url": "https://stratechery.com/2026/data-center-discontent-understanding-the-opposition-fixing-the-problem/",
+        "published": "18.05.2026, 10:00"
+      },
+      {
+        "title": "2026.20: Shifting Alliances in a Changing World",
+        "url": "https://stratechery.com/2026/shifting-alliances-in-a-changing-world/",
+        "published": "15.05.2026, 17:00"
+      },
+      {
+        "title": "An Interview with Ben Thompson at the MoffettNathanson Media, Internet & Communications Conference",
+        "url": "https://stratechery.com/2026/an-interview-with-ben-thompson-at-the-moffettnathanson-media-internet-communications-conference/",
+        "published": "14.05.2026, 10:00"
+      },
+      {
+        "title": "The Deployment Company, Back to the 70s, Apple and Intel",
+        "url": "https://stratechery.com/2026/the-deployment-company-back-to-the-70s-apple-and-intel/",
+        "published": "13.05.2026, 10:00"
+      },
+      {
+        "title": "SpaceX and Anthropic, xAI’s Two Companies, Elon Musk and SpaceXAI’s Future",
+        "url": "https://stratechery.com/2026/spacex-and-anthropic-xais-two-companies-elon-musk-and-spacexais-future/",
+        "published": "12.05.2026, 10:00"
+      },
+      {
+        "title": "The Inference Shift",
+        "url": "https://stratechery.com/2026/the-inference-shift/",
+        "published": "11.05.2026, 10:00"
+      }
+    ]
+  },
+  {
+    "category": "Finanznachrichten",
+    "source": "Bloomberg Markets",
+    "items": [
+      {
+        "title": "US Bonds Gain in Catch-Up Trade as Trump Sees Iran Progress",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-26/treasuries-rally-as-trump-signals-progress-in-iran-negotiations",
+        "published": "26.05.2026, 00:06"
+      },
+      {
+        "title": "Stocks Rise Toward Record as Iran Peace Hopes Hold: Markets Wrap",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-25/asian-stocks-set-to-extend-gains-on-us-iran-hopes-markets-wrap",
+        "published": "25.05.2026, 22:16"
+      },
+      {
+        "title": "The Bond Selloff Is About More Than Inflation",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-05-26/the-bond-selloff-is-about-more-than-inflation",
+        "published": "26.05.2026, 17:37"
+      },
+      {
+        "title": "BP Chair Who Sped Up Company’s Turnaround Is Fired Over Conduct",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-26/bp-removes-manifold-as-chair-on-serious-governance-concerns-mpmjvog1",
+        "published": "26.05.2026, 11:26"
+      },
+      {
+        "title": "Citadel Securities Says Fed Must Pivot to Inflation Fighting",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-26/citadel-securities-warns-that-fed-risks-falling-behind-curve",
+        "published": "26.05.2026, 16:05"
+      },
+      {
+        "title": "MSG Sports Shares Rally to Record as Knicks Reach NBA Finals",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-26/msg-sports-shares-rally-to-record-as-knicks-reach-nba-finals",
+        "published": "26.05.2026, 17:05"
+      },
+      {
+        "title": "Rocket, Satellite Stocks Surge as SpaceX IPO Fuels Euphoria",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-26/rocket-satellite-stocks-surge-anew-as-spacex-ipo-fuels-euphoria",
+        "published": "26.05.2026, 15:45"
+      },
+      {
+        "title": "Altman-Backed Oklo Rises on US Nuclear Reactor Fuel Program",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-26/altman-backed-nuclear-firm-oklo-rises-on-us-reactor-fuel-program",
+        "published": "26.05.2026, 13:59"
+      },
+      {
+        "title": "Brands Hope for Big Payoff From World Cup Spending",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-26/brands-hope-for-big-payoff-from-world-cup-spending-video",
+        "published": "26.05.2026, 16:40"
+      },
+      {
+        "title": "Activist Ancora Pushes H.B. Fuller to Drop Bid for UK’s AMS",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-26/activist-ancora-pushes-h-b-fuller-to-drop-bid-for-uk-s-ams",
+        "published": "26.05.2026, 11:30"
+      }
+    ]
+  },
+  {
+    "category": "Finanznachrichten",
+    "source": "Financial Times",
+    "items": [
+      {
+        "title": "BP removes chair Albert Manifold over ‘serious concerns’ about his conduct",
+        "url": "https://www.ft.com/content/e63db59c-ed38-4930-b320-3b2481bf8e60",
+        "published": "26.05.2026, 17:22"
+      },
+      {
+        "title": "BP is deeply dysfunctional, but it could be worse",
+        "url": "https://www.ft.com/content/1f53a603-34ee-453c-a3a6-f7eca164679a",
+        "published": "26.05.2026, 16:59"
+      },
+      {
+        "title": "Ferrari’s first EV sparks investor and social media backlash",
+        "url": "https://www.ft.com/content/17939c73-e747-4c95-a234-22ae966eb30c",
+        "published": "26.05.2026, 15:54"
+      },
+      {
+        "title": "‘Epstein class’ becomes a populist battle cry in US politics",
+        "url": "https://www.ft.com/content/e9ee464f-a43e-4088-aade-053e2c135f5d",
+        "published": "26.05.2026, 04:00"
+      },
+      {
+        "title": "Putin and Trump don’t have the cards",
+        "url": "https://www.ft.com/content/c42e90d2-063a-4bd1-b6b3-4c34db482ed8",
+        "published": "26.05.2026, 11:10"
+      },
+      {
+        "title": "US strikes Iranian missile sites as peace talks continue",
+        "url": "https://www.ft.com/content/eec48003-35a8-4932-bac0-573cdaade0e5",
+        "published": "26.05.2026, 15:28"
+      },
+      {
+        "title": "Iran starts to restore internet access after months-long blackout",
+        "url": "https://www.ft.com/content/a9a3a9e5-854a-4ccb-af03-d73f69ed0cd6",
+        "published": "26.05.2026, 17:27"
+      },
+      {
+        "title": "How the EU’s plan to turbocharge Italy’s economy fell flat",
+        "url": "https://www.ft.com/content/152088a1-9615-4485-9669-fb8300f60b13",
+        "published": "26.05.2026, 04:00"
+      },
+      {
+        "title": "Real wages start to shrink in developed countries",
+        "url": "https://www.ft.com/content/e126f744-3db9-4305-8871-31f83ebc4ed7",
+        "published": "26.05.2026, 04:00"
+      },
+      {
+        "title": "Nine countries pull out of Ukraine ammunition coalition",
+        "url": "https://www.ft.com/content/f5dd7bd9-6da8-438b-bf80-1f942b91333d",
+        "published": "26.05.2026, 11:38"
+      }
+    ]
+  },
+  {
+    "category": "Finanznachrichten",
+    "source": "Handelsblatt",
+    "items": [
+      {
+        "title": "Sachsen-Anhalt: Der Mann, der die AfD noch stoppen soll",
+        "url": "https://www.handelsblatt.com/politik/deutschland/sachsen-anhalt-der-mann-der-die-afd-stoppen-soll/100226373.html",
+        "published": "26.05.2026, 17:14"
+      },
+      {
+        "title": "Dax-Konzern: Siemens will Führungskräften ihre Chef-Titel streichen",
+        "url": "https://www.handelsblatt.com/unternehmen/industrie/siemens-dax-konzern-will-fuehrungskraeften-ihre-chef-titel-streichen/100227293.html",
+        "published": "26.05.2026, 09:45"
+      },
+      {
+        "title": "+++ Ukraine-Krieg +++: Bundesregierung bestellt russischen Botschafter ein",
+        "url": "https://www.handelsblatt.com/politik/international/ukraine-bundesregierung-bestellt-russischen-botschafter-ein/27982126.html",
+        "published": "26.05.2026, 12:55"
+      },
+      {
+        "title": "Rüstungsindustrie: Börsengang im Blick: Panzerbauer KNDS meldet Rekordzahlen",
+        "url": "https://www.handelsblatt.com/unternehmen/industrie/ruestung-boersengang-im-blick-panzerbauer-knds-meldet-rekordzahlen/100227298.html",
+        "published": "26.05.2026, 15:34"
+      },
+      {
+        "title": "Industrie: Metallindustrie-Präsident Udo Dinglreiter warnt: „Es ist eine Spirale nach unten“",
+        "url": "https://www.handelsblatt.com/politik/deutschland/udo-dinglreiter-metallindustrie-praesident-warnt-vor-spirale-nach-unten/100225841.html",
+        "published": "26.05.2026, 12:27"
+      },
+      {
+        "title": "Dax aktuell: Anleger streichen Gewinne ein – Dax schließt im Minus",
+        "url": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-dreht-ins-minus-exporterwartungen-sacken-ab/100227887.html",
+        "published": "26.05.2026, 16:00"
+      },
+      {
+        "title": "Wall Street: S&P 500 erreicht Rekord – Micron erreicht Billionen-Bewertung",
+        "url": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-anleiherenditen-weiter-hoch-us-boersen-schliessen-uneinheitlich/100228045.html",
+        "published": "26.05.2026, 16:11"
+      },
+      {
+        "title": "Märkte Insight: Jamie Dimon – der Kontraindikator des Anleihemarktes",
+        "url": "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/anleihen-jamie-dimon-der-kontraindikator-des-anleihemarktes/100227785.html",
+        "published": "26.05.2026, 16:08"
+      },
+      {
+        "title": "Geldanlage: Auf diese Aktien setzen Profianleger in Zeiten von KI und Krieg",
+        "url": "https://www.handelsblatt.com/finanzen/anlagestrategie/geldanlage-auf-diese-aktien-setzen-profianleger-in-zeiten-von-ki-und-krieg/100225860.html",
+        "published": "26.05.2026, 13:48"
+      },
+      {
+        "title": "Interview: „Wenn alles klappt, sind wir Profiteure der Krise“: Projektentwickler Becken über seine Wette auf den Elbtower",
+        "url": "https://www.handelsblatt.com/finanzen/immobilien/immobilien-dieter-becken-rechnet-mit-laengerer-krise-am-gewerbemarkt/100226633.html",
+        "published": "26.05.2026, 13:58"
+      }
+    ]
+  },
+  {
+    "category": "Politik & Allgemeine Nachrichten",
+    "source": "Tagesschau",
+    "items": [
+      {
+        "title": "Türkei: Polizei geht hart gegen Özel und seine Anhänger vor",
+        "url": "https://www.tagesschau.de/ausland/asien/izmir-proteste-chp-100.html",
+        "published": "26.05.2026, 17:31"
+      },
+      {
+        "title": "Ukraine beruhigt Bürger und Diplomaten nach Putin-Drohung",
+        "url": "https://www.tagesschau.de/ausland/europa/ukraine-russland-drohungen-diplomaten-100.html",
+        "published": "26.05.2026, 16:17"
+      },
+      {
+        "title": "Marktbericht: Anleger verlieren die Geduld",
+        "url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-jones-euro-dollar-104.html",
+        "published": "26.05.2026, 16:12"
+      },
+      {
+        "title": "Rekordtemperaturen in Frankreich mit sieben Toten",
+        "url": "https://www.tagesschau.de/ausland/europa/frankreich-hitze-112.html",
+        "published": "26.05.2026, 16:09"
+      },
+      {
+        "title": "Belgien: Ermittlungen nach Zugunglück laufen",
+        "url": "https://www.tagesschau.de/ausland/europa/belgien-zugunglueck-schulbus-100.html",
+        "published": "26.05.2026, 15:37"
+      },
+      {
+        "title": "Kritik an Warken-Plänen zu höheren Pflegebeiträgen für Kinderlose",
+        "url": "https://www.tagesschau.de/inland/innenpolitik/warken-pflegeversicherung-100.html",
+        "published": "26.05.2026, 15:37"
+      },
+      {
+        "title": "Krieg gegen die Ukraine: Bundesregierung bestellt russischen Botschafter ein",
+        "url": "https://www.tagesschau.de/ausland/ukraine-russland-eu-102.html",
+        "published": "26.05.2026, 14:52"
+      },
+      {
+        "title": "Hitzewelle in Großbritannien: Nationaler Wetterdienst warnt",
+        "url": "https://www.tagesschau.de/ausland/europa/england-hitze-welle-100.html",
+        "published": "26.05.2026, 14:20"
+      },
+      {
+        "title": "Viele offene Fragen bei Verhandlungen zwischen USA und Iran",
+        "url": "https://www.tagesschau.de/ausland/asien/iran-usa-konflikt-verhandlungen-waffenruhe-100.html",
+        "published": "26.05.2026, 13:44"
+      },
+      {
+        "title": "Staatsanwaltschaft ermittelt gegen Ulmen wegen häuslicher Gewalt",
+        "url": "https://www.tagesschau.de/inland/gesellschaft/ermittlungen-ulmen-haeusliche-gewalt-100.html",
+        "published": "26.05.2026, 13:24"
+      }
+    ]
+  },
+  {
+    "category": "Politik & Allgemeine Nachrichten",
+    "source": "Spiegel Online",
+    "items": [
+      {
+        "title": "Unfallchirurg über Verkehr in Indien: »In Indien können wir Mobilität schwer verbieten: weder der Kuh noch dem Motorradfahrer«",
+        "url": "https://www.spiegel.de/ausland/unfallchirurg-ueber-verkehr-in-indien-in-indien-koennen-wir-mobilitaet-schwer-verbieten-weder-der-kuh-noch-dem-motorradfahrer-a-9578e6c2-131c-414d-8115-501c97600b62#ref=rss",
+        "published": "26.05.2026, 17:33"
+      },
+      {
+        "title": "KTM: Motorrad-Hersteller bringt reihenweise illegale Maschinen auf die Straße",
+        "url": "https://www.spiegel.de/mobilitaet/ktm-motorrad-hersteller-bringt-reihenweise-illegale-maschinen-auf-die-strasse-a-8561e7d1-f7bc-41cd-b966-ebeca9565bf3#ref=rss",
+        "published": "26.05.2026, 17:33"
+      },
+      {
+        "title": "Paul McCartneys Album »The Boys of Dungeon Lane«: Ein Ex-Beatle schöpft noch einmal aus dem Vollen",
+        "url": "https://www.spiegel.de/kultur/paul-mccartneys-album-the-boys-of-dungeon-lane-ein-ex-beatle-schoepft-noch-einmal-aus-dem-vollen-a-0acc8fd5-cf31-44b3-aab4-82298bba3b83#ref=rss",
+        "published": "26.05.2026, 17:17"
+      },
+      {
+        "title": "Abschied von Pep Guardiola bei Manchester City: Er kann es auch bei schlechtem Wetter in Stoke",
+        "url": "https://www.spiegel.de/sport/abschied-von-pep-guardiola-bei-manchester-city-er-kann-es-auch-bei-schlechtem-wetter-in-stoke-a-2876c003-7061-44e5-b3dd-104aa5c01ff6#ref=rss",
+        "published": "26.05.2026, 17:17"
+      },
+      {
+        "title": "Portugal: Verlassene Kinder sollen nach Frankreich zurückkehren",
+        "url": "https://www.spiegel.de/panorama/justiz/portugal-verlassene-kinder-sollen-nach-frankreich-zurueckkehren-a-684c5be3-b36a-4dfb-a8b6-4e1c594b7409#ref=rss",
+        "published": "26.05.2026, 16:47"
+      },
+      {
+        "title": "Katherina Reiche: Ministerium verbreitet Kampagne von Arbeitgeberlobby",
+        "url": "https://www.spiegel.de/politik/deutschland/katherina-reiche-ministerium-verbreitet-kampagne-von-arbeitgeberlobby-a-88c5450d-2c8a-4ce4-8676-1b95e220fff1#ref=rss",
+        "published": "26.05.2026, 16:29"
+      },
+      {
+        "title": "Köln: Wie ein Zelt die Crack-Problematik eindämmen soll",
+        "url": "https://www.spiegel.de/panorama/koeln-wie-ein-zelt-die-crack-problematik-eindaemmen-soll-a-1ed39f2c-e8b9-4912-b25e-b41518f3567d#ref=rss",
+        "published": "26.05.2026, 16:11"
+      },
+      {
+        "title": "Taylor Swift und Prinz William: Gerüchte um royale Hochzeitsgäste",
+        "url": "https://www.spiegel.de/kultur/taylor-swift-und-prinz-william-geruechte-um-royale-hochzeitsgaeste-a-5ad5c3d2-1487-4717-b50a-887665bfc6df#ref=rss",
+        "published": "26.05.2026, 16:02"
+      },
+      {
+        "title": "Israel weitet Bodeneinsätze im Libanon hinter »gelbe Linie« aus",
+        "url": "https://www.spiegel.de/ausland/israel-weitet-bodeneinsaetze-im-libanon-hinter-gelbe-linie-aus-a-4b4f9e11-ffff-48f2-b530-b02a8782132e#ref=rss",
+        "published": "26.05.2026, 16:00"
+      },
+      {
+        "title": "Autonomes Fahren: Mercedes bietet ab 2027 Drive Pilot in Deutschland an",
+        "url": "https://www.spiegel.de/mobilitaet/auto/autonomes-fahren-mercedes-bietet-ab-2027-drive-pilot-in-deutschland-an-a-11c179d8-6389-4c42-86ed-ec1ac4ee6281#ref=rss",
+        "published": "26.05.2026, 15:23"
+      }
+    ]
+  }
+]
