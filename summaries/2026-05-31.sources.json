@@ -1,0 +1,333 @@
+[
+  {
+    "category": "Produktstrategie & Tech",
+    "source": "Stratechery",
+    "items": [
+      {
+        "title": "2026.22: Luceing Their Mind",
+        "url": "https://stratechery.com/2026/luceing-their-mind/",
+        "published": "29.05.2026, 17:00"
+      },
+      {
+        "title": "An Interview with Eric Seufert About Models and Ads, and AI’s Upside for Humanity",
+        "url": "https://stratechery.com/2026/an-interview-with-eric-seufert-about-models-and-ads-and-ais-upside-for-humanity/",
+        "published": "28.05.2026, 10:00"
+      },
+      {
+        "title": "The SpaceX IPO and Data Centers in Space",
+        "url": "https://stratechery.com/2026/the-spacex-ipo-and-data-centers-in-space/",
+        "published": "27.05.2026, 10:00"
+      },
+      {
+        "title": "Nvidia Earnings, The AI Stack, Nvidia’s New Reporting",
+        "url": "https://stratechery.com/2026/nvidia-earnings-the-ai-stack-nvidias-new-reporting/",
+        "published": "26.05.2026, 10:00"
+      },
+      {
+        "title": "2026.21: The Data Center Veto",
+        "url": "https://stratechery.com/2026/the-data-center-veto/",
+        "published": "22.05.2026, 17:12"
+      },
+      {
+        "title": "An Interview with Parallel Founder Parag Agarwal About Valuing Content on the Agentic Web",
+        "url": "https://stratechery.com/2026/an-interview-with-parallel-founder-parag-agarwal-about-valuing-content-on-the-agentic-web/",
+        "published": "21.05.2026, 10:00"
+      },
+      {
+        "title": "Google I/O, World Models, I/O Spaghetti",
+        "url": "https://stratechery.com/2026/google-i-o-world-models-i-o-spaghetti/",
+        "published": "20.05.2026, 10:00"
+      },
+      {
+        "title": "Data Center Discontent, Understanding the Opposition, Fixing the Problem",
+        "url": "https://stratechery.com/2026/data-center-discontent-understanding-the-opposition-fixing-the-problem/",
+        "published": "18.05.2026, 10:00"
+      },
+      {
+        "title": "2026.20: Shifting Alliances in a Changing World",
+        "url": "https://stratechery.com/2026/shifting-alliances-in-a-changing-world/",
+        "published": "15.05.2026, 17:00"
+      },
+      {
+        "title": "An Interview with Ben Thompson at the MoffettNathanson Media, Internet & Communications Conference",
+        "url": "https://stratechery.com/2026/an-interview-with-ben-thompson-at-the-moffettnathanson-media-internet-communications-conference/",
+        "published": "14.05.2026, 10:00"
+      }
+    ]
+  },
+  {
+    "category": "Finanznachrichten",
+    "source": "Bloomberg Markets",
+    "items": [
+      {
+        "title": "Indonesia Advances Export Control Plan Despite Uncertainty",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-31/indonesia-advances-export-control-plan-despite-uncertainty",
+        "published": "31.05.2026, 09:11"
+      },
+      {
+        "title": "Singapore’s CapitaLand Sheds 10% of China Staff Amid Downturn",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-31/singapore-s-capitaland-sheds-10-of-china-staff-amid-downturn",
+        "published": "31.05.2026, 08:58"
+      },
+      {
+        "title": "China Mine Collapse Kills Five, Days After Deadly Shanxi Blast",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-31/china-mine-collapse-kills-five-days-after-deadly-shanxi-blast",
+        "published": "31.05.2026, 08:13"
+      },
+      {
+        "title": "African Development Bank Allots $650 Million for Uganda Railroad",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-31/african-development-bank-allots-650-million-for-uganda-railroad",
+        "published": "31.05.2026, 08:09"
+      },
+      {
+        "title": "Saudi Contractor’s Owners Seek Up To $800 Million in Riyadh IPO",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-31/saudi-contractor-s-owners-seek-up-to-800-million-in-riyadh-ipo",
+        "published": "31.05.2026, 06:49"
+      },
+      {
+        "title": "US Jobs Report Set to Reveal Solid Growth, Steady Unemployment Rate",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-30/us-jobs-report-set-to-reveal-solid-growth-steady-unemployment-rate",
+        "published": "30.05.2026, 20:00"
+      },
+      {
+        "title": "Taiwan Vows Not to Be ‘Silenced’ After China Expels NYT Reporter",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-31/taiwan-vows-not-to-be-silenced-after-china-expels-nyt-reporter",
+        "published": "31.05.2026, 05:39"
+      },
+      {
+        "title": "China 'Missing Opportunity' to Engage, Says German Chief",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-31/china-missing-opportunity-to-engage-says-german-chief-video",
+        "published": "31.05.2026, 05:33"
+      },
+      {
+        "title": "Philippines Seeks Closer Ties With China's Adversaries",
+        "url": "https://www.bloomberg.com/news/videos/2026-05-31/philippines-seeks-closer-ties-with-china-s-adversaries-video",
+        "published": "31.05.2026, 02:35"
+      },
+      {
+        "title": "China Factory Activity Worsens in Warning Sign for Economy",
+        "url": "https://www.bloomberg.com/news/articles/2026-05-31/china-factory-activity-worsens-in-warning-sign-for-economy",
+        "published": "31.05.2026, 01:54"
+      }
+    ]
+  },
+  {
+    "category": "Finanznachrichten",
+    "source": "Financial Times",
+    "items": [
+      {
+        "title": "SoftBank pledges €75bn to build Europe’s biggest AI facility in France",
+        "url": "https://www.ft.com/content/1022f9bd-5b6d-44a5-9303-c8b05b8c6463",
+        "published": "30.05.2026, 18:39"
+      },
+      {
+        "title": "AI is here. What do you want from it?",
+        "url": "https://www.ft.com/content/da80e72b-31e5-42ca-995c-5fc7d457915e",
+        "published": "31.05.2026, 04:00"
+      },
+      {
+        "title": "China’s comparative advantage is industrial policy",
+        "url": "https://www.ft.com/content/42fc2ea1-cd3a-43d1-87c6-eba09a44d888",
+        "published": "31.05.2026, 11:00"
+      },
+      {
+        "title": "Israel captures Crusader castle in deepening Lebanon push",
+        "url": "https://www.ft.com/content/fa98dbf6-4f5e-4f8d-aff6-a6bef9709d6c",
+        "published": "31.05.2026, 11:24"
+      },
+      {
+        "title": "EU frets as China builds an industrial base in Morocco",
+        "url": "https://www.ft.com/content/706c1db4-effa-4e53-9bdd-f66496407626",
+        "published": "31.05.2026, 04:00"
+      },
+      {
+        "title": "Sandoz warns cheap Chinese imports threaten Europe’s antibiotic supply",
+        "url": "https://www.ft.com/content/6b74ddb9-319b-4293-a9d7-0effb17a4485",
+        "published": "31.05.2026, 04:00"
+      },
+      {
+        "title": "Jes Staley to appear before Congress over ties to Jeffrey Epstein",
+        "url": "https://www.ft.com/content/376237d6-64ca-4804-90c5-2f83d78ed288",
+        "published": "31.05.2026, 00:04"
+      },
+      {
+        "title": "Jamming-resistant radio maker seeks $3bn-plus sale",
+        "url": "https://www.ft.com/content/b971947c-3ff3-49aa-99e5-ec0c3c0d0705",
+        "published": "31.05.2026, 04:00"
+      },
+      {
+        "title": "Defence group CSG still pursuing stake in Franco-German tank maker",
+        "url": "https://www.ft.com/content/6acd5ae9-79aa-4fbc-a67d-a0cc08ed00d6",
+        "published": "31.05.2026, 04:00"
+      }
+    ]
+  },
+  {
+    "category": "Finanznachrichten",
+    "source": "Handelsblatt",
+    "items": [
+      {
+        "title": "Insight Innovation: Plötzlich heiß begehrt: Speicherchips werden zum Flaschenhals der KI",
+        "url": "https://www.handelsblatt.com/technik/forschung-innovation/chips-ploetzlich-begehrt-speicherchips-werden-zum-flaschenhals-der-ki/100212235.html",
+        "published": "31.05.2026, 10:52"
+      },
+      {
+        "title": "Familienunternehmen Bitburger: Verschwiegenheit geht vor: „Wir haben eine Konzernstruktur, die Ergebnisse bewusst nicht transparent ausweist“",
+        "url": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/brauereikonzern-bitburger-hofft-auf-hoehere-marktanteile-durch-die-wm/100224971.html",
+        "published": "31.05.2026, 06:33"
+      },
+      {
+        "title": "+++ Ukraine-Krieg +++: Großbrand in Saratow: Ukrainische Drohnen treffen russische Raffinerie",
+        "url": "https://www.handelsblatt.com/politik/international/ukraine-ukrainische-drohnen-treffen-russische-raffinerie/27982126.html",
+        "published": "31.05.2026, 06:23"
+      },
+      {
+        "title": "FDP: Kubicki attackiert Strack-Zimmermann nach Parteitag: „Jetzt weißt du, wo der Hammer hängt“",
+        "url": "https://www.handelsblatt.com/politik/deutschland/fdp-kubicki-attackiert-strack-zimmermann-nach-kampfabstimmung/100229241.html",
+        "published": "31.05.2026, 11:34"
+      },
+      {
+        "title": "+++ Iran-Krieg +++: Teheran verlangt für Einigung mit Washington eingefrorene Milliarden zurück",
+        "url": "https://www.handelsblatt.com/politik/international/iran-krieg-teheran-verlangt-eingefrorene-milliarden-zurueck/100136895.html",
+        "published": "31.05.2026, 06:15"
+      },
+      {
+        "title": "Kommentar zur TECH: Europa darf das zweite KI-Kapitel nicht verschlafen",
+        "url": "https://www.handelsblatt.com/meinung/kommentare/kommentar-europa-darf-das-zweite-ki-kapitel-nicht-verschlafen/100228237.html",
+        "published": "31.05.2026, 11:17"
+      },
+      {
+        "title": "Celonis auf der TECH: „Deutschland ist gerade unser am schnellsten wachsender Markt“",
+        "url": "https://www.handelsblatt.com/technik/it-internet/celonis-deutschland-ist-gerade-unser-am-schnellsten-wachsender-markt/100228002.html",
+        "published": "31.05.2026, 10:01"
+      },
+      {
+        "title": "Interview zum TECH-Start: Futuristin: „Wer auf Gewissheit wartet, wird Schwierigkeiten haben“",
+        "url": "https://www.handelsblatt.com/technik/ki/futuristin-wer-auf-gewissheit-wartet-wird-schwierigkeiten-haben/100228929.html",
+        "published": "31.05.2026, 08:45"
+      },
+      {
+        "title": "KI: Bis zu 75 Milliarden Euro: Softbank plant massive KI-Investitionen in Frankreich",
+        "url": "https://www.handelsblatt.com/technik/ki-softbank-kuendigt-massive-investitionen-in-frankreich-an/100229212.html",
+        "published": "31.05.2026, 06:40"
+      },
+      {
+        "title": "Bildung: „Schlicht falsch“: SPD kritisiert CSU-Ministerin Bär, die Bafög-Reform für gescheitert erklärt",
+        "url": "https://www.handelsblatt.com/politik/deutschland/bildung-spd-kritisiert-ministerin-baer-die-bafoeg-reform-fuer-gescheitert-erklaert/100229217.html",
+        "published": "31.05.2026, 11:16"
+      }
+    ]
+  },
+  {
+    "category": "Politik & Allgemeine Nachrichten",
+    "source": "Tagesschau",
+    "items": [
+      {
+        "title": "Maltas Regierungspartei erringt vierten Wahlsieg in Folge",
+        "url": "https://www.tagesschau.de/ausland/europa/malta-wahlen-ergebnis-abela-wiedergewaehlt-100.html",
+        "published": "31.05.2026, 11:48"
+      },
+      {
+        "title": "Israel meldet Einnahme der Burg Beaufort im Südlibanon",
+        "url": "https://www.tagesschau.de/ausland/asien/israel-libanon-bodeneinsatz-kreuzfahrerburg-beaufort-eingenommen-100.html",
+        "published": "31.05.2026, 09:17"
+      },
+      {
+        "title": "Neues Waffenruhe-Abkommen zwischen USA und Iran verzögert sich weiter",
+        "url": "https://www.tagesschau.de/ausland/asien/iran-usa-verhandlungen-eingefrorene-gelder-nachverhandlungen-100.html",
+        "published": "31.05.2026, 08:53"
+      },
+      {
+        "title": "Wie Großbritannien eine rauchfreie Zukunft plant",
+        "url": "https://www.tagesschau.de/ausland/europa/grossbritannien-rauchen-100.html",
+        "published": "31.05.2026, 08:29"
+      },
+      {
+        "title": "Gesundheitspolitiker fordern höhere Tabaksteuer",
+        "url": "https://www.tagesschau.de/inland/gesellschaft/tabaksteuer-vapen-jugendliche-streeck-100.html",
+        "published": "31.05.2026, 09:02"
+      },
+      {
+        "title": "\"Fruit Love Island\": Warum KI-Content bei Kindern Ängste schürt",
+        "url": "https://www.tagesschau.de/kultur/ki-serie-fruit-love-island-suchtpotenzial-100.html",
+        "published": "31.05.2026, 08:19"
+      },
+      {
+        "title": "Kann der Inlandstourismus der deutschen Wirtschaft helfen?",
+        "url": "https://www.tagesschau.de/wirtschaft/konjunktur/tourismus-deutschland-132.html",
+        "published": "31.05.2026, 07:37"
+      },
+      {
+        "title": "Psychische Krankheit allein führt selten zu Gewalt",
+        "url": "https://www.tagesschau.de/wissen/gesundheit/zusammenhang-gewalt-psyche-100.html",
+        "published": "31.05.2026, 07:37"
+      },
+      {
+        "title": "Renteneintritt: Länger arbeiten trotz regional ungleicher Lebenserwartung?",
+        "url": "https://www.tagesschau.de/inland/innenpolitik/rente-kommission-alterserwartung-100.html",
+        "published": "31.05.2026, 07:32"
+      },
+      {
+        "title": "Präsidentenwahl: Bleibt Kolumbien auf dem Weg des Friedens?",
+        "url": "https://www.tagesschau.de/ausland/amerika/kolumbien-wahl-112.html",
+        "published": "31.05.2026, 03:20"
+      }
+    ]
+  },
+  {
+    "category": "Politik & Allgemeine Nachrichten",
+    "source": "Spiegel Online",
+    "items": [
+      {
+        "title": "»Land ohne Frauen«-Doku auf Arte: Die Stimmen und Gesichter der Verschwindenden",
+        "url": "https://www.spiegel.de/kultur/tv/land-ohne-frauen-doku-auf-arte-die-stimmen-und-gesichter-der-verschwindenden-a-d9c2bf0a-03c0-457c-946d-4808cbd4baea#ref=rss",
+        "published": "31.05.2026, 11:56"
+      },
+      {
+        "title": "Großbritannien: Bauer soll Autos von Falschparkern mit Gülle besprüht haben",
+        "url": "https://www.spiegel.de/panorama/justiz/grossbritannien-bauer-soll-autos-von-falschparkern-mit-guelle-besprueht-haben-a-1831c515-0147-4e44-a4e2-cad145f204df#ref=rss",
+        "published": "31.05.2026, 11:53"
+      },
+      {
+        "title": "USA: Meteorid explodiert über Nordosten mit Sprengkraft von 300 Tonnen TNT",
+        "url": "https://www.spiegel.de/panorama/usa-meteorid-explodiert-ueber-nordosten-mit-sprengkraft-von-300-tonnen-tnt-a-57fa3dbb-94a4-4aa9-b8d0-f21a3b6e9221#ref=rss",
+        "published": "31.05.2026, 11:51"
+      },
+      {
+        "title": "French Open: Ukrainische Spielerin Olijnykowa kritisiert russische Gegnerin",
+        "url": "https://www.spiegel.de/ausland/french-open-ukrainische-spielerin-olijnykowa-kritisiert-russische-gegnerin-a-ac8066f6-a753-46f1-af7e-e8d917fb9ff6#ref=rss",
+        "published": "31.05.2026, 11:12"
+      },
+      {
+        "title": "Rekord-Konzert im Olympiastadion: Metallica spielen vor 94.000 Menschen",
+        "url": "https://www.spiegel.de/kultur/musik/rekord-konzert-im-olympiastadion-metallica-spielen-vor-94-000-menschen-a-cf3675fc-a865-449a-9d55-3b88eb70559e#ref=rss",
+        "published": "31.05.2026, 11:07"
+      },
+      {
+        "title": "Friesoythe: Unfall mit drei Verletzten – Fährt ein Auto in die Kneipe",
+        "url": "https://www.spiegel.de/panorama/justiz/friesoythe-unfall-mit-drei-verletzten-faehrt-ein-auto-in-die-kneipe-a-33328d78-ab38-4f62-bfb8-e2e1b3e5e3fb#ref=rss",
+        "published": "31.05.2026, 10:59"
+      },
+      {
+        "title": "Tennis-Legende Björn Borg: »Ich ging in ein neues Leben. Ein sehr schlechtes Leben«",
+        "url": "https://www.spiegel.de/sport/tennis-legende-bjoern-borg-ich-ging-in-ein-neues-leben-ein-sehr-schlechtes-leben-a-d5c0bcca-32b4-4372-99b5-e15a9097791c#ref=rss",
+        "published": "31.05.2026, 10:59"
+      },
+      {
+        "title": "Italien: Autofahrer erhalten bei Baustellenstaus ab Montag Geld für Maut zurück",
+        "url": "https://www.spiegel.de/mobilitaet/italien-autofahrer-erhalten-bei-baustellenstaus-ab-montag-geld-fuer-maut-zurueck-a-73a56afc-20a4-4d57-945c-c02c599da9b0#ref=rss",
+        "published": "31.05.2026, 10:56"
+      },
+      {
+        "title": "Geldanlage: Ich habe 100 Euro im Monat übrig. Wie soll ich sie anlegen?",
+        "url": "https://www.spiegel.de/wirtschaft/geldanlage-ich-habe-100-euro-im-monat-uebrig-wie-soll-ich-sie-anlegen-a-f41fead5-422d-42d4-9cd5-31fbce5a6b2f#ref=rss",
+        "published": "31.05.2026, 10:45"
+      },
+      {
+        "title": "Bundesnetzagentur: Solaranlagenbesitzer sollen bald höheren Strompreis zahlen",
+        "url": "https://www.spiegel.de/wirtschaft/service/bundesnetzagentur-solaranlagenbesitzer-sollen-bald-hoeheren-strompreis-zahlen-a-a20f2368-9dcb-488d-9513-d240c8cf3476#ref=rss",
+        "published": "31.05.2026, 10:41"
+      }
+    ]
+  }
+]
