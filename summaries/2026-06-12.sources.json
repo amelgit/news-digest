@@ -1,0 +1,338 @@
+[
+  {
+    "category": "Produktstrategie & Tech",
+    "source": "Stratechery",
+    "items": [
+      {
+        "title": "An Interview with Ben Bajarin About Apple, AI, and Compute",
+        "url": "https://stratechery.com/2026/an-interview-with-ben-bajarin-about-apple-ai-and-compute/",
+        "published": "11.06.2026, 10:00"
+      },
+      {
+        "title": "Fable 5, Anthropic Alignment, AI Tiers",
+        "url": "https://stratechery.com/2026/fable-5-anthropic-alignment-ai-tiers/",
+        "published": "10.06.2026, 10:00"
+      },
+      {
+        "title": "The iPhone’s Last Stand",
+        "url": "https://stratechery.com/2026/the-iphones-last-stand/",
+        "published": "09.06.2026, 10:00"
+      },
+      {
+        "title": "Google Buys Compute From SpaceX, Broadcom’s Outlook, Apple’s AI Politics",
+        "url": "https://stratechery.com/2026/google-buys-compute-from-spacex-broadcoms-outlook-apples-ai-politics/",
+        "published": "08.06.2026, 10:00"
+      },
+      {
+        "title": "2026.23: Power Shifts",
+        "url": "https://stratechery.com/2026/power-shifts/",
+        "published": "05.06.2026, 17:00"
+      },
+      {
+        "title": "An Interview with Microsoft CEO Satya Nadella About Finding Core Competencies",
+        "url": "https://stratechery.com/2026/an-interview-with-microsoft-ceo-satya-nadella-about-finding-core-competencies/",
+        "published": "04.06.2026, 10:00"
+      },
+      {
+        "title": "The Nvidia AI PC, Project Solara, Microsoft AI",
+        "url": "https://stratechery.com/2026/the-nvidia-ai-pc-project-solara-microsoft-ai/",
+        "published": "03.06.2026, 10:00"
+      },
+      {
+        "title": "The Google Capital Company",
+        "url": "https://stratechery.com/2026/the-google-capital-company/",
+        "published": "02.06.2026, 10:00"
+      },
+      {
+        "title": "YouTubers Win the Box Office, Goodbye Gatekeepers, The YouTube Bar",
+        "url": "https://stratechery.com/2026/youtubers-win-the-box-office-goodbye-gatekeepers-the-youtube-bar/",
+        "published": "01.06.2026, 10:00"
+      },
+      {
+        "title": "2026.22: Luceing Their Mind",
+        "url": "https://stratechery.com/2026/luceing-their-mind/",
+        "published": "29.05.2026, 17:00"
+      }
+    ]
+  },
+  {
+    "category": "Finanznachrichten",
+    "source": "Bloomberg Markets",
+    "items": [
+      {
+        "title": "Stocks Rally Further as US-Iran Deal Draws Closer: Markets Wrap",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-11/asian-stocks-to-gain-as-trump-signals-us-iran-deal-markets-wrap",
+        "published": "11.06.2026, 22:03"
+      },
+      {
+        "title": "EU’s Top Carmakers Unite to Push for ‘Made in Europe’ Plans",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-12/eu-s-top-carmakers-unite-to-push-for-made-in-europe-plans",
+        "published": "12.06.2026, 10:33"
+      },
+      {
+        "title": "SpaceX Poised to Pop After Record IPO",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-06-12/spacex-set-to-pop-in-trading-debut-after-biggest-ever-ipo",
+        "published": "12.06.2026, 10:31"
+      },
+      {
+        "title": "Musk On Verge of Trillionaire Status With SpaceX IPO | The Opening Trade 6/12/2026",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-12/the-opening-trade-6-12-2026-video",
+        "published": "12.06.2026, 10:16"
+      },
+      {
+        "title": "Banks Court Wealthy Indian Diaspora in $50 Billion Deposit Drive",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-12/banks-court-wealthy-indian-diaspora-in-50-billion-deposit-drive",
+        "published": "12.06.2026, 10:15"
+      },
+      {
+        "title": "Jakarta Police Clash With Students Protesting Prabowo Plans",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-12/indonesia-deploys-thousands-of-security-forces-as-students-protest-prabowo",
+        "published": "12.06.2026, 02:15"
+      },
+      {
+        "title": "South Africa Treasury Says Upgrades Show Path to Investment Grade",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-12/south-africa-credit-upgrades-show-path-to-investment-grade-status-treasury-says",
+        "published": "12.06.2026, 10:13"
+      },
+      {
+        "title": "European Bonds Surge as Trump Touts Progress on Iran Deal",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-12/european-bonds-surge-as-trump-touts-progress-on-iran-peace-deal",
+        "published": "12.06.2026, 08:43"
+      },
+      {
+        "title": "Swiss Firms Expect Population Cap to Be Defanged, Lobby Says",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-12/swiss-firms-expect-population-cap-to-be-defanged-lobby-says",
+        "published": "12.06.2026, 10:05"
+      },
+      {
+        "title": "ENN Is Said to Mull Dropping $12 Billion Energy Unit Buyout",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-12/enn-is-said-to-mull-dropping-12-billion-buyout-of-energy-unit",
+        "published": "12.06.2026, 07:48"
+      }
+    ]
+  },
+  {
+    "category": "Finanznachrichten",
+    "source": "Financial Times",
+    "items": [
+      {
+        "title": "Musk’s SpaceX raises $75bn in world’s biggest IPO",
+        "url": "https://www.ft.com/content/1890e552-aa7e-4d7f-98f1-db4f165e8827",
+        "published": "11.06.2026, 22:39"
+      },
+      {
+        "title": "Whither SpaceX? Who knows",
+        "url": "https://www.ft.com/content/4299cb27-4d46-479c-916d-1297ac291114",
+        "published": "12.06.2026, 09:10"
+      },
+      {
+        "title": "Musk should go more boldly with fantastical SpaceX projections",
+        "url": "https://www.ft.com/content/a6002a52-5ab3-431a-8683-16a2f1d409c2",
+        "published": "12.06.2026, 04:00"
+      },
+      {
+        "title": "The quantum computing revolution is closer than you think",
+        "url": "https://www.ft.com/content/7e461be0-5c13-4a93-a0f8-0659ae5505a2",
+        "published": "12.06.2026, 04:00"
+      },
+      {
+        "title": "Japan’s PM: Building resilience in a turbulent world",
+        "url": "https://www.ft.com/content/8344e590-a7f0-4908-abf7-561b626c3fd2",
+        "published": "12.06.2026, 04:00"
+      },
+      {
+        "title": "The great bond and equity conundrum",
+        "url": "https://www.ft.com/content/4389caaa-b87a-4d4c-82a1-db161d3265d3",
+        "published": "12.06.2026, 04:00"
+      },
+      {
+        "title": "Oil sinks to three-month low after Trump says US close to Iran deal",
+        "url": "https://www.ft.com/content/9d8b31b0-1269-458e-b831-9b5e079e564e",
+        "published": "12.06.2026, 09:13"
+      },
+      {
+        "title": "Trump says US close to deal with Iran and calls off strikes",
+        "url": "https://www.ft.com/content/05472479-445d-4c16-ba85-6db47ba72373",
+        "published": "12.06.2026, 00:53"
+      },
+      {
+        "title": "European defence stock rally goes into reverse on funding concerns",
+        "url": "https://www.ft.com/content/1fa66019-c241-46f8-b9e4-7b3ac8575904",
+        "published": "12.06.2026, 04:00"
+      },
+      {
+        "title": "ECB stands ready to raise rates again, says Bundesbank boss",
+        "url": "https://www.ft.com/content/ff7f0ce7-7202-4a34-b924-1ce1b1d742f4",
+        "published": "12.06.2026, 09:00"
+      }
+    ]
+  },
+  {
+    "category": "Finanznachrichten",
+    "source": "Handelsblatt",
+    "items": [
+      {
+        "title": "Geldpolitik: Höhere Zinsen auf Bewährung – EZB schürt Erwartungen der Märkte",
+        "url": "https://www.handelsblatt.com/finanzen/geldpolitik/ezb-hoehere-zinsen-auf-bewaehrung-ezb-schuert-erwartungen-der-maerkte/100231284.html",
+        "published": "12.06.2026, 09:38"
+      },
+      {
+        "title": "Vorstandschefs von morgen: „Die junge Generation hat im positiven Sinn weniger Respekt vor Führung“ – Was junge Menschen in die Verantwortung treibt",
+        "url": "https://www.handelsblatt.com/unternehmen/management/fuehrungskraefte-warum-junge-menschen-wieder-fuehrungskraefte-werden-wollen/100224455.html",
+        "published": "11.06.2026, 19:42"
+      },
+      {
+        "title": "Iran-Krieg: Trump stellt Iran-Einigung am Wochenende in Aussicht",
+        "url": "https://www.handelsblatt.com/politik/international/iran-krieg-trump-stellt-iran-einigung-am-wochenende-in-aussicht/100232319.html",
+        "published": "12.06.2026, 07:24"
+      },
+      {
+        "title": "+++ Iran-Krieg +++: Irans Außenministerium: Verhandlungstext für Einigung überwiegend finalisiert",
+        "url": "https://www.handelsblatt.com/politik/international/iran-krieg-iran-verhandlungstext-fuer-einigung-ueberwiegend-finalisiert/100136895.html",
+        "published": "12.06.2026, 07:37"
+      },
+      {
+        "title": "Kommentar: Trump erleidet im Iran den totalen Kontroll- und Autoritätsverlust",
+        "url": "https://www.handelsblatt.com/meinung/kommentare/kommentar-trump-erleidet-im-iran-den-totalen-kontrollverlust/100231159.html",
+        "published": "11.06.2026, 17:00"
+      },
+      {
+        "title": "Dax aktuell: Dax liegt deutlich im Plus – Ölpreis fällt stark",
+        "url": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-liegt-deutlich-im-plus-oelpreis-faellt-stark/100232502.html",
+        "published": "12.06.2026, 09:23"
+      },
+      {
+        "title": "Erstnotiz: SpaceX legt Aktienpreis für Rekord-Börsengang bei 135 Dollar fest",
+        "url": "https://www.handelsblatt.com/finanzen/maerkte/aktien/erstnotiz-spacex-legt-aktienpreis-fuer-rekord-boersengang-bei-135-dollar-fest/100232412.html",
+        "published": "11.06.2026, 19:52"
+      },
+      {
+        "title": "Energiebranche: Deutsche Bank, Citi und UBS für möglichen Uniper-IPO mandatiert",
+        "url": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/energiebranche-deutsche-bank-citi-und-ubs-fuer-moeglichen-uniper-ipo-mandatiert/100232380.html",
+        "published": "12.06.2026, 06:23"
+      },
+      {
+        "title": "Führungskräfte: Das sind die jungen Überflieger im Change-Management",
+        "url": "https://www.handelsblatt.com/unternehmen/management/fuehrungskraefte-das-sind-die-jungen-ueberflieger-im-change-management/100224473.html",
+        "published": "11.06.2026, 19:41"
+      },
+      {
+        "title": "Editorial: Deutschland braucht keinen Elon Musk – aber ein paar seiner Eigenschaften",
+        "url": "https://www.handelsblatt.com/meinung/kolumnen/editorial-deutschland-braucht-keinen-musk-aber-einige-seiner-eigenschaften/100232169.html",
+        "published": "12.06.2026, 06:57"
+      }
+    ]
+  },
+  {
+    "category": "Politik & Allgemeine Nachrichten",
+    "source": "Tagesschau",
+    "items": [
+      {
+        "title": "Rahmenabkommen mit den USA - Positive Signale aus Teheran",
+        "url": "https://www.tagesschau.de/ausland/usa-iran-trump-rahmenabkommen-100.html",
+        "published": "12.06.2026, 10:20"
+      },
+      {
+        "title": "US-Gericht: USA dürfen Zölle vorerst weiter erheben",
+        "url": "https://www.tagesschau.de/wirtschaft/weltwirtschaft/usa-zoelle-120.html",
+        "published": "12.06.2026, 10:11"
+      },
+      {
+        "title": "Britischer Künstler David Hockney im Alter von 88 Jahren gestorben",
+        "url": "https://www.tagesschau.de/kultur/kuenstler-hockney-verstorben-100.html",
+        "published": "12.06.2026, 10:38"
+      },
+      {
+        "title": "Debatte über Gesundheitsreform im Bundestag",
+        "url": "https://www.tagesschau.de/inland/innenpolitik/bundestag-krankenkassen-reform-100.html",
+        "published": "12.06.2026, 10:24"
+      },
+      {
+        "title": "Marktbericht: DAX mit großem Schwung Richtung Wochenende",
+        "url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-jones-spacex-100.html",
+        "published": "12.06.2026, 08:56"
+      },
+      {
+        "title": "Nahost-Liveblog: ++ Bericht: US-Sanktionen gegen Iran sollen aufgehoben werden ++",
+        "url": "https://www.tagesschau.de/newsticker/liveblog-iran-104.html",
+        "published": "12.06.2026, 10:18"
+      },
+      {
+        "title": "A40 in Mülheim - Zehn Tage Vollsperrung im Ruhrgebiet",
+        "url": "https://www.tagesschau.de/inland/regional/nordrheinwestfalen/a40-sperrung-muelheim-100.html",
+        "published": "12.06.2026, 03:01"
+      },
+      {
+        "title": "Thailand: Prinzessin \"Bha\" nach langem Krankenhausaufenthalt gestorben",
+        "url": "https://www.tagesschau.de/ausland/thailaendische-prinzessin-bha-gestorben-100.html",
+        "published": "12.06.2026, 07:05"
+      },
+      {
+        "title": "Bisher kaum Zuspruch für Dobrindts Idee von Migrationszentren",
+        "url": "https://www.tagesschau.de/inland/sekundaermigrationszentren-100.html",
+        "published": "12.06.2026, 06:58"
+      },
+      {
+        "title": "Dan Jarvis zum neuen britischen Verteidigungsminister ernannt",
+        "url": "https://www.tagesschau.de/ausland/europa/grossbritannien-jarvis-verteidigungsminister-100.html",
+        "published": "12.06.2026, 06:49"
+      }
+    ]
+  },
+  {
+    "category": "Politik & Allgemeine Nachrichten",
+    "source": "Spiegel Online",
+    "items": [
+      {
+        "title": "Darron Lee: Ex-Footballprofi soll seine Partnerin getötet und danach die KI um Hilfe gefragt haben",
+        "url": "https://www.spiegel.de/sport/american-football/darron-lee-ex-footballprofi-soll-seine-partnerin-getoetet-und-danach-die-ki-um-hilfe-gefragt-haben-a-63cc86f9-d214-41e9-a43b-13602db89bac#ref=rss",
+        "published": "12.06.2026, 10:46"
+      },
+      {
+        "title": "Fußball-WM 2026: So bekämpfen Sie den Schlafmangel während der WM",
+        "url": "https://www.spiegel.de/gesundheit/fussball-wm-2026-so-bekaempfen-sie-den-schlafmangel-waehrend-der-wm-a-fc2a326d-c6cc-406c-9f7e-984d5a39d502#ref=rss",
+        "published": "12.06.2026, 10:42"
+      },
+      {
+        "title": "Hamburg: Sicherheitskontrolle am Flughafen wieder geöffnet",
+        "url": "https://www.spiegel.de/panorama/hamburg-sicherheitskontrolle-am-flughafen-wieder-geoeffnet-a-af6637e7-5eed-4d3c-a935-23c3485592fa#ref=rss",
+        "published": "12.06.2026, 10:37"
+      },
+      {
+        "title": "Ebola im Kongo: WHO warnt vor »blinden Flecken«",
+        "url": "https://www.spiegel.de/wissenschaft/medizin/ebola-im-kongo-who-warnt-vor-blinden-flecken-a-95fe0f68-ecf4-4450-95b5-d1da687a2f24#ref=rss",
+        "published": "12.06.2026, 10:36"
+      },
+      {
+        "title": "David Hockney: Britischer Künstler ist tot",
+        "url": "https://www.spiegel.de/kultur/david-hockney-britischer-kuenstler-ist-tot-a-2623affc-c56b-4162-b2b2-1474bc7845c3#ref=rss",
+        "published": "12.06.2026, 09:53"
+      },
+      {
+        "title": "Bundesbankprognose: Irankrieg bremst Wachstum bis 2028",
+        "url": "https://www.spiegel.de/wirtschaft/bundesbankprognose-irankrieg-bremst-wachstum-bis-2028-a-a76ba256-196e-4128-8dc7-3381ecf5f338#ref=rss",
+        "published": "12.06.2026, 09:47"
+      },
+      {
+        "title": "Entlassungen: Wie Unternehmen jetzt unter Hochdruck Stellen abbauen",
+        "url": "https://www.spiegel.de/karriere/entlassungen-wie-unternehmen-jetzt-unter-hochdruck-stellen-abbauen-a-15d0dd9b-c22a-4f71-9a00-943a3f5eeb58#ref=rss",
+        "published": "12.06.2026, 09:38"
+      },
+      {
+        "title": "Alabama: Oberstes US-Gericht stoppt Hinrichtung per Stickstoff in letzter Minute",
+        "url": "https://www.spiegel.de/panorama/justiz/alabama-oberstes-us-gericht-stoppt-hinrichtung-per-stickstoff-in-letzter-minute-a-9240ab3e-89de-48ec-819f-fd2867fab1b2#ref=rss",
+        "published": "12.06.2026, 09:36"
+      },
+      {
+        "title": "China: US-Amerikaner festgenommen wegen mutmaßlicher Spionage",
+        "url": "https://www.spiegel.de/ausland/china-us-amerikaner-festgenommen-wegen-mutmasslicher-spionage-a-f3325f06-adcd-4ffa-9f70-424a3934bb8d#ref=rss",
+        "published": "12.06.2026, 09:31"
+      },
+      {
+        "title": "West-Nil-Virus: Der Erreger ist jetzt in Berlin heimisch",
+        "url": "https://www.spiegel.de/wissenschaft/west-nil-virus-der-erreger-ist-jetzt-in-berlin-heimisch-a-90b3a28b-10ec-4697-835d-9b02b132fc07#ref=rss",
+        "published": "12.06.2026, 09:29"
+      }
+    ]
+  }
+]
