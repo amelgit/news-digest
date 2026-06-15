@@ -1,0 +1,338 @@
+[
+  {
+    "category": "Produktstrategie & Tech",
+    "source": "Stratechery",
+    "items": [
+      {
+        "title": "Anthropic’s Safety Superpower",
+        "url": "https://stratechery.com/2026/anthropics-safety-superpower/",
+        "published": "15.06.2026, 10:00"
+      },
+      {
+        "title": "2026.24: Hey Siri, Tell Me a Fable",
+        "url": "https://stratechery.com/2026/hey-siri-tell-me-a-fable/",
+        "published": "12.06.2026, 17:00"
+      },
+      {
+        "title": "An Interview with Ben Bajarin About Apple, AI, and Compute",
+        "url": "https://stratechery.com/2026/an-interview-with-ben-bajarin-about-apple-ai-and-compute/",
+        "published": "11.06.2026, 10:00"
+      },
+      {
+        "title": "Fable 5, Anthropic Alignment, AI Tiers",
+        "url": "https://stratechery.com/2026/fable-5-anthropic-alignment-ai-tiers/",
+        "published": "10.06.2026, 10:00"
+      },
+      {
+        "title": "The iPhone’s Last Stand",
+        "url": "https://stratechery.com/2026/the-iphones-last-stand/",
+        "published": "09.06.2026, 10:00"
+      },
+      {
+        "title": "Google Buys Compute From SpaceX, Broadcom’s Outlook, Apple’s AI Politics",
+        "url": "https://stratechery.com/2026/google-buys-compute-from-spacex-broadcoms-outlook-apples-ai-politics/",
+        "published": "08.06.2026, 10:00"
+      },
+      {
+        "title": "2026.23: Power Shifts",
+        "url": "https://stratechery.com/2026/power-shifts/",
+        "published": "05.06.2026, 17:00"
+      },
+      {
+        "title": "An Interview with Microsoft CEO Satya Nadella About Finding Core Competencies",
+        "url": "https://stratechery.com/2026/an-interview-with-microsoft-ceo-satya-nadella-about-finding-core-competencies/",
+        "published": "04.06.2026, 10:00"
+      },
+      {
+        "title": "The Nvidia AI PC, Project Solara, Microsoft AI",
+        "url": "https://stratechery.com/2026/the-nvidia-ai-pc-project-solara-microsoft-ai/",
+        "published": "03.06.2026, 10:00"
+      },
+      {
+        "title": "The Google Capital Company",
+        "url": "https://stratechery.com/2026/the-google-capital-company/",
+        "published": "02.06.2026, 10:00"
+      }
+    ]
+  },
+  {
+    "category": "Finanznachrichten",
+    "source": "Bloomberg Markets",
+    "items": [
+      {
+        "title": "EE.UU. e Irán acuerdan detener guerra y reanudar envíos de petróleo en Medio Oriente",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-15/ee-uu-e-iran-acuerdan-detener-la-guerra-video",
+        "published": "15.06.2026, 12:38"
+      },
+      {
+        "title": "Activist Investor Ananym Urges Bio-Techne to Consider Selling",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-15/activist-investor-ananym-urges-bio-techne-to-consider-selling",
+        "published": "15.06.2026, 12:30"
+      },
+      {
+        "title": "Nvidia Looks to Raise at Least $20 Billion From Bond Offering",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-15/nvidia-kicks-off-first-high-grade-bond-offering-since-2021",
+        "published": "15.06.2026, 12:10"
+      },
+      {
+        "title": "Stocks Rally as Oil and Yields Fall on Iran Deal: Markets Wrap",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
+        "published": "14.06.2026, 22:06"
+      },
+      {
+        "title": "Oil Sinks as US-Iran Deal Boosts Outlook for Reopening of Hormuz",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-14/latest-oil-market-news-and-analysis-for-june-15",
+        "published": "14.06.2026, 22:01"
+      },
+      {
+        "title": "AMD Deal Helps Austrian Chip-Component Maker Extend 500% Rally",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-15/amd-deal-helps-austrian-chip-component-maker-extend-500-rally",
+        "published": "15.06.2026, 12:17"
+      },
+      {
+        "title": "Failed SpaceX IPO Allocation Prompts Korea to Widen Mirae Review",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-15/failed-spacex-ipo-allocation-prompts-wider-mirae-review-in-korea",
+        "published": "15.06.2026, 03:42"
+      },
+      {
+        "title": "US, Iran Reach Interim Hormuz Agreement, Halting War",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-15/us-iran-reach-interim-hormuz-agreement-halting-war-video",
+        "published": "15.06.2026, 12:08"
+      },
+      {
+        "title": "Iran Deal Offers Glimmer of Hope After False Dawns",
+        "url": "https://www.bloomberg.com/news/newsletters/2026-06-15/iran-deal-offers-glimmer-of-hope-after-false-dawns",
+        "published": "15.06.2026, 12:05"
+      },
+      {
+        "title": "Bond Market Reacts Cautiously to Iran Deal",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-15/bond-market-reacts-cautiously-to-iran-deal-video",
+        "published": "15.06.2026, 11:54"
+      }
+    ]
+  },
+  {
+    "category": "Finanznachrichten",
+    "source": "Financial Times",
+    "items": [
+      {
+        "title": "Iran and US agree deal to open Strait of Hormuz and extend ceasefire",
+        "url": "https://www.ft.com/content/76bed6e5-ab1f-43ff-a6c0-ae5e7cdbf3c1",
+        "published": "15.06.2026, 10:16"
+      },
+      {
+        "title": "Stocks surge as deal ignites global rally",
+        "url": "https://www.ft.com/content/8a6849de-b27c-4680-a80d-42b85b0e77eb",
+        "published": "15.06.2026, 11:35"
+      },
+      {
+        "title": "The Iran war in seven charts",
+        "url": "https://www.ft.com/content/f09468d7-a3c4-4956-9a54-9584501bdda3",
+        "published": "15.06.2026, 08:11"
+      },
+      {
+        "title": "Arson targeting Keir Starmer properties originated in Russia",
+        "url": "https://www.ft.com/content/dd79d6eb-44e4-4365-8c6e-a4fd64b211c8",
+        "published": "15.06.2026, 11:36"
+      },
+      {
+        "title": "A war without victors",
+        "url": "https://www.ft.com/content/95008806-065f-40a6-a487-41824a403d94",
+        "published": "15.06.2026, 10:02"
+      },
+      {
+        "title": "Iran deal leaves Trump fighting a war at home",
+        "url": "https://www.ft.com/content/306284ac-0551-4c36-8299-cfd7fb7f4f52",
+        "published": "15.06.2026, 10:00"
+      },
+      {
+        "title": "Fox to acquire streaming platform Roku for $22bn",
+        "url": "https://www.ft.com/content/9be374f2-3c20-435c-86a9-d919b0bf973b",
+        "published": "15.06.2026, 12:23"
+      },
+      {
+        "title": "Anthropic scrambles after Trump administration freezes its top AI models",
+        "url": "https://www.ft.com/content/f6940d59-28f4-4ae4-a569-c6fc421e52b9",
+        "published": "14.06.2026, 23:43"
+      },
+      {
+        "title": "Russia damages historic Kyiv cathedral in massive missile strike",
+        "url": "https://www.ft.com/content/fd7bb364-f9a3-4935-805d-27c5f4648b1a",
+        "published": "15.06.2026, 07:03"
+      },
+      {
+        "title": "Ukrainian drone campaign chokes Moscow’s lifeline to Crimea",
+        "url": "https://www.ft.com/content/0ea7f48c-172c-443f-9896-1e77c2a8d065",
+        "published": "15.06.2026, 04:00"
+      }
+    ]
+  },
+  {
+    "category": "Finanznachrichten",
+    "source": "Handelsblatt",
+    "items": [
+      {
+        "title": "Übernahmekampf: Unicredit droht Commerzbank mit dem Austausch von Aufsichtsrat und Vorstand",
+        "url": "https://www.handelsblatt.com/finanzen/banken-versicherungen/banken/commerzbank-unicredit-droht-mit-austausch-von-aufsichtsrat-und-vorstand/100233022.html",
+        "published": "15.06.2026, 12:01"
+      },
+      {
+        "title": "Rüstung: „Wollen wir Frankreich wie China behandeln?“: Streit um Panzerbauer KNDS eskaliert",
+        "url": "https://www.handelsblatt.com/politik/international/ruestung-frankreich-wie-china-behandeln-streit-um-knds-eskaliert/100232858.html",
+        "published": "15.06.2026, 12:35"
+      },
+      {
+        "title": "+++ Iran-Krieg +++: Iran knüpft Verzicht auf Vergeltung an Bedingung – Straße von Hormus soll am Freitag offen sein",
+        "url": "https://www.handelsblatt.com/politik/international/iran-krieg-iran-knuepft-verzicht-auf-vergeltung-an-bedingung/100136895.html",
+        "published": "15.06.2026, 11:56"
+      },
+      {
+        "title": "Iran-Krieg: So reagieren Öl, Zinsen, Aktien und Gold aufs Friedensabkommen",
+        "url": "https://www.handelsblatt.com/finanzen/maerkte/usa-und-iran-so-reagieren-oel-zinsen-aktien-und-gold-aufs-friedensabkommen/100233011.html",
+        "published": "15.06.2026, 09:56"
+      },
+      {
+        "title": "Naher Osten: Woran das Abkommen mit dem Iran noch scheitern könnte",
+        "url": "https://www.handelsblatt.com/politik/international/naher-osten-woran-das-abkommen-mit-dem-iran-noch-scheitern-koennte/100233091.html",
+        "published": "15.06.2026, 10:18"
+      },
+      {
+        "title": "Dax aktuell: Dax springt nach Iran-Einigung – Industrie-Aktie legt über fünf Prozent zu",
+        "url": "https://www.handelsblatt.com/finanzen/maerkte/dax-aktuell-dax-liegt-nach-iran-abkommen-im-plus/100233010.html",
+        "published": "15.06.2026, 11:46"
+      },
+      {
+        "title": "Staatsfinanzen: Ratingagentur Scope warnt vor Schuldenspirale in den USA",
+        "url": "https://www.handelsblatt.com/finanzen/maerkte/anleihen/usa-ratingagentur-scope-warnt-vor-schuldenspirale/100231288.html",
+        "published": "15.06.2026, 10:26"
+      },
+      {
+        "title": "Raumfahrt: OHB kündigt Aktienplatzierung und Teilausstieg von KKR an",
+        "url": "https://www.handelsblatt.com/unternehmen/industrie/raumfahrt-ohb-kuendigt-aktienplatzierung-und-teilausstieg-von-kkr-an/100233037.html",
+        "published": "15.06.2026, 08:12"
+      },
+      {
+        "title": "Abkommen: Auf diese 14 Punkte wollen sich die USA und Iran einigen",
+        "url": "https://www.handelsblatt.com/politik/international/abkommen-auf-diese-14-punkte-wollen-sich-die-usa-und-iran-einigen/100232980.html",
+        "published": "15.06.2026, 05:08"
+      },
+      {
+        "title": "Geldpolitik: „In 60 Tagen kann viel passieren“: Bundesbankchef Nagel traut Entspannung im Iran nicht",
+        "url": "https://www.handelsblatt.com/finanzen/geldpolitik/iran-krieg-bundesbankpraesident-nagel-sieht-keine-entspannung-bei-inflation/100233030.html",
+        "published": "15.06.2026, 08:42"
+      }
+    ]
+  },
+  {
+    "category": "Politik & Allgemeine Nachrichten",
+    "source": "Tagesschau",
+    "items": [
+      {
+        "title": "Urteil gegen Høiby - ein Schlag für die Königsfamilie",
+        "url": "https://www.tagesschau.de/ausland/europa/norwegen-hoiby-urteil-102.html",
+        "published": "15.06.2026, 12:31"
+      },
+      {
+        "title": "Ölpreise bleiben auf Krisenniveau",
+        "url": "https://www.tagesschau.de/wirtschaft/finanzen/marktbericht-oelpreise-hormus-100.html",
+        "published": "15.06.2026, 12:28"
+      },
+      {
+        "title": "Israel sieht durch möglichen Iran-Deal eigene Sicherheit gefährdet",
+        "url": "https://www.tagesschau.de/ausland/asien/usa-iran-abkommen-israel-100.html",
+        "published": "15.06.2026, 12:27"
+      },
+      {
+        "title": "Kloster in Kiew getroffen: \"Ein Angriff auf unsere Geschichte\"",
+        "url": "https://www.tagesschau.de/ausland/europa/ukraine-russland-angriffe-kloster-100.html",
+        "published": "15.06.2026, 11:53"
+      },
+      {
+        "title": "G7-Gipfel: Wie der Mittelstand unter globalen Krisen leidet",
+        "url": "https://www.tagesschau.de/wirtschaft/konjunktur/g7-handel-100.html",
+        "published": "15.06.2026, 11:27"
+      },
+      {
+        "title": "Nach SpaceX: OpenAI und Anthropic vor dem Börsengang",
+        "url": "https://www.tagesschau.de/wirtschaft/boerse/spacex-openai-anthropic-ki-boersengang-100.html",
+        "published": "15.06.2026, 10:50"
+      },
+      {
+        "title": "Vor G7-Gipfel: Trump droht Paris mit 100 Prozent Weinsteuer",
+        "url": "https://www.tagesschau.de/ausland/europa/usa-frankreich-zoelle-wein-100.html",
+        "published": "15.06.2026, 10:12"
+      },
+      {
+        "title": "Großbritannien plant Social-Media-Verbot für unter 16-Jährige",
+        "url": "https://www.tagesschau.de/ausland/europa/grossbritannien-verbot-socialmedia-100.html",
+        "published": "15.06.2026, 09:31"
+      },
+      {
+        "title": "Iran-Liveblog: ++ CDU-Politiker Kiesewetter nennt Iran-Deal \"Desaster\" ++",
+        "url": "https://www.tagesschau.de/newsticker/liveblog-iran-montag-126.html",
+        "published": "15.06.2026, 12:44"
+      },
+      {
+        "title": "Marktbericht: Anleger erleichtert über Entspannung im Nahen Osten",
+        "url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-oel-friedensabkommen-100.html",
+        "published": "15.06.2026, 08:33"
+      }
+    ]
+  },
+  {
+    "category": "Politik & Allgemeine Nachrichten",
+    "source": "Spiegel Online",
+    "items": [
+      {
+        "title": "Studie zu Erziehung: Streng erzogene Kinder schummeln häufiger",
+        "url": "https://www.spiegel.de/wissenschaft/studie-zu-erziehung-streng-erzogene-kinder-schummeln-haeufiger-a-076c5025-c1b0-4c8f-ba55-ce41a338d9f8#ref=rss",
+        "published": "15.06.2026, 12:34"
+      },
+      {
+        "title": "Kündigung: Schlaflos nach der Entlassung – Strategien gegen Grübeln und Selbstzweifel",
+        "url": "https://www.spiegel.de/karriere/kuendigung-schlaflos-nach-der-entlassung-strategien-gegen-gruebeln-und-selbstzweifel-a-247f4f05-62b1-467d-b144-9d7b91635eed#ref=rss",
+        "published": "15.06.2026, 12:24"
+      },
+      {
+        "title": "UniCredit-Übernahmeversuch der Commerzbank: Von verstecktem Foulspiel zu offener Konfrontation",
+        "url": "https://www.spiegel.de/wirtschaft/unicredit-uebernahmeversuch-der-commerzbank-von-verstecktem-foulspiel-zu-offener-konfrontation-a-e63ce256-7003-4de6-8e3e-4c3cc51565e1#ref=rss",
+        "published": "15.06.2026, 12:16"
+      },
+      {
+        "title": "Japanische Fußballfans bei der WM: 90 Minuten hat ein Spiel. Dann wird aufgeräumt",
+        "url": "https://www.spiegel.de/sport/japanische-fussballfans-bei-der-wm-90-minuten-hat-ein-spiel-dann-wird-aufgeraeumt-a-82aebc40-06ce-4848-94ee-0b9c202a33d5#ref=rss",
+        "published": "15.06.2026, 12:00"
+      },
+      {
+        "title": "Schuss auf Polizisten in Göttingen: Ermittler suchen 16-jährigen Tatverdächtigen",
+        "url": "https://www.spiegel.de/panorama/justiz/schuss-auf-polizisten-in-goettingen-ermittler-suchen-16-jaehrigen-tatverdaechtigen-a-4f7319d3-4996-4ccc-8109-3122665940bd#ref=rss",
+        "published": "15.06.2026, 11:37"
+      },
+      {
+        "title": "Bildungsbericht: Schulkinder werden weniger und fallen zu oft durchs Raster",
+        "url": "https://www.spiegel.de/panorama/bildungsbericht-schulkinder-werden-weniger-und-fallen-zu-oft-durchs-raster-a-83568b53-25ef-4e8a-ba8c-c1663d9dfb81#ref=rss",
+        "published": "15.06.2026, 11:35"
+      },
+      {
+        "title": "USA-Iran-Abkommen: Waffenstillstand verlängert, Atomfragen offen – was das Memorandum wirklich bedeutet",
+        "url": "https://www.spiegel.de/ausland/usa-iran-abkommen-waffenstillstand-verlaengert-atomfragen-offen-was-das-memorandum-wirklich-bedeutet-a-bc3ac8df-b2c1-4b29-85f1-30bb2f6fa263#ref=rss",
+        "published": "15.06.2026, 11:32"
+      },
+      {
+        "title": "Starbucks Südkorea schließt temporär Filialen, Angestellte müssen zu Schulung",
+        "url": "https://www.spiegel.de/wirtschaft/unternehmen/starbucks-suedkorea-schliesst-temporaer-filialen-angestellte-muessen-zu-schulung-a-ca2a856f-167a-4696-95f3-a746a556f1aa#ref=rss",
+        "published": "15.06.2026, 11:29"
+      },
+      {
+        "title": "Verspätete Flüge, Handgepäck, Gebühren: Was sich bei den EU-Fluggastrechten ändert",
+        "url": "https://www.spiegel.de/reise/europa/verspaetete-fluege-handgepaeck-gebuehren-was-sich-bei-den-eu-fluggastrechten-aendert-a-9c052ca5-f4c0-487b-92b9-48c8cffa61f2#ref=rss",
+        "published": "15.06.2026, 11:24"
+      },
+      {
+        "title": "Quiz des Tages beim SPIEGEL: 7 Fragen zum Allgemeinwissen pro Tag",
+        "url": "https://www.spiegel.de/games/taegliches-quiz-beim-spiegel-7-fragen-zum-allgemeinwissen-pro-tag-a-8a9692b2-4462-4192-942c-fd7809c7519c#ref=rss",
+        "published": "15.06.2026, 11:04"
+      }
+    ]
+  }
+]
