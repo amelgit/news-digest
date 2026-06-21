@@ -1,0 +1,338 @@
+[
+  {
+    "category": "Produktstrategie & Tech",
+    "source": "Stratechery",
+    "items": [
+      {
+        "title": "2026.25: The Stuff of Myth(os)",
+        "url": "https://stratechery.com/2026/the-stuff-of-mythos/",
+        "published": "19.06.2026, 17:00"
+      },
+      {
+        "title": "An Interview with Michael Morton About E-Commerce in the Age of AI",
+        "url": "https://stratechery.com/2026/an-interview-with-michael-morton-about-e-commerce-in-the-age-of-ai/",
+        "published": "18.06.2026, 10:00"
+      },
+      {
+        "title": "The State of Fable, The Jailbreak Problem, SpaceX Acquires Cursor",
+        "url": "https://stratechery.com/2026/the-state-of-fable-the-jailbreak-problem-spacex-acquires-cursor/",
+        "published": "17.06.2026, 10:00"
+      },
+      {
+        "title": "Fox Buys Roku, The Problem With Fox’s Smart Strategy, Streaming That Works",
+        "url": "https://stratechery.com/2026/fox-buys-roku-the-problem-with-foxs-smart-strategy-streaming-that-works/",
+        "published": "16.06.2026, 10:00"
+      },
+      {
+        "title": "Anthropic’s Safety Superpower",
+        "url": "https://stratechery.com/2026/anthropics-safety-superpower/",
+        "published": "15.06.2026, 10:00"
+      },
+      {
+        "title": "2026.24: Hey Siri, Tell Me a Fable",
+        "url": "https://stratechery.com/2026/hey-siri-tell-me-a-fable/",
+        "published": "12.06.2026, 17:00"
+      },
+      {
+        "title": "An Interview with Ben Bajarin About Apple, AI, and Compute",
+        "url": "https://stratechery.com/2026/an-interview-with-ben-bajarin-about-apple-ai-and-compute/",
+        "published": "11.06.2026, 10:00"
+      },
+      {
+        "title": "Fable 5, Anthropic Alignment, AI Tiers",
+        "url": "https://stratechery.com/2026/fable-5-anthropic-alignment-ai-tiers/",
+        "published": "10.06.2026, 10:00"
+      },
+      {
+        "title": "The iPhone’s Last Stand",
+        "url": "https://stratechery.com/2026/the-iphones-last-stand/",
+        "published": "09.06.2026, 10:00"
+      },
+      {
+        "title": "Google Buys Compute From SpaceX, Broadcom’s Outlook, Apple’s AI Politics",
+        "url": "https://stratechery.com/2026/google-buys-compute-from-spacex-broadcoms-outlook-apples-ai-politics/",
+        "published": "08.06.2026, 10:00"
+      }
+    ]
+  },
+  {
+    "category": "Finanznachrichten",
+    "source": "Bloomberg Markets",
+    "items": [
+      {
+        "title": "Three Indian Tankers Reemerge, Pointing to Hormuz Traffic Uptick",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-21/three-indian-tankers-reemerge-pointing-to-hormuz-traffic-uptick",
+        "published": "21.06.2026, 07:25"
+      },
+      {
+        "title": "Swiss Voters Set to Reject Stricter Neutrality, Early Poll Shows",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-21/swiss-voters-set-to-reject-stricter-neutrality-early-poll-shows",
+        "published": "21.06.2026, 03:00"
+      },
+      {
+        "title": "A Stock Trader’s Guide to Navigating a Rare ‘Super El Niño’",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-21/a-stock-trader-s-guide-to-navigating-a-rare-super-el-nino",
+        "published": "21.06.2026, 00:00"
+      },
+      {
+        "title": "Fed’s Favorite Gauge Is Seen Showing Faster Inflation",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-20/fed-s-favorite-gauge-is-seen-showing-faster-inflation",
+        "published": "20.06.2026, 20:00"
+      },
+      {
+        "title": "Brazil’s Lula Holds Lead Against Bolsonaro After Bank Scandal",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-20/brazil-lula-maintains-lead-against-bolsonaro-after-bank-scandal",
+        "published": "20.06.2026, 16:30"
+      },
+      {
+        "title": "Pointed News Quiz | Bonds, Streaming, Yogurt",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-20/pointed-news-quiz-bonds-streaming-yogurt-video",
+        "published": "20.06.2026, 16:17"
+      },
+      {
+        "title": "History Repeating Itself in America",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-20/history-repeating-itself-in-america-video",
+        "published": "20.06.2026, 16:12"
+      },
+      {
+        "title": "Iran Sanctions Losing Efficacy",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-20/iran-sanctions-losing-efficacy-video",
+        "published": "20.06.2026, 15:50"
+      },
+      {
+        "title": "Rep. Warnock: Wall Street vs Main Street",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-20/rep-warnock-wall-street-vs-main-street-video",
+        "published": "20.06.2026, 15:26"
+      },
+      {
+        "title": "Netanyahu Faces MOU Blow",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-20/netanyahu-faces-mou-blow-video",
+        "published": "20.06.2026, 15:09"
+      }
+    ]
+  },
+  {
+    "category": "Finanznachrichten",
+    "source": "Financial Times",
+    "items": [
+      {
+        "title": "Vance arrives in Switzerland for crunch US-Iran talks",
+        "url": "https://www.ft.com/content/c1014643-940c-4874-998a-0a52eb517c49",
+        "published": "21.06.2026, 07:31"
+      },
+      {
+        "title": "Rahm Emanuel says Trump ‘got schooled’ by Iran in bad ceasefire deal",
+        "url": "https://www.ft.com/content/3be5a96f-f22e-4b8e-898f-fe10c2f84058",
+        "published": "20.06.2026, 17:07"
+      },
+      {
+        "title": "Sorry, Elon, the far right is still the far right",
+        "url": "https://www.ft.com/content/313f78c7-8959-4188-a3d2-dc9132ef0ba3",
+        "published": "21.06.2026, 04:00"
+      },
+      {
+        "title": "Finally, a use for corporate bullshit",
+        "url": "https://www.ft.com/content/1795c467-761d-4cfc-8fe9-a6dbb888ba7b",
+        "published": "21.06.2026, 04:00"
+      },
+      {
+        "title": "Putin’s war machine sputters in drone age",
+        "url": "https://www.ft.com/content/b409d72f-ccff-4952-8b71-dfd62d75a1cd",
+        "published": "21.06.2026, 04:00"
+      },
+      {
+        "title": "Zelenskyy returns Polish state medal in escalating dispute with ally",
+        "url": "https://www.ft.com/content/e19012a8-d5ee-472f-a319-12c1a5f64a4a",
+        "published": "20.06.2026, 18:33"
+      },
+      {
+        "title": "SpaceX handed lowest possible ESG rating by MSCI",
+        "url": "https://www.ft.com/content/a0dd4ea7-ef3d-4460-a96c-8c6975a053e3",
+        "published": "21.06.2026, 04:00"
+      },
+      {
+        "title": "How easily could Britain rejoin the EU?",
+        "url": "https://www.ft.com/content/ac017928-50b5-40e5-a1a8-393b3a238477",
+        "published": "21.06.2026, 04:00"
+      },
+      {
+        "title": "Starmer could announce exit next week, some ministers believe",
+        "url": "https://www.ft.com/content/e586d110-34cf-47c6-8a05-68750ee425dd",
+        "published": "21.06.2026, 08:14"
+      },
+      {
+        "title": "Holiday bookings surge in markets hit by Iran crisis",
+        "url": "https://www.ft.com/content/4b389a01-871f-4d6f-85f1-6263a51dd5cb",
+        "published": "21.06.2026, 04:00"
+      }
+    ]
+  },
+  {
+    "category": "Finanznachrichten",
+    "source": "Handelsblatt",
+    "items": [
+      {
+        "title": "Rente: Empfehlungen der Rentenkommission: Selbstständige sollen einzahlen, Beamte bleiben außen vor",
+        "url": "https://www.handelsblatt.com/politik/deutschland/rente-selbststaendige-sollen-einzahlen-beamte-bleiben-aussen-vor/100234608.html",
+        "published": "21.06.2026, 00:54"
+      },
+      {
+        "title": "Alterssicherung: Altersgrenze, Beamte, Kapitalsäule: Das sind die wichtigsten Empfehlungen der Kommission",
+        "url": "https://www.handelsblatt.com/politik/deutschland/rente-das-sind-die-wichtigsten-empfehlungen-der-kommission/100234595.html",
+        "published": "21.06.2026, 06:22"
+      },
+      {
+        "title": "Reaktionen: DIW-Chef hält Renten-Vorschläge für nicht ausreichend",
+        "url": "https://www.handelsblatt.com/politik/deutschland/rente-diw-chef-haelt-renten-vorschlaege-fuer-nicht-ausreichend/100234657.html",
+        "published": "21.06.2026, 08:56"
+      },
+      {
+        "title": "Rente: Die Rentenkommission hat geliefert – jetzt ist Merz am Zug",
+        "url": "https://www.handelsblatt.com/meinung/kommentare/rente-die-rentenkommission-hat-geliefert-jetzt-ist-merz-am-zug/100234320.html",
+        "published": "21.06.2026, 00:43"
+      },
+      {
+        "title": "+++ USA +++: Trump und Meloni legen im Foto-Streit nach",
+        "url": "https://www.handelsblatt.com/politik/international/usa-usa-leiten-untersuchung-zu-deutschen-medikamentenpreisen-ein/29669594.html",
+        "published": "21.06.2026, 00:51"
+      },
+      {
+        "title": "Künstliche Intelligenz: Europas zweite Chance – Milliardenwette auf neue KI-Labore",
+        "url": "https://www.handelsblatt.com/technik/ki/kuenstliche-intelligenz-europas-zweite-chance-milliardenwette-auf-neue-ki-labore/100231182.html",
+        "published": "21.06.2026, 08:49"
+      },
+      {
+        "title": "+++ Ukraine-Krieg +++: Massive ukrainische Angriffe auf die Krim verschärfen Treibstoff-Krise – kein Benzin für Privatleute",
+        "url": "https://www.handelsblatt.com/politik/international/ukraine-massive-angriffe-auf-die-krim-verschaerfen-benzin-krise/27982126.html",
+        "published": "21.06.2026, 06:42"
+      },
+      {
+        "title": "Kommentar: Putins Schwäche macht ihn gefährlich",
+        "url": "https://www.handelsblatt.com/meinung/kommentare/kommentar-putins-gefaehrliche-schwaeche/100234321.html",
+        "published": "20.06.2026, 10:53"
+      },
+      {
+        "title": "+++ Iran-Krieg +++: Delegationen am Schweizer Verhandlungsort eingetroffen – Zeitplan unklar",
+        "url": "https://www.handelsblatt.com/politik/international/iran-krieg-delegationen-am-schweizer-verhandlungsort-eingetroffen/100136895.html",
+        "published": "21.06.2026, 10:01"
+      },
+      {
+        "title": "Geldanlage: Warum ausländische Anleger jetzt zu griechischen Aktien greifen",
+        "url": "https://www.handelsblatt.com/finanzen/maerkte/aktien/geldanlage-warum-auslaendische-anleger-jetzt-zu-griechischen-aktien-greifen/100233095.html",
+        "published": "21.06.2026, 09:36"
+      }
+    ]
+  },
+  {
+    "category": "Politik & Allgemeine Nachrichten",
+    "source": "Tagesschau",
+    "items": [
+      {
+        "title": "Zum kalendarischen Sommeranfang - Hitze und Unwetter",
+        "url": "https://www.tagesschau.de/wetter/deutschland/wetter-unwetter-hitze-100.html",
+        "published": "21.06.2026, 09:29"
+      },
+      {
+        "title": "Bundesparteitag der Linken: Kommt Diätendeckel für Abgeordnete?",
+        "url": "https://www.tagesschau.de/inland/innenpolitik/linke-bundesparteitag-potsdam-diaetendeckel-100.html",
+        "published": "21.06.2026, 08:46"
+      },
+      {
+        "title": "Mehrere Tote bei ukrainischen Angriffen auf Halbinsel Krim",
+        "url": "https://www.tagesschau.de/ausland/europa/ukraine-krim-angriffe-100.html",
+        "published": "21.06.2026, 08:29"
+      },
+      {
+        "title": "Deutlich mehr Abschiebeflüge nach Afghanistan mit Taliban vereinbart",
+        "url": "https://www.tagesschau.de/inland/innenpolitik/afghanistan-abschiebungen-dobrindt-100.html",
+        "published": "21.06.2026, 07:45"
+      },
+      {
+        "title": "Iran und die USA erhöhen vor Verhandlungen in der Schweiz den Druck",
+        "url": "https://www.tagesschau.de/ausland/asien/iran-usa-schweiz-verhandlungen-100.html",
+        "published": "21.06.2026, 06:56"
+      },
+      {
+        "title": "\"CopenPay\" - Belohnung für nachhaltigen Tourismus in Kopenhagen",
+        "url": "https://www.tagesschau.de/wirtschaft/verbraucher/copenpay-nachhaltiger-tourismus-100.html",
+        "published": "21.06.2026, 01:30"
+      },
+      {
+        "title": "Kopf-an-Kopf-Rennen bei Kolumbiens Stichwahl",
+        "url": "https://www.tagesschau.de/ausland/amerika/kolumbien-stichwahl-108.html",
+        "published": "21.06.2026, 01:28"
+      },
+      {
+        "title": "Trumps Gremium für Gaza: \"Friedensrat\" mit leeren Kassen",
+        "url": "https://www.tagesschau.de/ausland/amerika/us-friedensrat-gaza-100.html",
+        "published": "21.06.2026, 01:28"
+      },
+      {
+        "title": "Vor Gesprächen: Trump droht mit US-Maut in Straße von Hormus",
+        "url": "https://www.tagesschau.de/ausland/asien/nahost-verhandlungen-hormus-100.html",
+        "published": "21.06.2026, 01:27"
+      },
+      {
+        "title": "Fußball-WM: Deutschland gewinnt 2:1 gegen die Elfenbeinküste",
+        "url": "https://www.tagesschau.de/sport/deutschland-elfenbeinkueste-wm-100.html",
+        "published": "20.06.2026, 22:10"
+      }
+    ]
+  },
+  {
+    "category": "Politik & Allgemeine Nachrichten",
+    "source": "Spiegel Online",
+    "items": [
+      {
+        "title": "Cartoons der Woche: Mario Vogue",
+        "url": "https://www.spiegel.de/kultur/literatur/cartoons-der-woche-mario-vogue-a-bab6c056-cab8-4e4f-b234-575dae308a5b#ref=rss",
+        "published": "21.06.2026, 09:49"
+      },
+      {
+        "title": "Braunkohledörfer in Erkelenz: Rückkehr in gerettete Orte wird zur Kostenfrage",
+        "url": "https://www.spiegel.de/panorama/gesellschaft/braunkohledoerfer-in-erkelenz-rueckkehr-in-gerettete-orte-wird-zur-kostenfrage-a-ad023125-6fcc-4dba-b7a7-87561a9e8fbf#ref=rss",
+        "published": "21.06.2026, 09:37"
+      },
+      {
+        "title": "Queere Community in Sachsen-Anhalt: CSD in Merseburg und Angst vor der AfD",
+        "url": "https://www.spiegel.de/politik/queere-community-in-sachsen-anhalt-csd-in-merseburg-und-angst-vor-der-afd-a-63eeb6a8-a954-42fd-bce7-df0fcdbf45fa#ref=rss",
+        "published": "21.06.2026, 09:35"
+      },
+      {
+        "title": "Unwetter und Hitzerekorde: Wo es am Sonntag heftig wird",
+        "url": "https://www.spiegel.de/panorama/unwetter-und-hitzerekorde-wo-es-am-sonntag-heftig-wird-a-91ad159f-3ee1-4bda-a5e7-9055f596ca90#ref=rss",
+        "published": "21.06.2026, 09:00"
+      },
+      {
+        "title": "WM 2026: TV-Quote für Deutschland-Spiel - mehr als 18 Millionen TV-Zuschauer verfolgen zweiten DFB-Sieg",
+        "url": "https://www.spiegel.de/sport/fussball/wm-2026-deutschland-ist-schon-gruppensieger-dank-der-15-paraden-von-curacao-keeper-eloy-room-a-1cb6b8f8-1bf2-4d0a-8f73-1e3cbdc37538#ref=rss",
+        "published": "21.06.2026, 08:41"
+      },
+      {
+        "title": "Russlands Angriffskrieg: Tote und Verletzte nach ukrainischen Drohnenangriffen auf der Krim",
+        "url": "https://www.spiegel.de/ausland/russlands-angriffskrieg-tote-und-verletzte-nach-ukrainischen-drohnenangriffen-auf-der-krim-a-072704b5-7821-48da-b2ab-056272cf11d1#ref=rss",
+        "published": "21.06.2026, 08:37"
+      },
+      {
+        "title": "Rod Stewart wird bei Konzert in Utah fast ohnmächtig – dann spaßt er wieder",
+        "url": "https://www.spiegel.de/kultur/musik/rod-stewart-wird-bei-konzert-in-utah-fast-ohnmaechtig-dann-spasst-er-wieder-a-0b09911f-5be1-43b2-ab3e-c488989985ef#ref=rss",
+        "published": "21.06.2026, 08:32"
+      },
+      {
+        "title": "Rentenkommission: DIW-Präsident Fratzscher kritisiert Pläne für Altersvorsorge",
+        "url": "https://www.spiegel.de/wirtschaft/rentenkommission-diw-praesident-fratzscher-kritisiert-plaene-fuer-altersvorsorge-a-07371874-b28d-4f40-a4ca-c406b8abf0f4#ref=rss",
+        "published": "21.06.2026, 08:16"
+      },
+      {
+        "title": "Irankrieg: US-Vizepräsident JD Vance rechnet mit Fortschritten bei Iranverhandlungen",
+        "url": "https://www.spiegel.de/ausland/irankrieg-us-vizepraesident-jd-vance-rechnet-mit-fortschritten-bei-iranverhandlungen-a-59c69ff4-fa2f-4b4a-bc3e-1938ca8b4834#ref=rss",
+        "published": "21.06.2026, 08:03"
+      },
+      {
+        "title": "News: Christliche Fußball-Spieler, WM 2026, SPIEGEL-Titel Krieg gegen Russland",
+        "url": "https://www.spiegel.de/politik/deutschland/news-christliche-fussball-spieler-wm-2026-spiegel-titel-krieg-gegen-russland-a-87eb5a9a-93ce-43cd-9455-f6e6ec408822#ref=rss",
+        "published": "21.06.2026, 07:47"
+      }
+    ]
+  }
+]
