@@ -1,0 +1,338 @@
+[
+  {
+    "category": "Produktstrategie & Tech",
+    "source": "Stratechery",
+    "items": [
+      {
+        "title": "My Vibe Coding Adventure, The App and the Experience, Ten Takeaways",
+        "url": "https://stratechery.com/2026/my-vibe-coding-adventure-the-app-and-the-experience-ten-takeaways/",
+        "published": "24.06.2026, 10:00"
+      },
+      {
+        "title": "Memory Chips and China, Microsoft and Chinese Models",
+        "url": "https://stratechery.com/2026/memory-chips-and-china-microsoft-and-chinese-models/",
+        "published": "23.06.2026, 10:00"
+      },
+      {
+        "title": "Apple Price Increases, Apple Intelligence and the E.U.",
+        "url": "https://stratechery.com/2026/apple-price-increases-apple-intelligence-and-the-e-u/",
+        "published": "22.06.2026, 10:00"
+      },
+      {
+        "title": "2026.25: The Stuff of Myth(os)",
+        "url": "https://stratechery.com/2026/the-stuff-of-mythos/",
+        "published": "19.06.2026, 17:00"
+      },
+      {
+        "title": "An Interview with Michael Morton About E-Commerce in the Age of AI",
+        "url": "https://stratechery.com/2026/an-interview-with-michael-morton-about-e-commerce-in-the-age-of-ai/",
+        "published": "18.06.2026, 10:00"
+      },
+      {
+        "title": "The State of Fable, The Jailbreak Problem, SpaceX Acquires Cursor",
+        "url": "https://stratechery.com/2026/the-state-of-fable-the-jailbreak-problem-spacex-acquires-cursor/",
+        "published": "17.06.2026, 10:00"
+      },
+      {
+        "title": "Fox Buys Roku, The Problem With Fox’s Smart Strategy, Streaming That Works",
+        "url": "https://stratechery.com/2026/fox-buys-roku-the-problem-with-foxs-smart-strategy-streaming-that-works/",
+        "published": "16.06.2026, 10:00"
+      },
+      {
+        "title": "Anthropic’s Safety Superpower",
+        "url": "https://stratechery.com/2026/anthropics-safety-superpower/",
+        "published": "15.06.2026, 10:00"
+      },
+      {
+        "title": "2026.24: Hey Siri, Tell Me a Fable",
+        "url": "https://stratechery.com/2026/hey-siri-tell-me-a-fable/",
+        "published": "12.06.2026, 17:00"
+      },
+      {
+        "title": "An Interview with Ben Bajarin About Apple, AI, and Compute",
+        "url": "https://stratechery.com/2026/an-interview-with-ben-bajarin-about-apple-ai-and-compute/",
+        "published": "11.06.2026, 10:00"
+      }
+    ]
+  },
+  {
+    "category": "Finanznachrichten",
+    "source": "Bloomberg Markets",
+    "items": [
+      {
+        "title": "SK Hynix ADR Plans Leave Arb Traders Waiting on One Key Answer",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-25/sk-hynix-adr-plans-leave-arb-traders-waiting-on-one-key-answer",
+        "published": "25.06.2026, 09:44"
+      },
+      {
+        "title": "Stocks Rally as Micron Buoys AI Trade Ahead of PCE: Markets Wrap",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-24/us-stock-futures-surge-on-micron-s-strong-forecast-markets-wrap",
+        "published": "24.06.2026, 22:04"
+      },
+      {
+        "title": "SNB Must Stay Nimble for Hike or Cut to Negative Rate, IMF Says",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-25/snb-must-stay-nimble-for-hike-or-cut-to-negative-rate-imf-says",
+        "published": "25.06.2026, 09:33"
+      },
+      {
+        "title": "Saudis Set to Restart Ras Tanura Oil Exports as Gulf Flows Rise",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-25/saudis-set-to-restart-ras-tanura-oil-exports-as-gulf-flows-rise",
+        "published": "25.06.2026, 09:29"
+      },
+      {
+        "title": "UK Modifies Steel Import Curb After Industry Complaints",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-25/uk-modifies-proposed-steel-import-curb-after-industry-complaints",
+        "published": "25.06.2026, 08:37"
+      },
+      {
+        "title": "Chinese Crushers Seek Australian Canola on Trade Pact Hopes",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-25/chinese-crushers-seek-australian-canola-on-trade-pact-hopes",
+        "published": "25.06.2026, 09:06"
+      },
+      {
+        "title": "Dubai Holding Weighs Buying Data Center Stake",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-25/dubai-holding-weighs-buying-data-center-stake-video",
+        "published": "25.06.2026, 09:01"
+      },
+      {
+        "title": "Hungary Yields Approach UK Gilts as Pro-EU Turn Fuels Rally",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-25/hungary-s-bond-rally-means-yields-are-now-trading-close-to-uk",
+        "published": "25.06.2026, 07:00"
+      },
+      {
+        "title": "Bain Capital Nears Deal for Stake in Volkswagen’s Everllence Unit",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-24/bain-capital-nears-deal-for-stake-in-volkswagen-s-everllence-unit",
+        "published": "24.06.2026, 21:20"
+      },
+      {
+        "title": "H&amp;M’s Sales Miss Estimates as Turnaround Questions Persist",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-25/h-m-profit-misses-estimates-as-turnaround-questions-persist",
+        "published": "25.06.2026, 06:23"
+      }
+    ]
+  },
+  {
+    "category": "Finanznachrichten",
+    "source": "Financial Times",
+    "items": [
+      {
+        "title": "Oil price back at prewar levels as Gulf flows pick up",
+        "url": "https://www.ft.com/content/7a05c821-491f-41a7-8d03-53183fbbb719",
+        "published": "25.06.2026, 03:14"
+      },
+      {
+        "title": "They think it’s oil over",
+        "url": "https://www.ft.com/content/410bb8e5-dc93-459d-af41-bef7eeafdfc8",
+        "published": "25.06.2026, 05:30"
+      },
+      {
+        "title": "The reason China is building most of the world’s robots",
+        "url": "https://www.ft.com/content/c8731833-10ca-4a12-bfe4-8ebb2584ec68",
+        "published": "25.06.2026, 00:51"
+      },
+      {
+        "title": "The future of TV: lots of choice, lots of hassle",
+        "url": "https://www.ft.com/content/3b4e94c4-0ce8-421f-be85-41ae51e110a9",
+        "published": "25.06.2026, 04:00"
+      },
+      {
+        "title": "What if ideas aren’t getting harder to find, after all?",
+        "url": "https://www.ft.com/content/72b96cb4-15f3-4bfc-a0b7-dabc31bbe1fa",
+        "published": "25.06.2026, 04:00"
+      },
+      {
+        "title": "Rome airports warn of summer ‘disaster’ unless EU border controls suspended",
+        "url": "https://www.ft.com/content/808143bc-74e0-4423-998f-7e2c7faeeb3c",
+        "published": "25.06.2026, 04:00"
+      },
+      {
+        "title": "Global tech stocks rebound after Micron’s profit surge",
+        "url": "https://www.ft.com/content/b3ad976b-9967-4952-92ff-822a8e253fb1",
+        "published": "25.06.2026, 09:24"
+      },
+      {
+        "title": "South Korea delays plan for new single-stock options amid record volatility",
+        "url": "https://www.ft.com/content/b08c7e63-aeae-4980-b681-6eea05be7114",
+        "published": "25.06.2026, 04:09"
+      },
+      {
+        "title": "Venezuelan earthquakes leave ‘devastating number of deaths’",
+        "url": "https://www.ft.com/content/4eb25cfb-1b1e-4f9d-9562-3f8a3b9078c1",
+        "published": "25.06.2026, 05:32"
+      },
+      {
+        "title": "Senate Democrats investigate Trump family-linked group over Venezuela business push",
+        "url": "https://www.ft.com/content/f709e51c-97ab-4136-9335-4d80f252ce26",
+        "published": "25.06.2026, 09:00"
+      }
+    ]
+  },
+  {
+    "category": "Finanznachrichten",
+    "source": "Handelsblatt",
+    "items": [
+      {
+        "title": "Nationale Sicherheit: „Sehr hohes Risiko“: Welche chinesischen Universitäten für deutsche Forscher gefährlich werden können",
+        "url": "https://www.handelsblatt.com/politik/international/sicherheit-warum-chinas-forschungsmodell-risiken-fuer-deutschland-birgt/100235083.html",
+        "published": "25.06.2026, 07:57"
+      },
+      {
+        "title": "Nationale Sicherheit: Oberste Cyberbehörde belastet Helmholtz-Zentrum in China-Affäre",
+        "url": "https://www.handelsblatt.com/politik/deutschland/nationale-sicherheit-bsi-belastet-helmholtz-zentrum-in-china-affaere/100235304.html",
+        "published": "24.06.2026, 14:47"
+      },
+      {
+        "title": "Regulierung: EU will Cloud-Geschäfte von Amazon und Microsoft strenger überwachen",
+        "url": "https://www.handelsblatt.com/politik/international/eu-bruessel-will-cloud-geschaefte-von-amazon-und-microsoft-strenger-ueberwachen/100235703.html",
+        "published": "25.06.2026, 06:41"
+      },
+      {
+        "title": "Tourismus: Bundesregierung entlastet Reiseanbieter um mehr als eine halbe Milliarde Euro",
+        "url": "https://www.handelsblatt.com/politik/deutschland/tourismus-bundesregierung-entlastet-reiseanbieter-um-halbe-milliarde-euro/100235636.html",
+        "published": "25.06.2026, 08:03"
+      },
+      {
+        "title": "Künstliche Intelligenz: Investorin wird Co-Chefin bei Langdock – „Glaube, dass das die größte KI-Firma in Europa wird“",
+        "url": "https://www.handelsblatt.com/technik/ki/start-up-bekannte-investorin-wird-co-chefin-bei-ki-firma-langdock/100235245.html",
+        "published": "25.06.2026, 07:17"
+      },
+      {
+        "title": "Dax aktuell: Dax startet trotz positiver Impulse nur leicht im Plus",
+        "url": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-startet-trotz-positiver-impulse-nur-leicht-im-plus/100235686.html",
+        "published": "25.06.2026, 08:48"
+      },
+      {
+        "title": "Rohstoffe: Ölpreis erreicht Vorkriegsniveau von knapp über 70 Dollar",
+        "url": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/rohstoffe-oelpreis-erreicht-vorkriegsniveau-von-knapp-ueber-70-dollar/100235689.html",
+        "published": "25.06.2026, 05:01"
+      },
+      {
+        "title": "Nikkei, Kospi & Co.: KI-Optimismus an Ostasiens Börsen – Starke Gewinne",
+        "url": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/ostasiens-boersen-legen-stark-zu-ki-optimisten-gewinnen-wieder-die-oberhand/100235655.html",
+        "published": "25.06.2026, 03:18"
+      },
+      {
+        "title": "Interview: Baerbock kritisiert Trump: „Was ist mit diesem Krieg erreicht worden?“",
+        "url": "https://www.handelsblatt.com/politik/international/interview-mit-annalena-baerbock-das-war-ein-klarer-bruch-der-un-charta/100234286.html",
+        "published": "25.06.2026, 02:01"
+      },
+      {
+        "title": "Volkswagen-Tochter: Everllence wird für 7,4 Milliarden Euro an Finanzinvestor Bain verkauft",
+        "url": "https://www.handelsblatt.com/unternehmen/industrie/volkswagen-tochter-everllence-wird-an-finanzinvestor-bain-verkauft/100235156.html",
+        "published": "25.06.2026, 05:17"
+      }
+    ]
+  },
+  {
+    "category": "Politik & Allgemeine Nachrichten",
+    "source": "Tagesschau",
+    "items": [
+      {
+        "title": "Liveblog: So bekommen Deutschland und Europa die Hitze zu spüren",
+        "url": "https://www.tagesschau.de/newsticker/liveblog-wetter-hitze-100.html",
+        "published": "25.06.2026, 09:26"
+      },
+      {
+        "title": "Marktbericht: Zinssorgen halten DAX zurück",
+        "url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-dow-micron-ki-rally-100.html",
+        "published": "25.06.2026, 08:43"
+      },
+      {
+        "title": "Bahn bietet wegen Hitze kostenlose Stornierung an",
+        "url": "https://www.tagesschau.de/inland/gesellschaft/bahn-hitze-stornierung-100.html",
+        "published": "25.06.2026, 08:33"
+      },
+      {
+        "title": "Klimadesinformation - Fakes relativieren Hitzewelle",
+        "url": "https://www.tagesschau.de/faktenfinder/hitze-fakes-100.html",
+        "published": "25.06.2026, 08:09"
+      },
+      {
+        "title": "USA beginnen Feierlichkeiten zum 250. Jahrestag",
+        "url": "https://www.tagesschau.de/ausland/amerika/usa-250-jahrestag-100.html",
+        "published": "25.06.2026, 07:23"
+      },
+      {
+        "title": "Gaming-Branche: Vorverkauf für neues \"GTA\"-Spiel gestartet",
+        "url": "https://www.tagesschau.de/wirtschaft/verbraucher/neues-spiel-gta-vorbestellungen-100.html",
+        "published": "25.06.2026, 06:59"
+      },
+      {
+        "title": "Tote nach Erdbeben in Venezuela",
+        "url": "https://www.tagesschau.de/ausland/amerika/venezuela-erdbeben-106.html",
+        "published": "25.06.2026, 09:19"
+      },
+      {
+        "title": "US-Regierung fordert von Kongress weitere 88 Milliarden Dollar",
+        "url": "https://www.tagesschau.de/ausland/amerika/usa-finanzen-militaer-iran-krieg-100.html",
+        "published": "25.06.2026, 06:50"
+      },
+      {
+        "title": "11KM-Podcast: Hoffen auf Kriegsende - wie geht es den Iranern?",
+        "url": "https://www.tagesschau.de/podcast-11km-iran-krieg-waffenruhe-100.html",
+        "published": "25.06.2026, 04:49"
+      },
+      {
+        "title": "Vom Streit überschattet: Ukraine-Wiederaufbaukonferenz in Danzig",
+        "url": "https://www.tagesschau.de/ausland/europa/ukraine-wiederafbaukonferenz-danzig-100.html",
+        "published": "25.06.2026, 04:24"
+      }
+    ]
+  },
+  {
+    "category": "Politik & Allgemeine Nachrichten",
+    "source": "Spiegel Online",
+    "items": [
+      {
+        "title": "IOC beschließt neue Olympia-Prämie: 10.000 Dollar für alle Athleten – auch für Sportmillionäre",
+        "url": "https://www.spiegel.de/sport/olympia/ioc-beschliesst-neue-olympia-praemie-10-000-dollar-fuer-alle-athleten-auch-fuer-sportmillionaere-a-7a9570c8-59f4-4228-97f1-c8e33c4c6457#ref=rss",
+        "published": "25.06.2026, 09:45"
+      },
+      {
+        "title": "Rente: Was das Minijob-Aus für Wirtschaft und Beschäftigte bedeuten würde",
+        "url": "https://www.spiegel.de/wirtschaft/rente-was-das-minijob-aus-fuer-wirtschaft-und-beschaeftigte-bedeuten-wuerde-a-1ee8ceec-0083-4e15-b517-5ef91919defa#ref=rss",
+        "published": "25.06.2026, 09:35"
+      },
+      {
+        "title": "Ferien 2026: Hier drohen zum Beginn der Sommerferien lange Staus",
+        "url": "https://www.spiegel.de/mobilitaet/auto/ferien-2026-hier-drohen-zum-beginn-der-sommerferien-lange-staus-a-36cbc7f4-e0c3-43e3-b764-3087919c6bae#ref=rss",
+        "published": "25.06.2026, 09:31"
+      },
+      {
+        "title": "Philippe Sands erhält Friedenspreis des Deutschen Buchhandels",
+        "url": "https://www.spiegel.de/kultur/literatur/philippe-sands-erhaelt-friedenspreis-des-deutschen-buchhandels-a-15d425cf-7181-483b-8af1-a6b15ede2821#ref=rss",
+        "published": "25.06.2026, 09:25"
+      },
+      {
+        "title": "Hitze News: Was in der Rettungsstelle in Berlin gerade passiert",
+        "url": "https://www.spiegel.de/wissenschaft/natur/wetter-in-europa-hitze-breitet-sich-aus-zehntausende-haushalte-in-frankreich-ohne-strom-a-7ab72bc7-1317-4658-b13c-9ddef9ed5b83#ref=rss",
+        "published": "25.06.2026, 09:23"
+      },
+      {
+        "title": "Berlin: Palliativarzt gibt Tötung von Patienten zu",
+        "url": "https://www.spiegel.de/panorama/justiz/berlin-palliativarzt-gibt-toetung-von-patienten-zu-a-05474fe0-afac-4459-9397-0db04cb48fff#ref=rss",
+        "published": "25.06.2026, 09:22"
+      },
+      {
+        "title": "İlkay Gündoğan: Ich kenne Profis, die in der Halbzeitpause ihren Namen gegoogelt haben – WM-Kolumne",
+        "url": "https://www.spiegel.de/sport/fussball/ilkay-guendogan-ich-kenne-profis-die-in-der-halbzeitpause-ihren-namen-gegoogelt-haben-wm-kolumne-a-7514b463-f282-4927-82ab-39b458767402#ref=rss",
+        "published": "25.06.2026, 09:14"
+      },
+      {
+        "title": "Rente: Finden Sie heraus, wann Sie in den Ruhestand gehen könnten",
+        "url": "https://www.spiegel.de/wirtschaft/rente-finden-sie-heraus-wann-sie-in-den-ruhestand-gehen-koennten-a-1e4fbebd-0ef7-43b6-9e9a-a51e17f48b8c#ref=rss",
+        "published": "25.06.2026, 09:07"
+      },
+      {
+        "title": "Thüringen: Eichenprachtkäfer breitet sich massiv aus",
+        "url": "https://www.spiegel.de/wissenschaft/natur/thueringen-eichenprachtkaefer-breitet-sich-massiv-aus-a-34fdd43d-d0e8-496f-929d-ed3a70701422#ref=rss",
+        "published": "25.06.2026, 08:52"
+      },
+      {
+        "title": "NBA-Draft: Alba-Profi Jack Kayil landet bei den New York Knicks - Als Meister zum Meister",
+        "url": "https://www.spiegel.de/sport/basketball/nba-draft-alba-profi-jack-kayil-landet-bei-den-new-york-knicks-als-meister-zum-meister-a-cd937b38-69d7-4c6c-9835-69d2a3bee25a#ref=rss",
+        "published": "25.06.2026, 08:49"
+      }
+    ]
+  }
+]
