@@ -1,0 +1,328 @@
+[
+  {
+    "category": "Produktstrategie & Tech",
+    "source": "Stratechery",
+    "items": [
+      {
+        "title": "An Interview with Figma CEO Dylan Field About Design and AI",
+        "url": "https://stratechery.com/2026/an-interview-with-figma-ceo-dylan-field-about-design-and-ai/",
+        "published": "25.06.2026, 10:00"
+      },
+      {
+        "title": "My Vibe Coding Adventure, The App and the Experience, Ten Takeaways",
+        "url": "https://stratechery.com/2026/my-vibe-coding-adventure-the-app-and-the-experience-ten-takeaways/",
+        "published": "24.06.2026, 10:00"
+      },
+      {
+        "title": "Memory Chips and China, Microsoft and Chinese Models",
+        "url": "https://stratechery.com/2026/memory-chips-and-china-microsoft-and-chinese-models/",
+        "published": "23.06.2026, 10:00"
+      },
+      {
+        "title": "Apple Price Increases, Apple Intelligence and the E.U.",
+        "url": "https://stratechery.com/2026/apple-price-increases-apple-intelligence-and-the-e-u/",
+        "published": "22.06.2026, 10:00"
+      },
+      {
+        "title": "2026.25: The Stuff of Myth(os)",
+        "url": "https://stratechery.com/2026/the-stuff-of-mythos/",
+        "published": "19.06.2026, 17:00"
+      },
+      {
+        "title": "An Interview with Michael Morton About E-Commerce in the Age of AI",
+        "url": "https://stratechery.com/2026/an-interview-with-michael-morton-about-e-commerce-in-the-age-of-ai/",
+        "published": "18.06.2026, 10:00"
+      },
+      {
+        "title": "The State of Fable, The Jailbreak Problem, SpaceX Acquires Cursor",
+        "url": "https://stratechery.com/2026/the-state-of-fable-the-jailbreak-problem-spacex-acquires-cursor/",
+        "published": "17.06.2026, 10:00"
+      },
+      {
+        "title": "Fox Buys Roku, The Problem With Fox’s Smart Strategy, Streaming That Works",
+        "url": "https://stratechery.com/2026/fox-buys-roku-the-problem-with-foxs-smart-strategy-streaming-that-works/",
+        "published": "16.06.2026, 10:00"
+      },
+      {
+        "title": "Anthropic’s Safety Superpower",
+        "url": "https://stratechery.com/2026/anthropics-safety-superpower/",
+        "published": "15.06.2026, 10:00"
+      },
+      {
+        "title": "2026.24: Hey Siri, Tell Me a Fable",
+        "url": "https://stratechery.com/2026/hey-siri-tell-me-a-fable/",
+        "published": "12.06.2026, 17:00"
+      }
+    ]
+  },
+  {
+    "category": "Finanznachrichten",
+    "source": "Bloomberg Markets",
+    "items": [
+      {
+        "title": "AI Cost Reality Check Hits Asia Tech Stocks as Apple Hikes Price",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-26/apple-price-hikes-spark-asia-tech-selloff-on-memory-cost-concern",
+        "published": "26.06.2026, 04:36"
+      },
+      {
+        "title": "These Six Tankers Show Hormuz Oil Flowing Despite Setbacks",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-26/oil-tankers-cross-hormuz-despite-setbacks-video",
+        "published": "26.06.2026, 09:46"
+      },
+      {
+        "title": "Kenyan Appeals Court Unblocks Safaricom Stake Sale to Vodacom",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-26/kenyan-appeals-court-unblocks-safaricom-stake-sale-to-vodacom",
+        "published": "26.06.2026, 09:43"
+      },
+      {
+        "title": "Tech Volatility Pulls Global Stocks Lower Again: Markets Wrap",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-25/asia-stocks-set-for-choppy-open-on-tech-volatility-markets-wrap",
+        "published": "25.06.2026, 22:05"
+      },
+      {
+        "title": "Oil Resumes Drop as Ships Keep Crossing Hormuz Despite Attack",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-25/latest-oil-market-news-and-analysis-for-june-26",
+        "published": "25.06.2026, 22:05"
+      },
+      {
+        "title": "Some Fortescue Iron Ore Cargoes Held Up As CMRG Talks Stall",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-26/some-fortescue-iron-ore-cargoes-held-up-as-cmrg-talks-stall",
+        "published": "26.06.2026, 09:19"
+      },
+      {
+        "title": "Zalando Probed by German Regulator Over Disclosure Issue",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-26/zalando-plunges-as-regulator-probes-online-retailer-s-accounts",
+        "published": "26.06.2026, 06:20"
+      },
+      {
+        "title": "Asian LNG Buyers Expect Qatar to Let Force Majeure Lapse in July",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-26/asian-lng-buyers-expect-qatar-to-let-force-majeure-lapse-in-july",
+        "published": "26.06.2026, 09:16"
+      },
+      {
+        "title": "Chinese Hedge Funds Warn the AI ‘Super Bubble’ Is Ready to Burst",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-26/chinese-hedge-funds-warn-the-ai-super-bubble-is-ready-to-burst",
+        "published": "26.06.2026, 09:14"
+      },
+      {
+        "title": "Wall Street Embraces Dollar as Warsh’s Fed Activates Bulls",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-25/wall-street-embraces-the-dollar-as-warsh-s-fed-activates-bulls",
+        "published": "25.06.2026, 22:05"
+      }
+    ]
+  },
+  {
+    "category": "Finanznachrichten",
+    "source": "Financial Times",
+    "items": [
+      {
+        "title": "Volkswagen to axe up to 100,000 jobs in sweeping cost-cutting drive",
+        "url": "https://www.ft.com/content/d0760eaf-d345-4964-b2ae-f55f6dfd9a4a",
+        "published": "26.06.2026, 08:49"
+      },
+      {
+        "title": "Rheinmetall gambled on Germany’s doomed warship project — and lost",
+        "url": "https://www.ft.com/content/e3fa2351-72bd-40e1-97e0-5a6ae0a63a2b",
+        "published": "26.06.2026, 04:00"
+      },
+      {
+        "title": "How the DeepMind mafia brought the AI boom to London",
+        "url": "https://www.ft.com/content/6a3a46b9-4725-469e-a909-917768a74afb",
+        "published": "26.06.2026, 04:00"
+      },
+      {
+        "title": "The shrinking arguments for degrowth",
+        "url": "https://www.ft.com/content/5bc6b000-83c5-462b-a368-093f23759043",
+        "published": "26.06.2026, 04:00"
+      },
+      {
+        "title": "Brutal nights and humidity mark Europe’s record June temperatures",
+        "url": "https://www.ft.com/content/a2ea8432-f871-40c9-89bf-a18ee091413f",
+        "published": "26.06.2026, 04:00"
+      },
+      {
+        "title": "Kevin Warsh’s tough talk on inflation reassures investors",
+        "url": "https://www.ft.com/content/a825975a-df76-4f9c-9eb9-774329ebc29d",
+        "published": "26.06.2026, 04:00"
+      },
+      {
+        "title": "Donald Trump Jr set for Kalshi windfall after prediction platform gave him stake",
+        "url": "https://www.ft.com/content/f70147b1-ee77-4d75-8587-707a49ddb605",
+        "published": "26.06.2026, 04:00"
+      },
+      {
+        "title": "Meloni redesigns Italy’s election rules to stay in power",
+        "url": "https://www.ft.com/content/e5ce6c30-e813-474f-a9b6-a8b26192d35a",
+        "published": "26.06.2026, 04:00"
+      }
+    ]
+  },
+  {
+    "category": "Finanznachrichten",
+    "source": "Handelsblatt",
+    "items": [
+      {
+        "title": "Arbeitsmarkt: SPD offen für Aufweichung des Kündigungsschutzes – aber nur für eine Gruppe",
+        "url": "https://www.handelsblatt.com/politik/deutschland/arbeitsmarkt-spd-offen-fuer-kuendigungsschutz-aufweichung-bei-top-verdienern/100235870.html",
+        "published": "26.06.2026, 08:13"
+      },
+      {
+        "title": "Autoindustrie: VW will offenbar bis zu 100.000 Stellen abbauen",
+        "url": "https://www.handelsblatt.com/unternehmen/industrie/volkswagen-vw-chef-blume-will-offenbar-bis-zu-100.000-stellen-abbauen/100236047.html",
+        "published": "26.06.2026, 09:02"
+      },
+      {
+        "title": "Stuttgart 21: Stuttgarter Tiefbahnhof wird noch mal mehrere Milliarden teurer",
+        "url": "https://www.handelsblatt.com/unternehmen/dienstleister/stuttgart-21-stuttgarter-tiefbahnhof-wird-noch-mal-mehrere-milliarden-teurer/100236079.html",
+        "published": "26.06.2026, 09:01"
+      },
+      {
+        "title": "Finanzaufsicht: Bafin untersucht Konzernabschluss von Zalando – Aktie fällt zum Handelsstart ab",
+        "url": "https://www.handelsblatt.com/unternehmen/handel-konsumgueter/zalando-finanzaufsicht-bafin-untersucht-konzernabschluss/100236001.html",
+        "published": "26.06.2026, 07:46"
+      },
+      {
+        "title": "+++ Ukraine-Krieg +++: EU will wehrfähigen Ukrainern Flucht vor Krieg erschweren",
+        "url": "https://www.handelsblatt.com/politik/international/ukraine-eu-will-wehrfaehigen-ukrainern-flucht-vor-krieg-erschweren/27982126.html",
+        "published": "26.06.2026, 07:37"
+      },
+      {
+        "title": "Dax aktuell: Dax notiert im Minus – Zalando-Aktie fällt stark",
+        "url": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dax-aktuell-dax-notiert-im-minus-zalando-aktie-faellt-stark/100236014.html",
+        "published": "26.06.2026, 07:17"
+      },
+      {
+        "title": "Kryptowährung: „Unsicherheitscocktail“ am Markt: Bitcoin fällt auf den tiefsten Stand seit Oktober 2024",
+        "url": "https://www.handelsblatt.com/finanzen/maerkte/devisen-rohstoffe/kryptowaehrung-bitcoin-faellt-unter-60.000-dollar-kursrutsch-droht/100235621.html",
+        "published": "26.06.2026, 05:33"
+      },
+      {
+        "title": "Märkte-Insight: Bei vielen Value-ETFs liegt ein Missverständnis vor",
+        "url": "https://www.handelsblatt.com/finanzen/anlagestrategie/kolumnen/geldanlage-bei-vielen-value-etfs-liegt-ein-missverstaendnis-vor/100234824.html",
+        "published": "25.06.2026, 15:52"
+      },
+      {
+        "title": "Bundesregierung: Nach der Renteneinigung – mit welchen Reformen Schwarz-Rot nun punkten will",
+        "url": "https://www.handelsblatt.com/politik/deutschland/bundesregierung-wie-schwarz-rot-doch-noch-reformkoalition-werden-will/100235169.html",
+        "published": "26.06.2026, 02:00"
+      },
+      {
+        "title": "Editorial: Die gefährlichste Ausrede Deutschlands",
+        "url": "https://www.handelsblatt.com/meinung/kolumnen/editorial-die-gefaehrlichste-ausrede-deutschlands/100235691.html",
+        "published": "26.06.2026, 02:00"
+      }
+    ]
+  },
+  {
+    "category": "Politik & Allgemeine Nachrichten",
+    "source": "Tagesschau",
+    "items": [
+      {
+        "title": "VW-Vorstand plant Abbau von bis zu 100.000 Stellen",
+        "url": "https://www.tagesschau.de/wirtschaft/unternehmen/vw-stellenabbau-106.html",
+        "published": "26.06.2026, 09:56"
+      },
+      {
+        "title": "Für Verkauf von Kindern auf Vinted gibt es keine Beweise",
+        "url": "https://www.tagesschau.de/faktenfinder/vinted-kinder-100.html",
+        "published": "26.06.2026, 09:10"
+      },
+      {
+        "title": "EU-Kommission will Schutz für Ukrainer im wehrfähigen Alter beenden",
+        "url": "https://www.tagesschau.de/ausland/europa/eu-schutzstatus-ukraine-102.html",
+        "published": "26.06.2026, 09:08"
+      },
+      {
+        "title": "BaFin ermittelt: Fehlerhafter Jahresabschluss bei Zalando?",
+        "url": "https://www.tagesschau.de/wirtschaft/unternehmen/zalando-bafin-pruefung-100.html",
+        "published": "26.06.2026, 08:42"
+      },
+      {
+        "title": "Mehr als 600 Drohnen: Russland meldet massiven ukrainischen Angriff",
+        "url": "https://www.tagesschau.de/ausland/europa/ukraine-russland-angriffe-172.html",
+        "published": "26.06.2026, 08:32"
+      },
+      {
+        "title": "So sollen Energiespeicher die Energiewende sichern",
+        "url": "https://www.tagesschau.de/wissen/technologie/energiespeicher-118.html",
+        "published": "26.06.2026, 08:05"
+      },
+      {
+        "title": "Marktbericht: DAX-Auftakt mit Verlusten - KI-Sorgen sind wieder da",
+        "url": "https://www.tagesschau.de/wirtschaft/finanzen/marktberichte/marktbericht-dax-verluste-techwerte-fallen-oelpreise-niedriger-100.html",
+        "published": "26.06.2026, 08:00"
+      },
+      {
+        "title": "Lebenslange Haft für Todesfahrer vom Magdeburger Weihnachtsmarkt",
+        "url": "https://www.tagesschau.de/inland/gesellschaft/urteil-anschlag-magdeburg-weihnachtsmarkt-100.html",
+        "published": "26.06.2026, 09:05"
+      },
+      {
+        "title": "Hitze-Liveblog: ++ Höchste je gemessene Juni-Temperatur erwartet  ++",
+        "url": "https://www.tagesschau.de/newsticker/liveblog-wetter-hitze-102.html",
+        "published": "26.06.2026, 09:55"
+      },
+      {
+        "title": "So übersteht man die Hitzetage",
+        "url": "https://www.tagesschau.de/wissen/klima/tipps-gegen-hitze-100.html",
+        "published": "26.06.2026, 07:14"
+      }
+    ]
+  },
+  {
+    "category": "Politik & Allgemeine Nachrichten",
+    "source": "Spiegel Online",
+    "items": [
+      {
+        "title": "Mercedes-Benz: Autobauer muss sparen und will 35-Stunden-Woche kippen",
+        "url": "https://www.spiegel.de/wirtschaft/unternehmen/mercedes-benz-autobauer-muss-sparen-und-will-35-stunden-woche-kippen-a-c09ebdb3-be61-4060-8da9-f66dc128101d#ref=rss",
+        "published": "26.06.2026, 09:53"
+      },
+      {
+        "title": "Rechtsextremes Netzwerk: Zwei mutmaßliche Unterstützer der »Letzten Verteidigungswelle« festgenommen",
+        "url": "https://www.spiegel.de/panorama/justiz/rechtsextremes-netzwerk-zwei-mutmassliche-unterstuetzer-der-letzten-verteidigungswelle-festgenommen-a-b92b482f-4f68-4e6e-90af-f967c8de3ffa#ref=rss",
+        "published": "26.06.2026, 09:50"
+      },
+      {
+        "title": "Halbmarathon in Hamburg, Ironman in Frankfurt: Acht Tipps für Sport bei Hitze",
+        "url": "https://www.spiegel.de/fitness/halbmarathon-in-hamburg-ironman-in-frankfurt-acht-tipps-fuer-sport-bei-hitze-a-08f55f89-0684-4702-a600-0e5c2ba401a6#ref=rss",
+        "published": "26.06.2026, 09:48"
+      },
+      {
+        "title": "Frankreich: 17-Jähriger von fünf Teenagern in Hinterhalt gelockt und getötet",
+        "url": "https://www.spiegel.de/ausland/frankreich-17-jaehriger-von-fuenf-teenagern-in-hinterhalt-gelockt-und-getoetet-a-dde215e5-c48d-47e6-b970-58a5241839a1#ref=rss",
+        "published": "26.06.2026, 09:35"
+      },
+      {
+        "title": "»The Bear«: Am Ende raucht man gemeinsam eine Zigarette - und dann gehen die Lichter aus",
+        "url": "https://www.spiegel.de/kultur/the-bear-am-ende-raucht-man-gemeinsam-eine-zigarette-und-dann-gehen-die-lichter-aus-a-eb8e1337-4287-4c3a-8ab4-11194ae472db#ref=rss",
+        "published": "26.06.2026, 09:29"
+      },
+      {
+        "title": "Münster: Ein 13-Jähriger repariert ehrenamtlich Fahrräder für Geflüchtete",
+        "url": "https://www.spiegel.de/panorama/gesellschaft/muenster-ein-13-jaehriger-repariert-ehrenamtlich-fahrraeder-fuer-gefluechtete-a-4f737743-5ea3-4a8a-b236-4306fa890aee#ref=rss",
+        "published": "26.06.2026, 09:25"
+      },
+      {
+        "title": "Hitze in Paris: Großes Musikfestival in den Niederlanden abgebrochen",
+        "url": "https://www.spiegel.de/wissenschaft/natur/wetter-in-europa-hitze-breitet-sich-aus-zehntausende-haushalte-in-frankreich-ohne-strom-a-7ab72bc7-1317-4658-b13c-9ddef9ed5b83#ref=rss",
+        "published": "26.06.2026, 09:21"
+      },
+      {
+        "title": "Deutsche Bahn: Stuttgart 21 wird noch mal mehrere Milliarden Euro teurer",
+        "url": "https://www.spiegel.de/wirtschaft/unternehmen/stuttgart-21-wird-noch-mal-mehrere-milliarden-teurer-a-57487b33-a1ba-45f8-a413-8fc453476b52#ref=rss",
+        "published": "26.06.2026, 09:11"
+      },
+      {
+        "title": "Deutschland: Scheidungen nehmen zu, Hochzeiten fallen auf Rekordtief",
+        "url": "https://www.spiegel.de/panorama/gesellschaft/deutschland-scheidungen-nehmen-zu-hochzeiten-fallen-auf-rekordtief-a-e9e10e74-a37c-48f5-a940-0dcb99fb0f05#ref=rss",
+        "published": "26.06.2026, 08:59"
+      },
+      {
+        "title": "Großbritannien: Andy Burnham soll Labour vor Nigel Farage retten",
+        "url": "https://www.spiegel.de/ausland/grossbritannien-andy-burnham-soll-labour-vor-nigel-farage-retten-a-329d5509-8eb1-47c2-b068-00079269fc61#ref=rss",
+        "published": "26.06.2026, 08:54"
+      }
+    ]
+  }
+]
