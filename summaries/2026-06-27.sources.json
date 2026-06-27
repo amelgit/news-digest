@@ -1,0 +1,338 @@
+[
+  {
+    "category": "Produktstrategie & Tech",
+    "source": "Stratechery",
+    "items": [
+      {
+        "title": "2026.26: Summer Vibes",
+        "url": "https://stratechery.com/2026/summer-vibes/",
+        "published": "26.06.2026, 17:00"
+      },
+      {
+        "title": "An Interview with Figma CEO Dylan Field About Design and AI",
+        "url": "https://stratechery.com/2026/an-interview-with-figma-ceo-dylan-field-about-design-and-ai/",
+        "published": "25.06.2026, 10:00"
+      },
+      {
+        "title": "My Vibe Coding Adventure, The App and the Experience, Ten Takeaways",
+        "url": "https://stratechery.com/2026/my-vibe-coding-adventure-the-app-and-the-experience-ten-takeaways/",
+        "published": "24.06.2026, 10:00"
+      },
+      {
+        "title": "Memory Chips and China, Microsoft and Chinese Models",
+        "url": "https://stratechery.com/2026/memory-chips-and-china-microsoft-and-chinese-models/",
+        "published": "23.06.2026, 10:00"
+      },
+      {
+        "title": "Apple Price Increases, Apple Intelligence and the E.U.",
+        "url": "https://stratechery.com/2026/apple-price-increases-apple-intelligence-and-the-e-u/",
+        "published": "22.06.2026, 10:00"
+      },
+      {
+        "title": "2026.25: The Stuff of Myth(os)",
+        "url": "https://stratechery.com/2026/the-stuff-of-mythos/",
+        "published": "19.06.2026, 17:00"
+      },
+      {
+        "title": "An Interview with Michael Morton About E-Commerce in the Age of AI",
+        "url": "https://stratechery.com/2026/an-interview-with-michael-morton-about-e-commerce-in-the-age-of-ai/",
+        "published": "18.06.2026, 10:00"
+      },
+      {
+        "title": "The State of Fable, The Jailbreak Problem, SpaceX Acquires Cursor",
+        "url": "https://stratechery.com/2026/the-state-of-fable-the-jailbreak-problem-spacex-acquires-cursor/",
+        "published": "17.06.2026, 10:00"
+      },
+      {
+        "title": "Fox Buys Roku, The Problem With Fox’s Smart Strategy, Streaming That Works",
+        "url": "https://stratechery.com/2026/fox-buys-roku-the-problem-with-foxs-smart-strategy-streaming-that-works/",
+        "published": "16.06.2026, 10:00"
+      },
+      {
+        "title": "Anthropic’s Safety Superpower",
+        "url": "https://stratechery.com/2026/anthropics-safety-superpower/",
+        "published": "15.06.2026, 10:00"
+      }
+    ]
+  },
+  {
+    "category": "Finanznachrichten",
+    "source": "Bloomberg Markets",
+    "items": [
+      {
+        "title": "Bangladesh Gets $1 Billion World Bank Fertilizer, Food Loans",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-27/bangladesh-gets-1-billion-world-bank-fertilizer-food-loans",
+        "published": "27.06.2026, 08:38"
+      },
+      {
+        "title": "<strong>How Lenovo's CFO Is Allocating Capital During One of History's Biggest Booms</strong>",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-27/how-lenovo-s-cfo-is-allocating-capital-during-one-of-history-s-biggest-booms",
+        "published": "27.06.2026, 08:00"
+      },
+      {
+        "title": "Odd Lots: How Lenovo’s CFO Sees Capex in the AI Age (Podcast)",
+        "url": "https://www.bloomberg.com/news/audio/2026-06-27/odd-lots-how-lenovo-s-cfo-sees-capex-in-the-ai-age-podcast",
+        "published": "27.06.2026, 08:00"
+      },
+      {
+        "title": "Africa CDC Calls for More Ebola Funding",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-27/africa-cdc-calls-for-more-ebola-funding-video",
+        "published": "27.06.2026, 05:02"
+      },
+      {
+        "title": "More H5 Avian Flu Cases Detected in Wild Birds in Australia",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-27/more-h5-avian-flu-cases-detected-in-wild-birds-in-australia",
+        "published": "27.06.2026, 04:16"
+      },
+      {
+        "title": "BYD’s Wang Holds Talks in Shaanxi as Visits Span Five Provinces",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-27/byd-s-wang-holds-talks-in-shaanxi-as-visits-span-five-provinces",
+        "published": "27.06.2026, 04:04"
+      },
+      {
+        "title": "Aid Groups Flock to Venezuela In Search-and-Rescue Frenzy",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-27/aid-groups-flock-to-venezuela-in-search-and-rescue-frenzy",
+        "published": "27.06.2026, 01:22"
+      },
+      {
+        "title": "Philippine Government Plans to Raise Budget by 6% Next Year",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-27/philippine-government-plans-to-raise-budget-by-6-next-year",
+        "published": "27.06.2026, 00:46"
+      },
+      {
+        "title": "Bolivia Moves to Flexible Exchange-Rate System After 15 Years",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-27/bolivia-moves-to-flexible-exchange-rate-system-after-15-years",
+        "published": "27.06.2026, 00:30"
+      },
+      {
+        "title": "Wall Street Week | USMCA: Can North America’s Trade Deal Survive?",
+        "url": "https://www.bloomberg.com/news/videos/2026-06-26/wall-street-week-north-american-trade-showdown-video",
+        "published": "26.06.2026, 23:13"
+      }
+    ]
+  },
+  {
+    "category": "Finanznachrichten",
+    "source": "Financial Times",
+    "items": [
+      {
+        "title": "Apple seeks to buy memory chips from blacklisted Chinese company",
+        "url": "https://www.ft.com/content/d72a25e2-7bde-4aa9-bd8d-0c4f3d6cb2cb",
+        "published": "27.06.2026, 02:17"
+      },
+      {
+        "title": "Trump administration allows some access to Anthropic’s Mythos",
+        "url": "https://www.ft.com/content/4b578b5c-258a-48f5-a5e9-15eef5659573",
+        "published": "27.06.2026, 00:37"
+      },
+      {
+        "title": "Trump’s power is waning. But is Trumpism here to stay?",
+        "url": "https://www.ft.com/content/47163aeb-07e0-4314-9488-13acb28b0f6b",
+        "published": "27.06.2026, 04:00"
+      },
+      {
+        "title": "Abelardo de la Espriella, Colombia’s new Trumpian tiger",
+        "url": "https://www.ft.com/content/ec1f4ef3-1a8d-41f1-9071-dd8dbbd10e71",
+        "published": "27.06.2026, 04:00"
+      },
+      {
+        "title": "Shorts-wearers of the world, unite!",
+        "url": "https://www.ft.com/content/74644e89-5b34-4bc2-8c1b-fce08b5ba3d4",
+        "published": "27.06.2026, 04:00"
+      },
+      {
+        "title": "Owner of car searched by police after Beijing tower plane crash identified",
+        "url": "https://www.ft.com/content/190beede-1d8b-4a22-8437-ef8c48d01828",
+        "published": "27.06.2026, 04:53"
+      },
+      {
+        "title": "Trump warns of 100% tariff on countries implementing digital services tax",
+        "url": "https://www.ft.com/content/5d886d47-c509-44a4-9077-bcd25158b61e",
+        "published": "26.06.2026, 19:37"
+      },
+      {
+        "title": "‘Tit-for-tat’ trade warfare threatens global economy, says IMF chief economist",
+        "url": "https://www.ft.com/content/8199cd6d-e513-4c9a-9beb-8a7acd2b65dc",
+        "published": "26.06.2026, 21:59"
+      },
+      {
+        "title": "US launches strikes on Iran after Tehran attacks container ship",
+        "url": "https://www.ft.com/content/f9a4ca8d-d29c-4a7d-8791-8999d84317ae",
+        "published": "27.06.2026, 08:06"
+      },
+      {
+        "title": "UK government split over new ‘golden visa’ scheme to woo super-rich",
+        "url": "https://www.ft.com/content/7ec350b9-ba64-4dc5-bc0c-7719cae58dcd",
+        "published": "27.06.2026, 04:00"
+      }
+    ]
+  },
+  {
+    "category": "Finanznachrichten",
+    "source": "Handelsblatt",
+    "items": [
+      {
+        "title": "Axel Börsch-Supan: „Eine Rente mit 70 ist nicht die Baustelle, die jetzt Priorität hat“",
+        "url": "https://www.handelsblatt.com/politik/deutschland/axel-boersch-supan-eine-rente-mit-70-ist-nicht-die-baustelle-die-jetzt-prioritaet-hat/100233448.html",
+        "published": "25.06.2026, 19:30"
+      },
+      {
+        "title": "Morning Briefing Plus: Die transatlantische Freundschaft lebt",
+        "url": "https://www.handelsblatt.com/meinung/morningbriefing/morning-briefing-plus-die-transatlantische-freundschaft-lebt/100236071.html",
+        "published": "27.06.2026, 06:36"
+      },
+      {
+        "title": "Iran-Krieg: USA melden erste Angriffe gegen Iran seit Rahmenabkommen",
+        "url": "https://www.handelsblatt.com/politik/international/iran-krieg-usa-melden-erste-angriffe-gegen-iran-seit-rahmenabkommen/100236266.html",
+        "published": "27.06.2026, 08:04"
+      },
+      {
+        "title": "Finanzpolitik: Spitzensteuer, Soli, Mittelstandsbauch: CDU-Wirtschaftsflügel zieht rote Linien für Steuerreform",
+        "url": "https://www.handelsblatt.com/politik/deutschland/finanzpolitik-cdu-wirtschaftsfluegel-zieht-rote-linien-fuer-steuerreform/100236207.html",
+        "published": "27.06.2026, 08:27"
+      },
+      {
+        "title": "Korruption: China schließt hochrangige Generäle aus Volkskongress aus",
+        "url": "https://www.handelsblatt.com/politik/international/korruption-china-schliesst-hochrangige-generaele-aus-volkskongress-aus/100236276.html",
+        "published": "27.06.2026, 08:27"
+      },
+      {
+        "title": "Bundesregierung: Nach der Renteneinigung – mit welchen Reformen Schwarz-Rot nun punkten will",
+        "url": "https://www.handelsblatt.com/politik/deutschland/bundesregierung-wie-schwarz-rot-doch-noch-reformkoalition-werden-will/100235169.html",
+        "published": "26.06.2026, 02:00"
+      },
+      {
+        "title": "Gastkommentar: Die einzige Lösung ist eine Rente mit 70 – und zwar viel früher als geplant",
+        "url": "https://www.handelsblatt.com/meinung/gastbeitraege/gastkommentar-die-einzige-loesung-ist-eine-rente-mit-70-und-zwar-viel-frueher-als-geplant/100235569.html",
+        "published": "27.06.2026, 07:49"
+      },
+      {
+        "title": "Raumfahrt: SpaceX rückt in US-Indizes auf – hohe Nachfrage erwartet",
+        "url": "https://www.handelsblatt.com/unternehmen/start-ups/raumfahrt-spacex-rueckt-in-us-indizes-auf-hohe-nachfrage-erwartet/100236273.html",
+        "published": "27.06.2026, 07:51"
+      },
+      {
+        "title": "Venezuela: Das Erdbeben in Venezuela wird zum Stresstest für das Regime",
+        "url": "https://www.handelsblatt.com/politik/international/venezuela-das-erdbeben-in-venezuela-wird-zum-stresstest-fuer-das-regime/100236025.html",
+        "published": "27.06.2026, 08:22"
+      },
+      {
+        "title": "+++ Ukraine-Krieg +++: Selenskyj – Haben Putin Friedensvorschlag übermittelt",
+        "url": "https://www.handelsblatt.com/politik/international/ukraine-selenskyj-haben-putin-friedensvorschlag-uebermittelt/27982126.html",
+        "published": "26.06.2026, 20:45"
+      }
+    ]
+  },
+  {
+    "category": "Politik & Allgemeine Nachrichten",
+    "source": "Tagesschau",
+    "items": [
+      {
+        "title": "Weitere Erdstöße erschüttern Venezuela - Rettungsarbeiten laufen",
+        "url": "https://www.tagesschau.de/ausland/amerika/venezuela-nachbeben-100.html",
+        "published": "27.06.2026, 07:54"
+      },
+      {
+        "title": "Für ausgewählte Firmen: Anthropic gibt KI \"Mythos 5\" wieder frei",
+        "url": "https://www.tagesschau.de/wirtschaft/technologie/anthropic-freigabe-us-unternehmen-100.html",
+        "published": "27.06.2026, 07:38"
+      },
+      {
+        "title": "Italien: Noch ein Herausforderer für Meloni - von rechts",
+        "url": "https://www.tagesschau.de/ausland/europa/italien-vannacci-meloni-100.html",
+        "published": "27.06.2026, 04:36"
+      },
+      {
+        "title": "Siebenschläfer: Und jetzt sieben Wochen Hitze?",
+        "url": "https://www.tagesschau.de/wissen/klima/siebenschlaefer-152.html",
+        "published": "27.06.2026, 04:22"
+      },
+      {
+        "title": "US-Militär: Haben Angriffe gegen Iran durchgeführt",
+        "url": "https://www.tagesschau.de/ausland/asien/us-militaer-greift-iran-an-100.html",
+        "published": "27.06.2026, 06:40"
+      },
+      {
+        "title": "Israel und Libanon unterzeichnen Rahmenabkommen für Ende der Kämpfe",
+        "url": "https://www.tagesschau.de/ausland/asien/israel-libanon-abkommen-100.html",
+        "published": "26.06.2026, 20:11"
+      },
+      {
+        "title": "Trump droht EU-Ländern wegen Digitalsteuer mit Strafzöllen",
+        "url": "https://www.tagesschau.de/ausland/amerika/trump-droht-mit-strafzoellen-100.html",
+        "published": "26.06.2026, 19:59"
+      },
+      {
+        "title": "Umgang mit geheimen Akten: Ex-Berater von Trump bekennt sich schuldig",
+        "url": "https://www.tagesschau.de/ausland/amerika/bolton-regierungsakten-100.html",
+        "published": "26.06.2026, 19:27"
+      },
+      {
+        "title": "Lage auf der Krim: Ein Notstand mit Symbolwirkung",
+        "url": "https://www.tagesschau.de/ausland/europa/ukraine-russland-krim-notstand-100.html",
+        "published": "26.06.2026, 18:55"
+      },
+      {
+        "title": "Aktuelle Stunde: Streit über Rentenreform im Bundestag",
+        "url": "https://www.tagesschau.de/inland/innenpolitik/aktuelle-stunde-rentenreform-100.html",
+        "published": "26.06.2026, 18:37"
+      }
+    ]
+  },
+  {
+    "category": "Politik & Allgemeine Nachrichten",
+    "source": "Spiegel Online",
+    "items": [
+      {
+        "title": "USA: Wie ich nach San Francisco ging und dort nach meiner alten Liebe suchte",
+        "url": "https://www.spiegel.de/kultur/usa-wie-ich-nach-san-francisco-ging-und-dort-nach-meiner-alten-liebe-suchte-a-0e331e5c-00b0-4ae6-8def-a1cb2e0c04fc#ref=rss",
+        "published": "27.06.2026, 08:54"
+      },
+      {
+        "title": "»Patrioten-Pass«: Trump stellt neuen US-Reisepass mit Bild von sich selbst vor",
+        "url": "https://www.spiegel.de/ausland/patrioten-pass-trump-stellt-neuen-us-reisepass-mit-bild-von-sich-selbst-vor-a-f90378eb-c24f-4187-9d38-8da711ae6e4a#ref=rss",
+        "published": "27.06.2026, 08:54"
+      },
+      {
+        "title": "Christian Lindner kritisiert Aussagen von Friedrich Merz zur Kapitalrente",
+        "url": "https://www.spiegel.de/wirtschaft/service/christian-lindner-kritisiert-aussagen-von-friedrich-merz-zur-kapitalrente-a-78f3ff7c-bd99-4ee9-88ce-d54895133bf6#ref=rss",
+        "published": "27.06.2026, 07:46"
+      },
+      {
+        "title": "Inside Austria: So arbeiten wir im Podcast-Team",
+        "url": "https://www.spiegel.de/ausland/inside-austria-so-arbeiten-wir-im-podcast-team-a-72794c84-2789-41ce-8aac-eadde9f90bb7#ref=rss",
+        "published": "27.06.2026, 07:32"
+      },
+      {
+        "title": "Harvey Weinstein scheitert vor Berufungsgericht in Kalifornien",
+        "url": "https://www.spiegel.de/panorama/justiz/harvey-weinstein-scheitert-vor-berufungsgericht-in-kalifornien-a-07174da5-506d-4ea8-81f4-dfe9879a7455#ref=rss",
+        "published": "27.06.2026, 07:08"
+      },
+      {
+        "title": "China schließt hochrangige Funktionäre und Generäle aus dem Volkskongress aus",
+        "url": "https://www.spiegel.de/ausland/china-schliesst-hochrangige-funktionaere-und-generaele-aus-dem-volkskongress-aus-a-752b4257-2bbf-4680-8570-e65249be91d2#ref=rss",
+        "published": "27.06.2026, 07:06"
+      },
+      {
+        "title": "Zementverbrauch in Deutschland sinkt auf Niveau vor Zweitem Weltkrieg",
+        "url": "https://www.spiegel.de/wirtschaft/zementverbrauch-in-deutschland-sinkt-auf-niveau-vor-zweitem-weltkrieg-a-ff3d8424-1d88-4658-8f29-3dfd75640d3e#ref=rss",
+        "published": "27.06.2026, 06:46"
+      },
+      {
+        "title": "Cem Özdemir: So will der grüne Ministerpräsident die AfD stoppen",
+        "url": "https://www.spiegel.de/politik/cem-oezdemir-so-will-der-gruene-ministerpraesident-die-afd-stoppen-a-37b63e5b-8bd1-4096-a0a6-e46136bdf929#ref=rss",
+        "published": "27.06.2026, 06:40"
+      },
+      {
+        "title": "Cem Özdemir: »Ich habe ein krass privilegiertes Leben, meinen Wunschjob und kriege auch noch Geld dafür«",
+        "url": "https://www.spiegel.de/politik/deutschland/cem-oezdemir-ich-habe-ein-krass-privilegiertes-leben-meinen-wunschjob-und-kriege-auch-noch-geld-dafuer-a-e47daa89-f4b0-4c14-8d88-f00be2a269a6#ref=rss",
+        "published": "27.06.2026, 06:39"
+      },
+      {
+        "title": "»Krisenszenarien beschreiben können wir hervorragend. Jetzt muss gehandelt werden«",
+        "url": "https://www.spiegel.de/politik/krisenszenarien-beschreiben-koennen-wir-hervorragend-jetzt-muss-gehandelt-werden-a-01f406ef-7a27-47d5-a1a7-6e04f88dbf7f#ref=rss",
+        "published": "27.06.2026, 06:26"
+      }
+    ]
+  }
+]
